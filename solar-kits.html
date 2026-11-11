@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Kits - Randomtech</title>
+    <meta name="description" content="Ready systems that include more than one piece of equipment.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/brand.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/catalog.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <header class="bg-white border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="index.html" class="font-black text-lg">Random<span class="text-emerald-600">tech</span></a>
+            <a href="index.html" class="text-xs font-bold text-emerald-700">All floors</a>
+        </div>
+    </header>
+    <main class="max-w-6xl mx-auto px-4 py-10">
+        <p class="text-xs font-bold uppercase tracking-widest text-emerald-700">Mall floor</p>
+        <h1 class="text-3xl font-black mt-1">Solar Kits</h1>
+        <p class="text-sm text-gray-600 mt-2 max-w-2xl">Ready systems that include more than one piece of equipment. The same model can be sold by more than one company. Open an item in its own tab to see who is selling it.</p>
+        <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8"></div>
+    </main>
+    <script>
+        const category = "Solar Kits";
+        const list = (window.RT_CATALOG || []).filter((item) => item.category === category);
+        const grid = document.getElementById('grid');
+        if (!list.length) {
+            grid.innerHTML = '<p class="text-sm text-gray-600 bg-white border border-gray-200 rounded-2xl p-6">Randomtech has not photographed stock for this floor yet. Approved shops add their own products here, including when another shop already sells the same model.</p>';
+        } else {
+            const esc = (value) => String(value == null ? '' : value).replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+            grid.innerHTML = list.map((item) => {
+                const shop = (item.vendor && item.vendor.name) || 'Randomtech';
+                const href = 'product.html?id=' + encodeURIComponent(item.id) + '&slug=' + encodeURIComponent(String(item.title).toLowerCase().replace(/[^a-z0-9]+/g, '-'));
+                const img = (item.images && item.images[0]) || '';
+                const price = item.price ? ('R ' + Number(item.price).toLocaleString('en-ZA')) : 'Ask the shop';
+                return '<a class="block bg-white border border-gray-200 rounded-3xl overflow-hidden hover:-translate-y-1 transition shadow-sm" href="' + href + '"><img alt="" src="' + esc(img) + '" class="h-52 w-full object-contain bg-gray-100 p-4"><div class="p-4"><p class="text-[11px] font-bold text-emerald-700">Sold by ' + esc(shop) + '</p><h2 class="font-extrabold mt-1">' + esc(item.title) + '</h2><p class="mt-2 font-black">' + esc(price) + '</p></div></a>';
+            }).join('');
+        }
+    </script>
+</body>
+</html>

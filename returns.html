@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" x-data="{ darkMode: localStorage.getItem('randomtech_dark_mode'] === 'true' }" :class="{ 'dark': darkMode }">
+<head>
+    <link id="app-favicon" rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script>
+        function applyFavicon(isDark) {
+            var fav = document.getElementById('app-favicon');
+            if (fav) fav.href = isDark ? 'images/darkfavicon.png' : 'images/favicon.png';
+        }
+        if (localStorage.getItem('randomtech_dark_mode') === 'true') {
+            document.documentElement.classList.add('dark');
+            applyFavicon(true);
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refund and Returns Policy - Consumer Protection Act Compliant - Randomtech</title>
+    <meta name="description" content="In-depth, CPA-compliant Refund and Returns Policy for Randomtech. Covers 7-day cool-off, 6-month statutory warranty, transit damage, and solar equipment return protocols.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/brand.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'Outfit', 'sans-serif'], display: ['Plus Jakarta Sans', 'sans-serif'] },
+                    colors: {
+                        emerald: { 50: '#f0f7ff', 100: '#e0effe', 200: '#bae0fd', 300: '#7cc8fb', 400: '#36aef7', 500: '#0284c7', 600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a', 950: '#090d16' },
+                        solar: { 500: '#06b6d4', 600: '#0891b2', 700: '#0e7490' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-950 text-gray-800 dark:text-gray-100 font-sans antialiased transition-colors duration-300">
+
+    <!-- Top Utility & Announcement Bar (Email Only) -->
+    <div class="utility-bar text-emerald-100 text-xs py-2.5 px-4 border-b border-white/5">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <a href="mailto:sales@randomtech.co.za" class="flex items-center gap-1.5 text-white hover:text-cyan-300 font-bold"><i class="fa-solid fa-envelope text-solar-500"></i> sales@randomtech.co.za</a>
+        </div>
+    </div>
+
+    <!-- Sticky Header with Nice Logo -->
+    <header class="sticky top-0 z-40 glass-nav transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+            <a href="index.html" class="flex items-center gap-3 shrink-0 group">
+                <img src="images/logo.png" alt="Randomtech Logo" class="h-11 w-auto object-contain group-hover:scale-105 transition duration-300 drop-shadow-md">
+                <div>
+                    <span class="text-lg xl:text-xl font-black tracking-tight cool-logo-text">RANDOMTECH</span>
+                    <span class="block text-[9px] text-gray-400 font-extrabold tracking-widest uppercase">INNOVATION BEYOND THE ALGORITHM</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-extrabold text-gray-800 dark:text-gray-200">
+                <a href="index.html" class="hover:text-emerald-600 transition">Store</a>
+                <a href="tracking.html" class="hover:text-emerald-600 transition">Track Order</a>
+                <a href="shipping.html" class="hover:text-emerald-600 transition">Free Delivery</a>
+                <a href="returns.html" class="text-emerald-600 font-black">Returns Policy</a>
+                <a href="privacy.html" class="hover:text-emerald-600 transition">Privacy Policy</a>
+                <a href="contact.html" class="hover:text-emerald-600 transition">Contact Us</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <!-- Dark Mode Toggle Button -->
+                <button @click="darkMode = !darkMode; localStorage.setItem('randomtech_dark_mode', darkMode); if(typeof applyFavicon==='function')applyFavicon(darkMode)" class="w-10 h-10 rounded-xl bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-yellow-400 flex items-center justify-center transition shadow-sm" title="Toggle Theme">
+                    <i class="fa-solid" :class="darkMode ? 'fa-sun' : 'fa-moon'"></i>
+                </button>
+                <a href="https://wa.me/27827263274?text=Hello%20Randomtech,%20I%20have%20an%20enquiry%20regarding%20returns." target="_blank" class="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 px-4 py-2 rounded-xl text-xs font-extrabold hover:bg-emerald-100 transition shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-base text-emerald-600"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="bg-white dark:bg-gray-900 rounded-3xl shadow-sm border border-gray-100 dark:border-gray-800 p-8 sm:p-14 space-y-10">
+
+            <div class="border-b border-gray-100 dark:border-gray-800 pb-8">
+                <span class="text-xs font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/50 px-3.5 py-1.5 rounded-full">Consumer Protection Act (CPA) & Google Merchant Compliant</span>
+                <h1 class="font-display text-4xl sm:text-5xl text-gray-900 dark:text-white mt-4 tracking-tight">Refund & Returns Policy</h1>
+                <p class="text-gray-500 dark:text-gray-400 mt-2 text-sm font-semibold">Effective Date: October 2024 &bull; Entity: Randomtech (Pty) Ltd &bull; Nationwide South Africa</p>
+
+                <!-- Quick Return Action Banner -->
+                <div class="mt-6 bg-emerald-50/80 dark:bg-emerald-950/50 border border-emerald-200 dark:border-emerald-800 p-5 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div>
+                        <h4 class="font-extrabold text-emerald-900 dark:text-emerald-300 text-sm flex items-center gap-1.5">
+                            <i class="fa-solid fa-rotate-left"></i> Need to log a return or warranty claim?
+                        </h4>
+                        <p class="text-xs text-gray-600 dark:text-gray-300 mt-1">Log your return instantly using your Order Reference ID on our live portal.</p>
+                    </div>
+                    <div class="flex items-center gap-2 shrink-0">
+                        <a href="tracking.html" class="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold px-5 py-2.5 rounded-xl text-xs transition shadow-sm">
+                            Log Return on Tracking Portal
+                        </a>
+                        <a href="https://wa.me/27827263274?text=Hello%20Randomtech,%20I%20would%20like%20to%20request%20a%20return%2Frefund." target="_blank" class="bg-emerald-100 dark:bg-emerald-900/60 text-emerald-800 dark:text-emerald-200 font-bold px-4 py-2.5 rounded-xl text-xs transition flex items-center gap-1.5">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Support
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- In-Depth Content Sections -->
+            <div class="space-y-8 text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
+                <section class="space-y-3">
+                    <h2 class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-sm font-black">1</span>
+                        7-Day Cool-Off & Unused Returns (CPA Section 44 & 46)
+                    </h2>
+                    <p>In compliance with the Electronic Communications and Transactions Act (ECTA) and the Consumer Protection Act (CPA), you are entitled to cancel any purchase within 7 days of delivery without reason or penalty, provided the item is unused, in its original packaging, and complete with all manuals and accessories. Return courier fees apply for change-of-mind returns.</p>
+                </section>
+
+                <section class="space-y-3">
+                    <h2 class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-sm font-black">2</span>
+                        Defective Goods & Statutory Warranties (6-Month Guarantee)
+                    </h2>
+                    <p>All solar panels, hybrid inverters, lithium batteries, water tanks, and kitchen appliances sold on Randomtech carry official South African manufacturer warranties and statutory guarantees. If a product fails, is unsafe, or is defective within 6 months of delivery, you have the right to request a repair, replacement, or full refund.</p>
+                </section>
+            </div>
+
+            <div class="pt-8 border-t border-gray-100 dark:border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <a href="index.html#products" class="inline-flex items-center gap-2 bg-emerald-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:bg-emerald-700 transition">
+                    <i class="fa-solid fa-store"></i> Return to Store Catalog
+                </a>
+                <a href="https://wa.me/27827263274" target="_blank" class="text-xs font-extrabold text-emerald-600 hover:underline">
+                    Need returns support? Chat on WhatsApp &rarr;
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs space-y-4">
+            <p>&copy; 2026 Randomtech (Pty) Ltd. All rights reserved. &bull; Nationwide South Africa</p>
+            <p class="text-gray-500">Official South African E-Commerce Mall &bull; Secure PayFast & EFT Settlement</p>
+        </div>
+    </footer>
+</body>
+</html>

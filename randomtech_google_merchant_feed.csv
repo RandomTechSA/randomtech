@@ -1,0 +1,841 @@
+id,title,description,link,image_link,additional_image_link,price,sale_price,availability,condition,brand,google_product_category,product_type,identifier_exists
+TSH-420,Back Up Power Kit - PowerBox 1000W Pure Sinewave UPS,"The PowerBox 1000W Pure Sinewave UPS Backup Power Kit is an engineered plug-and-play energy security solution designed to protect sensitive home and office electronics during load shedding and unexpected power blackouts. Delivering 1000W / 1200VA of clean, uncompromised pure sine wave AC output, this unit guarantees zero harm or electrical noise to OLED/QLED TVs, gaming consoles, Wi-Fi routers, fibre ONTs, Apple MacBooks, and DSTV decoders.
+
+Key Highlights & Engineering Features:
+• Zero-Transfer Switch (<10ms): Keeps routers, computers, and monitors running continuously without rebooting or data loss during sudden outages.
+• Built-in Smart Battery Management (BMS): Multi-stage intelligent charging protects connected batteries from overcharging, deep discharge, short-circuit, and thermal overload.
+• Silent & Eco-Friendly Operation: Unlike noisy, fume-emitting petrol generators, the PowerBox operates silently with smart temperature-controlled cooling fans.
+• Multi-Device Sockets: Equipped with standard South African 3-pin plug outlets and USB fast-charging ports for immediate connectivity.
+
+Ideal Applications:
+Perfect for townhouses, apartments, home offices, and retail workstations needing reliable 2 to 6 hour backup power for work, communication, and entertainment. Backed by full local manufacturer warranty and expert support from Randomtech.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/Back%20Up%20Power%20Kit%20-%20PowerBox%201000W%20Pure%20Sinewave%20UPS.webp,,10200.00 ZAR,9000.00 ZAR,in_stock,new,Randomtech,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-421,Victron MultiPlus-II 48V 5000VA Inverter Charger 70A,"The Victron MultiPlus-II 48/5000/70-50 represents world-class Dutch power engineering, combining a powerful 48V 5000VA (4kW continuous / 9000W peak) pure sine wave inverter, an advanced 70A adaptive battery charger, and a high-speed 50A ultra-fast transfer switch in a single compact enclosure.
+
+Key Highlights & Engineering Features:
+• Unique PowerAssist Technology: Prevents overload of limited AC sources (such as a generator or lower-tier grid supply) by automatically adding supplemental inverter power from the battery bank when peak demand occurs.
+• Uninterrupted AC Power (UPS Function): In the event of a grid failure or loadshedding, the MultiPlus-II takes over power supply to connected loads in less than 20 milliseconds, ensuring computers and electronic equipment continue without disruption.
+• Dual AC Outputs: Features a main output for critical load backup and a secondary output that runs only when AC grid power is available, preventing non-essential heavy appliances from draining the battery.
+• ESS & Smart Grid Compatibility: Fully compatible with Victron Cerbo GX monitoring, MPPT solar charge controllers, and leading lithium battery BMS protocols (Sunsynk, Pylontech, Hubble, Revov).
+
+Ideal Applications:
+High-end residential villas, off-grid estates, and critical commercial installations requiring uncompromised heavy-duty power backup. Includes 5-Year Victron Energy Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/Victron%20MultiPlus-II%2048V%205000VA%20Inverter%20Charger%2070A%20230V%20%2848500070-50%29.jpg,https://randomtech.co.za/images/solar/Victron%20MultiPlus-II%2048V%205000VA%20Inverter%20Charger%2070A%20230V%20%2848500070-50%29%20%282%29.png,11800.00 ZAR,10200.00 ZAR,in_stock,new,Victron Energy,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-422,8kW Sunsynk Hybrid Inverter,"The 8kW Sunsynk Hybrid Inverter is South Africa’s premier, top-rated residential and commercial hybrid inverter, engineered specifically to handle harsh grid conditions and heavy daily load shedding cycles. Operating with an impressive 8,000W continuous AC output capacity and dual independent MPPT solar trackers supporting up to 10,400W of PV panel input, this inverter serves as the central brain of your home's energy independence.
+
+Key Highlights & Engineering Features:
+• Advanced Power Management: Features intelligent load splitting with dedicated Essential and Non-Essential AC outputs, ensuring heavy loads (like geysers and pool pumps) run on excess solar while preserving battery capacity for critical nighttime loads.
+• Sub-10ms Automatic UPS Transfer: Seamlessly transitions from grid to solar and battery power in under 10 milliseconds, preventing micro-reboots in delicate electronics, server racks, and smart home hubs.
+• Interactive LCD & Wi-Fi Monitoring: Color touchscreen interface provides real-time system power flows, battery status, solar yield generation, and remote configuration via the Sunsynk mobile app.
+• Multi-Source Integration: Supports direct connections for solar PV arrays, lithium battery banks, Eskom grid input, and automatic generator auto-start signaling.
+
+Ideal Applications:
+Large family homes, medical practices, offices, and luxury properties aiming to power full air conditioning units, double-door fridges, security systems, and entertainment setups. Backed by a 5-Year Local Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/8kW%20Sunsynk%20Hybrid%20Inverter.jpg,,29999.00 ZAR,27324.00 ZAR,in_stock,new,Sunsynk,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-423,Victron Inverter RS 48/6000 230V Smart,"The Victron Inverter RS 48/6000 230V Smart is a state-of-the-art 48V 6kVA (5.3kW continuous output) smart inverter/charger designed for high-performance off-grid and backup installations. Engineered with high-frequency power electronics, this unit achieves an astonishing 96.5% operating efficiency while remaining exceptionally lightweight and whisper-quiet.
+
+Key Highlights & Engineering Features:
+• Dual Independent MPPT Solar Trackers: Built-in high voltage solar charge controller capable of handling up to 4,000W of PV power with 80-450V operating window for simplified series string wiring.
+• Integrated Bluetooth Smart & VRM Telemetry: Monitor voltage, load percentage, temperature, and historical yield straight from your smartphone or remotely via the Victron Remote Management (VRM) online portal.
+• High Peak Surge Power: Handles up to 9,000W short-term surge output to reliably start motor-driven appliances like borehole pumps, pressure pumps, and large refrigerators.
+• Modular Expansion: Supports parallel and three-phase configuration with additional Units for high-capacity industrial or commercial upgrades.
+
+Ideal Applications:
+Off-grid eco-lodges, agricultural pump stations, high-end homes, and remote monitoring stations demanding maximum electrical efficiency and Dutch engineering reliability. Backed by 5-Year Victron Energy Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/Victron%20Inverter%20RS%20486000%20230V%20Smart%20A%2048V%206kVA%20invertercharger%20for%20off%20grid%2C%20backup%20and%20mobile%20power%20systems%20delivering%20up%20to%205300W%20continuous%20output%20and%2088A%20battery%20charging%20with%20parallel%20and%20three%20.png,https://randomtech.co.za/images/solar/Victron%20Inverter%20RS%20486000%20230V%20Smart%20A%2048V%206kVA%20invertercharger%20for%20off%20grid%2C%20backup%20and%20mobile%20power%20systems%20delivering%20up%20to%205300W%20continuous%20output%20and%2088A%20battery%20charging%20with%20parallel%20and%20three%20ph.png,18500.00 ZAR,16000.00 ZAR,in_stock,new,Victron Energy,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-424,16kW Sunsynk Max Hybrid Inverter,"The 16kW Sunsynk Max Hybrid Inverter is the pinnacle of commercial-grade hybrid solar technology, engineered to satisfy massive electrical loads across luxury residential estates, commercial workshops, agricultural farms, and multi-tenant office complexes. Providing a staggering 16,000W continuous single-phase AC output and supporting up to 20,800W of solar panel input across 4 independent MPPT trackers, this unit is unmatched in capacity.
+
+Key Highlights & Engineering Features:
+• Extreme Surge Capability: Delivers up to 32,000W peak surge power, effortlessly powering heavy machinery, multiple central HVAC units, cold storage rooms, and water pumps.
+• 275A Charge & Discharge Rate: Rapidly recharges large lithium battery banks during short grid recovery windows between load shedding blocks.
+• Parallel Stacking up to 16 Units: Scale up total site power to over 250kW for commercial industrial facilities by interconnecting multiple 16kW Sunsynk Max units.
+• Comprehensive Protection Suite: Includes integrated DC isolator switches, arc fault protection (AFCI), reverse polarity protection, and thermal overload protection.
+
+Ideal Applications:
+Large agricultural operations, manufacturing plants, luxury multi-story mansions, and commercial office parks requiring heavy-duty power security. Backed by 5-Year Sunsynk Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/16kW%20Sunsynk%20Max%20Hybrid%20Inverter.jpg,https://randomtech.co.za/images/solar/16kW%20Sunsynk%20Max%20Hybrid%20Inverter%20%282%29.jpg,58000.00 ZAR,52350.30 ZAR,in_stock,new,Sunsynk,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-425,Deye 12kW 3 Phase Hybrid Inverter 48V WiFi,"The Deye 12kW 3-Phase 48V Low Voltage Hybrid Inverter (SUN-12K-SG04LP3-EU) is a high-efficiency power conversion station engineered for balanced three-phase commercial and residential solar installations. Designed to operate with cost-effective 48V low-voltage lithium battery banks, this inverter provides unparalleled safety and ROI.
+
+Key Highlights & Engineering Features:
+• 100% Unbalanced Phase Output: Uniquely supports up to 100% unbalanced load distribution across the 3 phases, allowing individual single-phase household circuits to draw up to 50% of the inverter's total power without triggering system trips.
+• Dual MPPT Trackers with 240A Charging: Maximizes solar harvesting efficiency from multi-oriented roof arrays while supplying up to 240A charging current to connected lithium storage.
+• Color Touchscreen & Remote Monitoring: Intuitive full-color LCD touch display allows easy parameter adjustments, frequency settings, and real-time power flow tracking via Wi-Fi logger.
+• Parallel Capability: Connect up to 10 units in parallel for off-grid or grid-tied industrial three-phase expansion.
+
+Ideal Applications:
+Three-phase commercial buildings, luxury residential estates with three-phase utility connections, and light industrial facilities. Backed by 5-Year Deye Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/Deye%2012kW%203%20Phase%20Hybrid%20Inverter%2048V%20WiFi.jpg,https://randomtech.co.za/images/solar/Deye%2012kW%203%20Phase%20Hybrid%20Inverter%2048V%20WiFi%20%282%29.webp,25000.00 ZAR,22000.00 ZAR,in_stock,new,Deye,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-426,Sunsynk Loadshedder 4 (3.6kW Inverter & 3.84kWh Lithium),"The Sunsynk Loadshedder 4 is a sleek, pre-wired all-in-one residential power station that seamlessly combines a 3.6kW hybrid inverter with a long-life 3.84kWh CATL LiFePO4 lithium battery in a beautiful wall-mounted cabinet. Designed for effortless aesthetic integration into modern homes, it eliminates messy external cables, wall boxes, and complex wiring.
+
+Key Highlights & Engineering Features:
+• All-In-One Compact Enclosure: Houses the hybrid inverter, battery management system, AC/DC circuit breakers, and bypass switch in a single dust-resistant enclosure.
+• Sub-10ms Instant UPS Switching: Automatically detects grid failure and switches essential home loads to battery and solar power in under 10 milliseconds.
+• Expandable Battery Architecture: Features a plug-and-play expansion port allowing quick connection of additional battery modules as household power demands grow.
+• Smart App Telemetry: Connects to home Wi-Fi for remote status monitoring, power flow analysis, and automatic software updates via the Sunsynk mobile app.
+
+Ideal Applications:
+Apartments, townhouses, modern suburban homes, and home offices looking for a premium, clean, space-saving backup system. Backed by 5-Year Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/Sunsynk%20Loadshedder%204%20%28All%20in%20one%203.6kW%20Hybrid%20inverter%20and%203.84kWh%20Lithium%20Battery%29.jpg,https://randomtech.co.za/images/solar/Sunsynk%20Loadshedder%204%20%28All%20in%20one%203.6kW%20Hybrid%20inverter%20and%203.84kWh%20Lithium%20Battery%29%20%282%29.jpg,27500.00 ZAR,24598.50 ZAR,in_stock,new,Sunsynk,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-427,FBPVG3 3KW Lithium Inverter Trolley Unit,"The FBPVG3 3KW Mobile Lithium Inverter Trolley Unit provides heavy-duty, commercial-grade energy mobility on wheels. Built inside a reinforced steel trolley casing with smooth-rolling caster wheels and heavy-duty handles, this unit combines a 3000W pure sine wave inverter with an integrated lithium battery bank for zero-installation emergency power.
+
+Key Highlights & Engineering Features:
+• 3000W Continuous Pure Sine Output: Safely runs sensitive medical devices, computers, high-end home theater setups, coffee machines, and power tools without voltage dips.
+• Integrated Lithium LiFePO4 Battery: Delivers over 3,000 deep discharge cycles with rapid recharge capabilities, outlasting heavy old-fashioned lead-acid trolleys by years.
+• Digital LCD Interface: Displays real-time battery percentage, voltage output, wattage load, and runtime estimation.
+• Plug & Play Simplicity: Plugs directly into any standard SA 230V wall outlet to auto-recharge when grid power returns.
+
+Ideal Applications:
+Rented properties where permanent wall-mounted installations are prohibited, mobile broadcasting teams, outdoor events, medical clinics, and remote work hubs. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/FBPVG3%20%203KW%20%20Lithium%20invertor%20%20trolley%20unit.jpg,https://randomtech.co.za/images/solar/FBPVG3%20%203KW%20%20Lithium%20invertor%20%20trolley%20unit.webp,23999.00 ZAR,21378.50 ZAR,in_stock,new,Randomtech,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-428,3.6KW Plug and Play Inverter System,"The 3.6KW Plug and Play Inverter System is an accessible, zero-hassle home and office backup power unit designed to keep essential lifestyle electronics, entertainment equipment, and remote working tools fully powered during Eskom loadshedding.
+
+Key Highlights & Engineering Features:
+• 3600W Pure Sine Wave Output: Eliminates electrical hums, screen flickers, and overheating in sensitive home electronics, OLED TVs, soundbars, and desktop computers.
+• Fully Automatic Transfer Switch: Plugs between your wall outlet and appliance strip; automatically supplies power when the grid collapses and recharges itself when power returns.
+• Intelligent Smart Charger: Protects internal battery cells against overcharging, deep discharge, and voltage spikes.
+• Portable & Fume-Free: Operates with complete silence and zero carbon emissions, making it safe for indoor bedrooms, living rooms, and office suites.
+
+Ideal Applications:
+Townhouse residents, work-from-home professionals, student dorms, and small retail checkout counters needing instant power reliability without installation delays. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/3.6KW%20Plug%20and%20Play%20Inverter%20System.jpg,https://randomtech.co.za/images/solar/3.6KW%20Plug%20and%20Play%20Inverter%20System%20%282%29.jpg,11500.00 ZAR,10000.00 ZAR,in_stock,new,Randomtech,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-429,Deye 12Kw Single Phase Hybrid Inverter 48v,"The Deye 12kW Single Phase 48V Low Voltage Hybrid Inverter (SUN-12K-SG02-LP1-EU-AM3-P) is engineered to deliver high single-phase solar power generation and loadshedding immunity for demanding residential and commercial installations. Operating on safe 48V low voltage battery architecture, it provides up to 12,000W continuous AC output.
+
+Key Highlights & Engineering Features:
+• 220A Maximum Charge / Discharge Current: Rapidly charges high-capacity battery banks during short grid availability windows.
+• Dual MPPT Trackers (Up to 15,000W PV Input): Allows flexible solar panel array design across multiple roof orientations to optimize morning, noon, and late afternoon solar harvesting.
+• Smart Load & Frequency Shifting: Feature-rich programmable auxiliary port can be used as a generator input, micro-inverter input, or dedicated smart load dump for excess solar.
+• Full Color Touchscreen Interface: Enables intuitive local configuration of battery charging curves, grid export limits, and time-of-use scheduling.
+
+Ideal Applications:
+Large single-phase luxury homes, commercial workshops, agricultural packhouses, and off-grid homesteads requiring high continuous output. Backed by 5-Year Deye Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/Deye%2012Kw%20Single%20Phase%20Hybrid%20Inverter%2048v%20SUN-12K-SG02-LP1-EU-AM3-P.jpg,https://randomtech.co.za/images/solar/Deye%2012Kw%20Single%20Phase%20Hybrid%20Inverter%2048v%20SUN-12K-SG02-LP1-EU-AM3-P%20%282%29.webp,17999.00 ZAR,15399.00 ZAR,in_stock,new,Deye,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-401,3kWp Grid-Tied System Solar Power Kit,"Slash your monthly Eskom electricity bills by up to 60% with the complete 3kWp Grid-Tied Solar Power Kit. Custom engineered for South African residential roofs, this complete kit harvests free solar energy during daytime peak hours to power household baseloads like fridges, home offices, lighting, washing machines, and pool filtration pumps.
+
+Key Highlights & Engineering Features:
+• High-Efficiency N-Type TopCon Solar Modules: Includes Tier-1 solar panels delivering superior module efficiency, low-light performance, and minimal power degradation over 30 years.
+• Smart High-Efficiency Grid-Tied Inverter: Features dual MPPT inputs and built-in Wi-Fi monitoring to track daily power yield, carbon offset, and financial savings on your smartphone.
+• Certified Roof Mounting Hardware: Supplied with heavy-duty aluminum mounting rails, stainless steel tile/IBR roof clamps, and UV-stabilized solar cabling designed for SA weather.
+• SANS 10142-1 Compliance Ready: Includes AC/DC surge protection isolators, pre-wired DB enclosure, and complete wiring schematics for quick SSEG municipal registration.
+
+Ideal Applications:
+Suburban residential homeowners looking to significantly reduce monthly municipal electricity costs with high return on investment. Backed by 10-Year Structural & 25-Year Panel Power Warranties.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/3kWp%20Grid-Tied%20System%20Solar%20Power%20Kit.webp,https://randomtech.co.za/images/solar/3kWp%20Grid-Tied%20System%20Solar%20Power%20Kit%20%282%29.webp,59999.00 ZAR,55000.00 ZAR,in_stock,new,Randomtech,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-402,5kWp Grid-Tied System Solar Power Kit,"The 5kWp Grid-Tied Solar Power Kit is the ultimate high-yield residential solar investment, designed to power heavy daytime electrical loads and drastically eliminate reliance on Eskom grid electricity. Generating up to 25kWh of clean electricity daily under South African sunlight, this system offsets daytime power spikes from air conditioning units, water pumps, kitchen appliances, and home office setups.
+
+Key Highlights & Engineering Features:
+• Tier-1 High-Output Mono TopCon Panels: Maximizes roof power density with multi-busbar cell technology that maintains high generation even on overcast winter days.
+• Dual MPPT Smart Grid Inverter: Intelligently optimizes power harvesting from east-west or north-facing roof layouts with up to 98% conversion efficiency.
+• Complete Protective Switchgear: Includes pre-assembled AC and DC distribution boxes equipped with surge arrestors, fuses, and rotary DC isolators for maximum fire safety.
+• Wi-Fi Live Analytics: Built-in cloud telemetry sends real-time performance alerts and energy statistics directly to your phone.
+
+Ideal Applications:
+Medium to large family homes, guesthouses, and commercial offices seeking substantial utility bill reduction. Backed by 10-Year Inverter & 30-Year Solar Panel Linear Power Warranties.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/5kWp%20Grid-Tied%20System%20Solar%20Power%20Kit.webp,"https://randomtech.co.za/images/solar/5kWp%20Grid-Tied%20System%20Solar%20Power%20Kit%20%282%29.webp,https://randomtech.co.za/images/solar/5kWp%20Grid-Tied%20System%20Solar%20Power%20Kit%20%283%29.webp",75000.00 ZAR,70000.00 ZAR,in_stock,new,Randomtech,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-403,8KW MPPT Deye Load Shedding 2x Shoto 5.12 KWh Backup Power Combo Kit,"Never experience a power outage or load shedding blackout again with the 8KW MPPT Deye Load Shedding 2x Shoto 5.12 KWh Backup Power Combo Kit. This complete, pre-configured power station combines an 8kW Deye hybrid inverter with 10.24kWh of heavy-duty Shoto LiFePO4 lithium battery storage to provide 100% home energy immunity.
+
+Key Highlights & Engineering Features:
+• 8,000W Continuous Inverter Output: Effortlessly powers double-door fridges, aircon units, entertainment systems, security lighting, microwave ovens, and borehole pumps simultaneously.
+• 10.24kWh Premium Shoto LiFePO4 Storage: High-grade lithium iron phosphate chemistry providing over 6,000 cycles at 80% Depth of Discharge for 10+ years of daily reliable backup.
+• Sub-10ms Automatic UPS Transfer: Instantaneous switching ensures computers, Wi-Fi networks, and home automation systems remain uninterrupted when the grid fails.
+• Pre-Wired Protective Switchgear: Includes wall-mount DC isolator, AC protection box, heavy-duty battery interconnect cables, and Wi-Fi monitoring dongle.
+
+Ideal Applications:
+Executive family homes, medical surgeries, legal offices, and luxury estates wanting a turn-key, top-tier backup solution. Backed by 5-Year Inverter & 10-Year Battery Manufacturer Warranties.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/8KW%20MPPT%20Deye%20Load%20Shedding%202x%20Shoto%205.12%20KWh%20Backup%20Power%20Combo%20Kit.webp,"https://randomtech.co.za/images/solar/8KW%20MPPT%20Deye%20Load%20Shedding%202x%20Shoto%205.12%20KWh%20Backup%20Power%20Combo%20Kit%20%282%29.webp,https://randomtech.co.za/images/solar/8KW%20MPPT%20Deye%20Load%20Shedding%202x%20Shoto%205.12%20KWh%20Backup%20Power%20Combo%20Kit%20%283%29.webp",41000.00 ZAR,36490.00 ZAR,in_stock,new,Deye,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-404,20000 Litre Vertical Water Storage Tank (JoJo),"The 20,000 Litre Vertical Water Storage Tank by JoJo is the benchmark in heavy-capacity liquid storage, engineered to provide uncompromised water security for large residential estates, agricultural farms, commercial sites, and industrial facilities. Manufactured using food-grade, FDA-approved virgin LLDPE polyethylene, this tank ensures stored rainwater or municipal backup stays clean and safe.
+
+Key Highlights & Engineering Features:
+• 20,000L Massive Capacity: Solves severe municipal water disruptions and provides long-term drought protection for large properties.
+• Proprietary Black Anti-Algae Inner Lining: Prevents light penetration into the tank interior, effectively blocking algae growth and keeping water fresh for months.
+• UV-Stabilized Outer Layer: Engineered specifically for South Africa's harsh high-UV sun exposure, preventing plastic embrittlement, cracking, or fading over decades.
+• Heavy-Duty Structural Ribbing: Computer-designed vertical wall ribs provide maximum hoop strength and structural integrity against hydrostatic pressure.
+
+Ideal Applications:
+Agricultural irrigation storage, livestock watering, commercial fire backup tanks, and large estate rainwater harvesting. Backed by JoJo's Official 10-Year Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/jojo/20000%20Litre%20Vertical%20Water%20Storage%20Tank.jpg,"https://randomtech.co.za/images/jojo/20000%20Litre%20Vertical%20Water%20Storage%20Tank.png,https://randomtech.co.za/images/jojo/20000%20Litre%20Vertical%20Water%20Storage%20Tank.webp",54000.00 ZAR,49999.00 ZAR,in_stock,new,JoJo,Home & Garden > Lawn & Garden > Watering & Irrigation > Water Tanks,Water Tanks,no
+TSH-415,JoJo 2450 Litre Vertical Water Storage Tank,"The JoJo 2450 Litre Vertical Water Storage Tank is South Africa's most popular medium-capacity backup water storage tank, ideal for urban homes, townhouses, and small commercial offices looking to secure their water supply against municipal water cuts.
+
+Key Highlights & Engineering Features:
+• 2450L Optimal Residential Size: Holds ample clean water to supply a family household through multi-day water shedding blocks while maintaining a compact ground footprint.
+• 100% Virgin Food-Grade Polymer: Molded from BPA-free, FDA-approved linear low-density polyethylene safe for potable drinking water storage.
+• Anti-Algae Carbon Inner Layer: Eliminates internal light reflection, stopping organic bacteria and algae proliferation without chemical additives.
+• Pre-Fitted Outlets & Lids: Comes complete with a 480mm inspection lid with thumb screws, integrated strainers, and pre-molded brass female outlets for quick pump connection.
+
+Ideal Applications:
+Residential rainwater collection, household emergency backup water systems, and garden irrigation hubs. Backed by JoJo's 10-Year Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/jojo/Jojo%202450%20vertical%20tank%20water%20green.webp,"https://randomtech.co.za/images/jojo/Jojo%202450%20vertical%20tank%20water%20green%20%282%29.webp,https://randomtech.co.za/images/jojo/Jojo%202450%20vertical%20tank%20water%20green%20%283%29.webp",4200.00 ZAR,3699.00 ZAR,in_stock,new,JoJo,Home & Garden > Lawn & Garden > Watering & Irrigation > Water Tanks,Water Tanks,no
+TSH-405,4500 Litre Horizontal Water Storage Tank (JoJo),"JoJo’s 4500 Litre Horizontal Water Storage Tank is a versatile, heavy-duty liquid container engineered for both static ground mounting and mobile cartage on trailers, flatbed trucks, and agricultural vehicles. Featuring a low-profile center of gravity, it provides exceptional liquid stability during transport.
+
+Key Highlights & Engineering Features:
+• Low Center of Gravity Design: Prevents vehicle tipping during movement, making it the safest option for hauling water across rugged terrain or farm roads.
+• Extra Heavy Wall Thickness: Molded with elevated polymer density to withstand dynamic sloshing forces and heavy outdoor usage.
+• Food-Grade & BPA-Free LLDPE: Safe for fresh drinking water, liquid fertilizers, animal feeds, and agricultural chemicals.
+• Black Anti-Algae Inner Lining: Keeps stored water clean, clear, and odor-free by blocking 100% of sun light transmission.
+
+Ideal Applications:
+Agricultural crop spraying, water cartage to remote livestock pastures, construction site dust suppression, and low-clearance residential water storage. Backed by 10-Year JoJo Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/jojo/4500%20Litre%20Horizontal%20Water%20Storage%20Tank.jpg,https://randomtech.co.za/images/jojo/4500%20Litre%20Horizontal%20Water%20Storage%20Tank%20%282%29.jpg,25500.00 ZAR,23178.00 ZAR,in_stock,new,JoJo,Home & Garden > Lawn & Garden > Watering & Irrigation > Water Tanks,Water Tanks,no
+TSH-410,JoJo Tank Horisontaal 5500L Medium,"The JoJo Tank Horisontaal 5500L Medium (SKU: 11010200) is a commercial-grade, medium-density transportable horizontal water storage tank designed for heavy-duty agricultural, mining, and industrial transport applications.
+
+Key Highlights & Engineering Features:
+• 5500 Litre Commercial Volume: Engineered for high-volume liquid transport on farm trucks, flatbed trailers, and mobile water bowsers.
+• Premium Medium-Density Polymer Construction: Formulated with extra tensile strength to absorb intense sloshing dynamic loads during transit.
+• UV-Stabilized Outer Shell: Built to endure decades of continuous exposure to harsh equatorial sunlight without degradation.
+• Smooth Antibacterial Interior: Smooth inner walls prevent sediment accumulation and allow rapid, thorough tank rinsing between loads.
+
+Ideal Applications:
+Agricultural water haulage, commercial construction sites, municipal road maintenance, and fire-fighting emergency water storage. Backed by JoJo 10-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/jojo/JoJo%20Tank%20Horisontaal%205500L%20Medium.webp,https://randomtech.co.za/images/jojo/JoJo%20Tank%20Horisontaal%205500L%20Medium%20%282%29.webp,29900.00 ZAR,27368.00 ZAR,in_stock,new,JoJo,Home & Garden > Lawn & Garden > Watering & Irrigation > Water Tanks,Water Tanks,no
+TSH-411,Commercial SS304 Stainless Steel Water Storage Tank,"The Commercial SS304 Stainless Steel Water Storage Tank represents the ultimate standard in hygienic, high-purity water containment for luxury residences, commercial food processing facilities, medical laboratories, and beverage plants. Constructed from surgical-grade SS304 stainless steel, it completely outperforms traditional plastic tanks in durability and hygiene.
+
+Key Highlights & Engineering Features:
+• 100% Lightproof & Hygienic: Zero sunlight penetration eliminates 100% of algae, bacterial, and fungal growth risks without requiring chemical treatments.
+• Non-Leaching Stainless Steel Construction: Will never impart microplastics, chemicals, or synthetic odors into stored drinking water, guaranteeing pure taste.
+• Fire-Proof & Thermal Resistant: Totally immune to fire damage, UV breakdown, and extreme ambient temperature fluctuations.
+• Elegant Architectural Aesthetics: Mirror-finish stainless steel exterior adds a modern, high-tech architectural look to residential and commercial properties.
+
+Ideal Applications:
+High-end luxury mansions, pharmaceutical labs, food and beverage manufacturing plants, and eco-conscious homesteads seeking lifelong water security. Includes 10-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/jojo/Commercial%20SS304%20Stainless%20Steel%20Water%20Storage%20Tank.webp,,62000.00 ZAR,56800.00 ZAR,in_stock,new,Randomtech,Home & Garden > Lawn & Garden > Watering & Irrigation > Water Tanks,Water Tanks,no
+TSH-412,SAC - 1000L Hot Water Storage Tank,"The ITS SAC - 1000L Hot Water Storage Tank is a heavy-duty, commercial-capacity thermal buffer vessel engineered specifically for heat pump integration, solar thermal geyser arrays, and high-demand commercial hot water installations.
+
+Key Highlights & Engineering Features:
+• High-Density Polyurethane Foam Insulation: Encased in thick CFC-free thermal jacket that retains water heat for days, drastically reducing standby heat loss and energy consumption.
+• Heavy-Gauge Boiler Plate Construction: Engineered to withstand high working pressures and severe thermal expansion cycles without stress fatigue.
+• Dual Element & Probe Boss Ports: Features multiple heavy-duty brass ports for auxiliary electrical heating elements, solar heat exchanger loops, and digital temperature sensors.
+• Anti-Corrosion Sacrificial Anodes: Equipped with large magnesium anode rods to neutralize aggressive mineral scaling and extend tank service life.
+
+Ideal Applications:
+Hotels, guest houses, sports clubs, industrial wash facilities, and large residential estates utilizing centralized solar or heat pump water heating. Backed by Local Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/jojo/SAC%20-%201000L%20Hot%20Water%20Storage%20Tank.webp,,51995.00 ZAR,47995.00 ZAR,in_stock,new,Randomtech,Home & Garden > Lawn & Garden > Watering & Irrigation > Water Tanks,Water Tanks,no
+TSH-413,Open Head Drums 220L,"The Open Head 220L Polyethylene Storage Drum is a heavy-duty multi-purpose liquid and dry goods container, featuring a fully removable top lid and a heavy-gauge galvanized steel lever-lock clamp ring for 100% airtight and leak-proof sealing.
+
+Key Highlights & Engineering Features:
+• High-Density Polyethylene (HDPE) Construction: Highly resistant to impacts, chemical corrosion, acids, fertilizers, and UV weathering.
+• Removable Full-Open Lid: Allows fast, easy loading and cleaning of thick liquids, grains, powders, or bulk emergency water.
+• Galvanized Steel Lever-Lock Ring: Creates a hermetic pressure seal that prevents spills, contamination, and moisture ingress during transport.
+• Stackable Modular Shape: Molded base and lid contours allow safe vertical stacking to optimize warehouse and transport space.
+
+Ideal Applications:
+Emergency water backup, rainwater harvesting, agricultural feed storage, chemical containment, and industrial material handling. Backed by Local Quality Guarantee.",https://randomtech.co.za/#products,https://randomtech.co.za/images/jojo/Open%20Head%20Drums%20220L.jpg,,1250.00 ZAR,1055.00 ZAR,in_stock,new,Randomtech,Home & Garden > Lawn & Garden > Watering & Irrigation > Water Tanks,Water Tanks,no
+TSH-414,1000L IBC Water Tank,"The 1000L IBC Water Tank (Intermediate Bulk Container) is an industrial-grade liquid transport and storage vessel, combining a high-capacity 1000-litre food-grade HDPE inner container with a heavy-duty galvanized steel outer cage and integrated transport pallet base.
+
+Key Highlights & Engineering Features:
+• Potable Water & Food-Grade Approved: Manufactured from non-toxic, chemical-resistant high-density polyethylene safe for drinking water, liquid food products, and oils.
+• Galvanized Tubular Steel Cage: Provides extreme structural protection against impacts, punctures, and stacking loads during transport.
+• Integrated Bottom Butterfly Valve: Features a heavy-duty 50mm integrated drain valve with safety cap for controlled, mess-free liquid dispensing.
+• Forklift & Pallet Jack Compatible: Built-in galvanized steel/plastic pallet base allows 4-way forklift handling for fast loading and unloading.
+
+Ideal Applications:
+Commercial liquid logistics, agricultural liquid fertilizer storage, rain harvest collection, and emergency municipal water supply distribution. Backed by Local Quality Guarantee.",https://randomtech.co.za/#products,https://randomtech.co.za/images/jojo/1000L%20IBC%20Water%20Tank.webp,"https://randomtech.co.za/images/jojo/1000L%20IBC%20Water%20Tank%20%282%29.webp,https://randomtech.co.za/images/jojo/1000L%20IBC%20Water%20Tank%20%283%29.webp",2200.00 ZAR,1900.00 ZAR,in_stock,new,Randomtech,Home & Garden > Lawn & Garden > Watering & Irrigation > Water Tanks,Water Tanks,no
+TSH-406,200L Evacuated Tube Conversion Solar Water Heating System,"Reduce your household geyser electricity bill by up to 70% with the 200L Evacuated Tube Conversion Solar Water Heating System. Engineered specifically for South African households, this system converts your existing electrical water heater into a high-yield solar thermal system.
+
+Key Highlights & Engineering Features:
+• High-Efficiency Tri-Element Vacuum Tubes: Borosilicate glass evacuated tubes absorb up to 95% of solar radiation, heating water rapidly even during cold, windy, or cloudy winter days.
+• Pure Copper Heat Pipe Technology: Heat pipes transfer thermal energy into the manifold header without circulating water inside the vacuum tubes, preventing freeze ruptures.
+• Smart Digital Controller & Sensor: Programmable LCD controller monitors tank temperature and manages backup heating element timers to maximize energy savings.
+• Rapid ROI: Pays for itself within 18 to 24 months through drastic reductions in monthly municipal electricity bills.
+
+Ideal Applications:
+Suburban residential homes (3-5 occupants) seeking immediate, permanent reduction in geyser electricity consumption. Backed by 5-Year Local Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/200L%20Evacuated%20Tube%20Conversion%20Solar%20Water%20Heating%20System.jpg,https://randomtech.co.za/images/solar/200L%20Evacuated%20Tube%20Conversion%20Solar%20Water%20Heating%20System.webp,21000.00 ZAR,18500.00 ZAR,in_stock,new,Randomtech,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-407,300L Evacuated Tube Thermosiphon Solar Water Heating Kit,"The 300L Evacuated Tube Thermosiphon Solar Water Heating Kit is a high-capacity, heavy-duty solar water heating plant designed for large family homes, luxury lodges, and commercial guesthouses with high daily hot water demand.
+
+Key Highlights & Engineering Features:
+• 300L SUS304-2B Stainless Steel Inner Tank: Constructed from food-grade stainless steel with high-density polyurethane insulation to retain hot water temperature overnight.
+• 30x High-Performance Evacuated Vacuum Tubes: Delivers rapid thermal transfer capable of heating 300 litres of water up to 85°C on sunny days.
+• Natural Thermosiphon Circulation: Operates without mechanical circulation pumps; hot water naturally rises into the overhead storage tank, reducing maintenance.
+• Weather-Resistant Galvanized Frame: Corrosion-resistant roof mounting structure designed for pitch tile, metal, or flat concrete roof installations.
+
+Ideal Applications:
+Large family residences (5-8 occupants), bed & breakfasts, guesthouses, and farmhouses requiring high-volume zero-cost hot water. Backed by 5-Year Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/300L%20Evacuated%20Tube%20Thermosiphon%20Solar%20Water%20Heating%20Kit.jpg,"https://randomtech.co.za/images/solar/300L%20Evacuated%20Tube%20Thermosiphon%20Solar%20Water%20Heating%20Kit.webp,https://randomtech.co.za/images/solar/300L%20Evacuated%20Tube%20Thermosiphon%20Solar%20Water%20Heating%20Kit.jpeg",29999.00 ZAR,26999.00 ZAR,in_stock,new,Randomtech,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-408,Canadian Solar 590W TopHiKU6 Super High Power N-type TopCon Module,"The Canadian Solar 590W TopHiKU6 Super High Power N-type TopCon Solar Module is a commercial-grade photovoltaic panel engineered to deliver maximum power density and energy yield for utility, commercial, and high-end residential solar systems.
+
+Key Highlights & Engineering Features:
+• Advanced N-Type TopCon Cell Technology: Delivers up to 22.8% module efficiency with lower LID (Light-Induced Degradation) and superior low-light performance during early mornings and late afternoons.
+• Ultra-Low Temperature Coefficient (-0.29%/°C): Produces significantly higher energy yield under hot South African summer temperatures compared to legacy P-type panels.
+• Heavy-Duty Mechanical Durability: Constructed with 3.2mm tempered glass and robust 35mm anodized aluminum frame, rated to withstand up to 5400 Pa snow load and 2400 Pa wind load.
+• Anti-PID & LeID Protection: Engineered to eliminate Potential Induced Degradation, ensuring consistent performance over decades.
+
+Ideal Applications:
+Commercial rooftop arrays, agricultural solar farms, and residential installations with restricted roof space needing maximum wattage per square meter. Backed by 12-Year Product Warranty & 30-Year Linear Power Performance Guarantee.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/Canadian%20Solar%20590W%20TopHiKU6%20Super%20High%20Power%20N-type%20TopCon%20module%20with%20EVO2%20and%20F30%20Frame.jpg,https://randomtech.co.za/images/solar/Canadian%20Solar%20590W%20TopHiKU6%20Super%20High%20Power%20N-type%20TopCon%20module%20with%20EVO2%20and%20F30%20Frame.png,3800.00 ZAR,3299.00 ZAR,in_stock,new,Canadian Solar,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-409,Canadian Solar HiKu6 405W Mono PERC Solar Panel (Pallet of 35),"The Canadian Solar HiKu6 405W Mono PERC Solar Panel Contractor Pallet contains 35x Tier-1 high-efficiency solar modules (14,175W total combined PV capacity), providing solar installers and commercial developers with bulk procurement savings and uncompromised quality.
+
+Key Highlights & Engineering Features:
+• High-Efficiency Mono PERC Half-Cut Cells: Split-cell architecture reduces internal resistance and thermal loss while offering superior shading tolerance when partial shadows fall across the panel.
+• Tier-1 Global Manufacturing Standard: Canadian Solar is recognized globally for strict quality control, electroluminescence (EL) crack detection, and reliable materials.
+• Reinforced Anodized Frame: Engineered with cross-bracing and IP68 rated weather-sealed junction boxes equipped with bypass diodes to prevent hot spots.
+• Bulk Contractor Savings: Packaged in factory-sealed heavy-duty transport pallets for safe jobsite delivery.
+
+Ideal Applications:
+Solar installation contractors, agricultural solar arrays, housing developments, and commercial rooftop projects. Backed by 12-Year Product Warranty & 25-Year Linear Performance Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/solar/Canadian%20Solar%20HiKu6%20405W%20Mono%20PERC%20Solar%20Panel%20Pallet%20of%2035.jpeg,https://randomtech.co.za/images/solar/Canadian%20Solar%20HiKu6%20405W%20Mono%20PERC%20Solar%20Panel%20Pallet%20of%2035%20%282%29.jpeg,75000.00 ZAR,68000.00 ZAR,in_stock,new,Canadian Solar,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-101,Sana 707 Cold Press Juicer (Oscar Classic Juicer),"The Sana 707 Cold Press Juicer (Oscar Classic Juicer) is globally celebrated as the gold standard of horizontal masticating cold press juicers, combining sleek European aesthetics with heavy-duty Korean mechanical engineering. Running at a gentle 63 RPM, it squeezes fruits, vegetables, leafy greens, celery, wheatgrass, and tough root produce without generating heat friction or destroying sensitive enzymes.
+
+Key Highlights & Engineering Features:
+• Gentle 63 RPM Cold Press Extraction: Preserves 100% of living vitamins, active enzymes, and antioxidants, yielding nutrient-rich juice with vibrant color and up to 72 hours of refrigerated shelf life.
+• Multi-Function Culinary Tool: Includes a homogenizing screen and pasta nozzle attachment set to prepare fresh nut butters, almond milk, baby food, sorbets, pasta noodles, and fruit purees.
+• Premium Glass & Stainless Accessories: Includes a custom heavy glass juice pitcher and a food-grade 304 stainless steel pulp container—eliminating plastic contact with fresh juice.
+• Extra-Large Feed Hopper: Designed with a spacious top tray to hold chopped produce for swift, comfortable juicing.
+
+Ideal Applications:
+Health enthusiasts, celery juice cleanses, daily wheatgrass shots, and gourmet natural kitchens. Backed by an Industry-Leading 10-Year Motor & 5-Year Parts Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Sana%20707%20Cold%20Press%20Juicer%20%28Oscar%20Classic%20Juicer%29.jpg,"https://randomtech.co.za/images/kitchen/Sana%20707%20Cold%20Press%20Juicer%20%28Oscar%20Classic%20Juicer%29%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Sana%20707%20Cold%20Press%20Juicer%20%28Oscar%20Classic%20Juicer%29%20%283%29.jpg",10999.00 ZAR,8999.00 ZAR,in_stock,new,Sana,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-102,Sana 727 Supreme Cold Press Juicer,"The Sana 727 Supreme Cold Press Juicer represents the ultimate pinnacle of cold press juicing engineering. Designed for discerning health purists, it features an industrial-grade brushless DC motor capable of continuous 24/7 non-stop operation and variable speed control.
+
+Key Highlights & Engineering Features:
+• Advanced Brushless DC Motor: Operates whisper-quietly at high torque, running at selectable speeds from 40 RPM (for ultra-pure extraction) up to 120 RPM (for fast batch juicing).
+• Automatic Reverse Jam-Protection: Intelligent motor sensors detect pulp resistance and automatically reverse auger rotation to clear blockages without user intervention.
+• Solid Stainless Steel Juicing Cap: Features an integrated drip-stop cap crafted from solid stainless steel for clean kitchen countertops.
+• One-Touch Drum Assembly: Quick-release locking lever allows drum assembly removal in 2 seconds for effortless cleaning under running water.
+
+Ideal Applications:
+Serious juicing cleanses, raw food practitioners, commercial juice bars, and luxury wellness kitchens demanding the quietest, most durable juicer available. Backed by 10-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Sana%20727%20Supreme%20Cold%20Press%20Juicer.jpg,"https://randomtech.co.za/images/kitchen/Sana%20727%20Supreme%20Cold%20Press%20Juicer%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Sana%20727%20Supreme%20Cold%20Press%20Juicer%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Sana%20727%20Supreme%20Cold%20Press%20Juicer%20%284%29.jpg",15999.00 ZAR,12999.00 ZAR,in_stock,new,Sana,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-103,Sana 818 Self-Feeding Cold Press Juicer,"Revolutionize your daily health routine with the Sana 818 Self-Feeding Cold Press Juicer. Designed for ultimate convenience, it features a massive 3.5-Litre self-feeding hopper that allows you to load whole apples, peeled oranges, carrots, cucumbers, and leafy greens at once for hands-free juicing.
+
+Key Highlights & Engineering Features:
+• 3.5L Extra-Large Self-Feeding Chamber: Eliminates tedious pre-cutting; drop whole produce into the chamber, close the lid, and let the machine slice and juice automatically.
+• Dual Blade Auto-Cutting Mechanism: Internal heavy-duty rotating blades chop produce into optimal pieces before feeding them into the slow-masticating auger.
+• Ultra-Quiet Low-Speed Motor: Operates quietly while extracting maximum juice yield with dry pulp ejection.
+• Quick-Clean Strainer Design: Reduced mesh surface area allows effortless washing under running water in under 60 seconds.
+
+Ideal Applications:
+Busy professionals, families, and anyone who wants fresh cold press juice every morning without spending time standing over a feed chute. Backed by 10-Year Motor Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Sana%20818%20Self-Feeding%20Cold%20Press%20Juicer.jpg,"https://randomtech.co.za/images/kitchen/Sana%20818%20Self-Feeding%20Cold%20Press%20Juicer.webp,https://randomtech.co.za/images/kitchen/Sana%20818%20Self-Feeding%20Cold%20Press%20Juicer%20%282%29.webp,https://randomtech.co.za/images/kitchen/Sana%20818%20Self-Feeding%20Cold%20Press%20Juicer%20%283%29.webp",6999.00 ZAR,5499.00 ZAR,in_stock,new,Sana,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-104,Sana 878 – Hands Free Batch Juicer,"The Sana 878 Hands-Free Batch Juicer makes high-yield cold press juicing completely effortless. Equipped with a dual-flap smart auto-cutting hopper, you can load up to 2 kg of whole fruits and vegetables into the chamber and walk away while it juices automatically.
+
+Key Highlights & Engineering Features:
+• Dual-Flap Smart Hopper: Allows continuous loading during operation; toss in whole apples, beets, and celery stems while the machine processes previous ingredients.
+• Gentle 43 RPM Masticating Auger: Squeezes every drop of juice from produce, yielding up to 30% more liquid and nutrient retention than high-speed centrifugal juicers.
+• Includes Sorbet & Coarse Screens: Comes equipped with fine screen for silky smooth juices, coarse screen for thick pulpy juices and smoothies, and sorbet screen for 100% frozen fruit desserts.
+• Premium BPA-Free Tritan Components: All food-contact components are made from ultra-durable, food-safe Tritan polymer.
+
+Ideal Applications:
+Daily family juicing, batch juicing for weekly meal prep, and natural health cleanses. Backed by 10-Year Motor Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Sana%20878%20%E2%80%93%20Hands%20Free%20Batch%20Juicer.jpg,"https://randomtech.co.za/images/kitchen/Sana%20878%20%E2%80%93%20Hands%20Free%20Batch%20Juicer%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Sana%20878%20%E2%80%93%20Hands%20Free%20Batch%20Juicer%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Sana%20878%20%E2%80%93%20Hands%20Free%20Batch%20Juicer%20%284%29.jpg",12999.00 ZAR,9499.00 ZAR,in_stock,new,Sana,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-105,Kuvings Auto10 (Hands Free) Cold Press Slow Juicer,"The Kuvings Auto10 Hands-Free Cold Press Slow Juicer is the world's largest self-feeding home slow juicer, featuring a massive 3000ml auto-cutting hopper capacity engineered to handle whole fruits, uncut vegetables, and long leafy greens in large batches.
+
+Key Highlights & Engineering Features:
+• Massive 3000ml Auto-Cutting Hopper: Load entire pineapples (quartered), whole apples, bunches of spinach, and whole carrots without manual chopping.
+• Heavy-Duty High-Torque 240W Motor: Whispers quietly while providing high crushing power to process hard root vegetables with ease.
+• Patented Smart Cap: Keeps juice thoroughly mixed inside the juicing bowl and prevents drips when changing pitchers or serving glasses.
+• Eco-Friendly Tritan & Stainless Materials: BPA-free Tritan drum and surgical grade stainless steel juicing mesh ensure pure, safe juice.
+
+Ideal Applications:
+Large families, active athletes, juice cleanse enthusiasts, and commercial health cafes wanting maximum batch capacity. Backed by 10-Year Kuvings Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Kuvings%20Auto10%20%28Hands%20Free%29%20Cold%20Press%20Slow%20Juicer.jpg,"https://randomtech.co.za/images/kitchen/Kuvings%20Auto10%20%28Hands%20Free%29%20Cold%20Press%20Slow%20Juicer%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Kuvings%20Auto10%20%28Hands%20Free%29%20Cold%20Press%20Slow%20Juicer%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Kuvings%20Auto10%20%28Hands%20Free%29%20Cold%20Press%20Slow%20Juicer%20%284%29.jpg,https://randomtech.co.za/images/kitchen/Kuvings%20Auto10%20%28Hands%20Free%29%20Cold%20Press%20Slow%20Juicer%20%285%29.jpg",13999.00 ZAR,11999.00 ZAR,in_stock,new,Kuvings,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-106,Sana Heavy-Duty Cast-Iron Manual Citrus Press,"The Sana Heavy-Duty Cast-Iron Manual Citrus Press is an indestructible, commercial-grade lever juicer crafted from solid cast-iron and food-grade 304 stainless steel. Designed to exert over 1000 lbs of mechanical pressure with minimal hand force, it extracts 100% pure juice from pomegranates, grapefruits, oranges, lemons, and limes.
+
+Key Highlights & Engineering Features:
+• Over 1000 lbs Mechanical Leverage: Ergonimically balanced long lever arm multiplies hand pressure, effortlessly crushing dense pomegranates and large citrus.
+• Surgical Grade 304 Stainless Cone & Funnel: Removable stainless steel pressing parts are completely resistant to acidic citrus juice and dishwasher safe.
+• Heavy Cast-Iron Base with Suction Feet: Ultra-stable weighted base stays anchored to your kitchen counter during heavy press operation.
+• Zero Electrical Noise or Power Needed: Operates silently anywhere, anytime—unaffected by loadshedding or power outages.
+
+Ideal Applications:
+Fresh morning orange juice, anti-oxidant pomegranate shots, commercial cocktail bars, and off-grid kitchens. Backed by Lifetime Structural Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Sana%20Heavy-Duty%20Cast-Iron%20Manual%20Citrus%20Press%20%E2%80%93%20Professional%20Stainless-Steel%20Juicer.jpg,"https://randomtech.co.za/images/kitchen/Sana%20Heavy-Duty%20Cast-Iron%20Manual%20Citrus%20Press%20%E2%80%93%20Professional%20Stainless-Steel%20Juicer.webp,https://randomtech.co.za/images/kitchen/Sana%20Heavy-Duty%20Cast-Iron%20Manual%20Citrus%20Press%20%E2%80%93%20Professional%20Stainless-Steel%20Juicer%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Sana%20Heavy-Duty%20Cast-Iron%20Manual%20Citrus%20Press%20%E2%80%93%20Professional%20Stainless-Steel%20Juicer%20%283%29.jpg",3800.00 ZAR,3299.00 ZAR,in_stock,new,Sana,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-107,Sana Grain Mill MAX 600W,"Milling fresh, living whole grain flour at home unlocks 100% of the natural vitamins, minerals, and aromatic oils lost in commercial store-bought flour. The Sana Grain Mill MAX 600W is a high-performance home stone mill powered by an industrial 600W electric motor.
+
+Key Highlights & Engineering Features:
+• Self-Sharpening Corundum-Ceramic Millstones: Extremely hard 85mm natural mineral stones grind whole grains without overheating the flour, preserving heat-sensitive B-vitamins and enzymes.
+• Fast 200g/min Milling Output: Grinds 200 grams of ultra-fine pastry flour per minute from whole wheat, rye, spelt, corn, chickpeas, rice, and ancient grains.
+• Infinitely Adjustable Coarseness Dial: Rotate the grain hopper to select your exact flour texture—from superfine cake flour to coarse cracked grain for artisan sourdough.
+• Solid Wood Construction: Encased in beautiful, sustainable solid wood housing that adds timeless craftsmanship to any kitchen.
+
+Ideal Applications:
+Artisan sourdough bakers, gluten-free grain milling, health purists, and home baking enthusiasts. Backed by 12-Year Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Sana%20Grain%20Mill%20MAX%20600W.webp,"https://randomtech.co.za/images/kitchen/Sana%20Grain%20Mill%20MAX%20600W%20%282%29.webp,https://randomtech.co.za/images/kitchen/Sana%20Grain%20Mill%20MAX%20600W%20%283%29.webp,https://randomtech.co.za/images/kitchen/Sana%20Grain%20Mill%20MAX%20600W%20%284%29.webp",18999.00 ZAR,15999.00 ZAR,in_stock,new,Sana,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-108,Mockmill Professional 200 – 600W Stone Mill,"Handcrafted in Germany for commercial kitchens, artisan bakeries, and serious home millers, the Mockmill Professional 200 Stone Mill combines a heavy-duty 600W industrial motor with non-stop continuous milling capability to produce ultra-fine fresh flour on demand.
+
+Key Highlights & Engineering Features:
+• Non-Stop Continuous Milling Motor: Heavy-duty 600W motor features specialized cooling fans allowing hours of uninterrupted grain milling without thermal shutdown.
+• Large 95mm Corundum-Ceramic Stones: Rapidly grinds 200g per minute of ultra-fine whole grain flour from wheat, rye, spelt, oats, corn, rice, and dried legumes.
+• Solid Wood Cabinet Finish: Encased in hand-finished German wood cabinet, offering whisper-quiet operation and zero vibrational movement.
+• Tool-Free Stone Access: Easily opens without tools for fast inspection or cleaning between different grain varieties.
+
+Ideal Applications:
+Commercial bakeries, pizzerias, health food shops, and serious sourdough bakers requiring continuous fresh flour production. Backed by 12-Year German Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Mockmill%20Professional%20200%20%E2%80%93%20600W.webp,"https://randomtech.co.za/images/kitchen/Mockmill%20Professional%20200%20%E2%80%93%20600W%20%282%29.webp,https://randomtech.co.za/images/kitchen/Mockmill%20Professional%20200%20%E2%80%93%20600W%20%283%29.webp,https://randomtech.co.za/images/kitchen/Mockmill%20Professional%20200%20%E2%80%93%20600W%20%284%29.webp",16999.00 ZAR,14500.00 ZAR,in_stock,new,Mockmill,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-109,Mockmill 100 Stone Mill 360W,"The Mockmill 100 Stone Mill 360W is the compact powerhouse for healthy home baking, bringing traditional stone-milling technology into modern home kitchens. Powered by a robust 360W motor and self-sharpening corundum-ceramic millstones, it produces 100 grams of fresh, fine whole grain flour per minute.
+
+Key Highlights & Engineering Features:
+• Fresh Living Flour on Demand: Grinds fresh flour directly into your baking bowl, retaining 100% of the fiber, bran, germ, and natural vitamin E lost in commercial refined flour.
+• Eco-Friendly Arboblend Casing: Casing crafted from Arboblend—a 100% renewable bio-polymer made from natural wood lignin, combining durability with zero environmental footprint.
+• Multi-Grain Milling Versatility: Grinds all dry grains including wheat, rye, spelt, barley, rice, buckwheat, chickpeas, and dry spices.
+• Simple Lever Coarseness Adjustment: Adjust flour coarseness smoothly from fine powder to coarse bulgur with a quick turn of the front lever.
+
+Ideal Applications:
+Home sourdough bakers, gluten-free home cooks, and health-conscious families looking for fresh nutritious flour. Backed by 6-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Mockmill%20100%20Stone%20Mill%20360W.jpg,"https://randomtech.co.za/images/kitchen/Mockmill%20100%20Stone%20Mill%20360W%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Mockmill%20100%20Stone%20Mill%20360W%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Mockmill%20100%20Stone%20Mill%20360W%20%284%29.jpg",12500.00 ZAR,10999.00 ZAR,in_stock,new,Mockmill,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-110,KOMO Mio Stone Mill,"Austrian woodworking meets precision grain milling in the KOMO Mio Stone Mill. Combining solid beechwood craftsmanship with vibrant, modern housing accents, this 400W stone mill grinds 100 grams of superfine whole grain flour per minute.
+
+Key Highlights & Engineering Features:
+• 85mm Self-Sharpening Corundum-Ceramic Stones: Extremely durable millstones gently shear grains rather than crushing them, maintaining low flour temperatures to safeguard nutrients.
+• 400W Industrial Motor: Engineered in Austria for reliable, quiet performance when milling hard grains like corn, rice, chickpeas, and ancient wheat.
+• Sustainable Beechwood & Bio-Plastic Housing: Made from sustainably sourced Austrian beechwood and food-grade recyclable polymers.
+• Easy Coarseness Control: Simply rotate the hopper bowl to adjust between fine bread flour and coarse cracked grains.
+
+Ideal Applications:
+Home sourdough bakers, whole grain nutritionists, and design-conscious modern kitchens. Backed by 12-Year Komo Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/KOMO%20Mio%20Stone%20Mill.jpg,,13000.00 ZAR,11500.00 ZAR,in_stock,new,KOMO,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-111,Sana 929 Ultimate Juicer,"The Sana 929 Ultimate Juicer is the world's first vertical cold press juicer crafted entirely from solid 304 surgical stainless steel. Eliminating all plastic contact with your fresh juice, the juicing drum, auger, strainers, feed chute, and exterior body are forged from solid stainless steel.
+
+Key Highlights & Engineering Features:
+• 100% Solid 304 Stainless Steel Construction: Maximum hygiene, zero plastic taste, zero stain absorption, and lifetime structural durability.
+• Variable Speed Brushless DC Motor: Select between 40 RPM (for high-yield enzyme preservation) and 120 RPM (for rapid juicing speed).
+• Extra-Wide Dual Feed Chute: Features a spacious hopper flap for whole fruits and a dedicated vertical chute for long carrots and celery.
+• Dual Stainless Steel Strainers: Includes fine stainless screen for pure juice and coarse stainless screen for rich smoothies and fruit purees.
+
+Ideal Applications:
+Health purists, zero-plastic lifestyle advocates, medical spas, and high-end luxury wellness kitchens. Backed by 10-Year Motor & Lifetime Stainless Steel Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Sana%20929%20Ultimate.webp,"https://randomtech.co.za/images/kitchen/Sana%20929%20Ultimate%20%282%29.webp,https://randomtech.co.za/images/kitchen/Sana%20929%20Ultimate%20%283%29.webp,https://randomtech.co.za/images/kitchen/Sana%20929%20Ultimate%20%284%29.webp",15999.00 ZAR,13999.00 ZAR,in_stock,new,Sana,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-112,Kuto Food Dehydrator,"Preserve seasonal harvests, make delicious authentic biltong, dry herbs, and create healthy 100% fruit rolls at home with the Kuto Food Dehydrator. Crafted with a full stainless steel cabinet and digital touch controls, it provides professional dehydrating performance.
+
+Key Highlights & Engineering Features:
+• Rear-Mounted Horizontal Airflow Fan: Distributes heated air evenly across all trays, eliminating the need to manually rotate trays during drying.
+• Precision Digital Thermostat (35°C to 75°C): Allows exact temperature selection—low temperatures for living raw food enzymes and herbs, higher temperatures for safe biltong and jerky curing.
+• Food-Grade Stainless Steel Trays: Includes heavy-duty stainless mesh trays, solid drip tray, and fine mesh sheets for small berries and seeds.
+• 24-Hour Digital Timer: Auto-shutoff timer ensures precise dehydration cycles overnight without supervision.
+
+Ideal Applications:
+Homemade biltong curing, fruit rolls, dried herbs, pet treats, and raw food preparation. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Kuto%20Dehydrator.jpg,"https://randomtech.co.za/images/kitchen/Kuto%20Dehydrator%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Kuto%20Dehydrator%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Kuto%20Dehydrator%20%284%29.jpg",5800.00 ZAR,4999.00 ZAR,in_stock,new,Randomtech,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-113,Ezidri Ultra 10 Tray Dehydrator,"The Ezidri Ultra 10 Tray Dehydrator is New Zealand's legendary high-capacity food dehydrator, world-renowned for its patented 3D directed airflow system that dries foods uniformly across all trays without requiring tray rotation.
+
+Key Highlights & Engineering Features:
+• Patented 3D Heated Airflow System: Microprocessor controlled airflow is forced horizontally across each individual tray, ensuring equal drying from top to bottom.
+• Expandable Capacity up to 30 Trays: Supplied with 10 trays, but can expand up to 30 trays using add-on tray rings—dehydrating massive harvests in a single batch.
+• Microprocessor Temperature Control (30°C to 65°C): Provides pinpoint accuracy for raw food enzyme preservation, fruit roll drying, and biltong curing.
+• Complete Accessory Set: Includes solid flexible sheets for fruit leather/purées and mesh sheets for herbs and sticky fruits.
+
+Ideal Applications:
+Biltong enthusiasts, fruit orchard owners, large families, and commercial food preservation. Backed by 2-Year Ezidri Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Ezidri%20Ultra%2010%20Tray%20Dehydrator.jpg,"https://randomtech.co.za/images/kitchen/Ezidri%20Ultra%2010%20Tray%20Dehydrator%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Ezidri%20Ultra%2010%20Tray%20Dehydrator%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Ezidri%20Ultra%2010%20Tray%20Dehydrator%20%284%29.jpg",7200.00 ZAR,6499.00 ZAR,in_stock,new,Ezidri,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-114,Ezidri Dehydrator Ultra FD1000 5 Tray,"The Ezidri Dehydrator Ultra FD1000 5 Tray is an expanding, high-capacity food dehydrator built with New Zealand engineering precision to preserve fruits, vegetables, biltong, herbs, and mushrooms with maximum flavor and nutrient retention.
+
+Key Highlights & Engineering Features:
+• Advanced Microprocessor Air Flow: Heated air is driven through outer wall channels and across each tray evenly, preventing flavor transfer between different foods.
+• Expandable Design (5 up to 30 Trays): Start with the standard 5-tray setup and expand up to 30 trays as your harvest or biltong curing needs grow.
+• Digital Touch Control Panel: Set exact operating temperatures (30°C to 65°C) and digital timer up to 48 hours with automatic shutoff.
+• BPA-Free Food Grade Trays: High impact food-safe materials built to endure years of continuous dehydration cycles.
+
+Ideal Applications:
+Biltong making, fruit drying, herb drying, emergency food prep, and raw food diets. Backed by 2-Year Ezidri Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Ezidri%20Dehydrator%20Ultra%20FD1000%205%20Tray.jpg,"https://randomtech.co.za/images/kitchen/Ezidri%20Dehydrator%20Ultra%20FD1000%205%20Tray.webp,https://randomtech.co.za/images/kitchen/Ezidri%20Dehydrator%20Ultra%20FD1000%205%20Tray%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Ezidri%20Dehydrator%20Ultra%20FD1000%205%20Tray%20%283%29.jpg",4800.00 ZAR,4200.00 ZAR,in_stock,new,Ezidri,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-115,Cara CA3001 Benchtop Reverse Osmosis Water Station,"Instant hot, 100% pure Reverse Osmosis water at your fingertips—no plumbing or installation required! The Cara CA3001 Benchtop Reverse Osmosis Water Station is a premium countertop water purifier featuring 4-stage RO filtration and instant precision heating.
+
+Key Highlights & Engineering Features:
+• 4-Stage 0.0001 Micron RO Filtration: Removes 99.9% of fluoride, chlorine, heavy metals (lead, arsenic), microplastics, nitrates, bacteria, viruses, and dissolved solids (TDS).
+• Built-In UV-C LED Sterilization: Automatically sterilizes the internal stainless steel water reservoir every hour, preventing secondary bacterial growth.
+• Instant Precision Hot Water Dispenser: Select custom water temperatures instantly (45°C baby formula, 85°C green tea, 95°C coffee/ramen) in 3 seconds.
+• Digital TDS Quality Monitor: Color-coded real-time TDS display shows incoming and purified water quality instantly on the front panel.
+
+Ideal Applications:
+Rented apartments, home kitchens, office coffee stations, and nurseries needing pure water without plumbing modifications. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Cara%20CA3001%20Benchtop%20Reverse%20Osmosis%20Water%20Station.jpg,"https://randomtech.co.za/images/kitchen/Cara%20CA3001%20Benchtop%20Reverse%20Osmosis%20Water%20Station%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Cara%20CA3001%20Benchtop%20Reverse%20Osmosis%20Water%20Station%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Cara%20CA3001%20Benchtop%20Reverse%20Osmosis%20Water%20Station%20%284%29.jpg",8999.00 ZAR,7999.00 ZAR,in_stock,new,Cara,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-116,Cara CA2901 Benchtop Reverse Osmosis Water Station,"The Cara CA2901 Benchtop Reverse Osmosis Water Station provides pure, filtered drinking water on demand with zero installation hassle. Simply plug it into any wall outlet, fill the removable water tank, and enjoy purified RO water instantly.
+
+Key Highlights & Engineering Features:
+• Multi-Stage RO Purification: Removes toxic heavy metals, chlorine, pesticides, microplastics, scale, and unpleasant odors for crisp, refreshing water taste.
+• Instant Multi-Temperature Dispensing: Delivers room temperature, warm, and boiling water in seconds at the touch of a button.
+• Removable 4L Water Tank: Easy to refill at the sink and clean; features an integrated handle for effortless transport.
+• Compact Sleek Footprint: Fits neatly under standard overhead kitchen cabinets without taking up valuable counter space.
+
+Ideal Applications:
+Home kitchens, executive office desks, dorm rooms, and rented properties. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Cara%20CA2901%20Benchtop%20Reverse%20Osmosis%20Water%20Station.jpg,"https://randomtech.co.za/images/kitchen/Cara%20CA2901%20Benchtop%20Reverse%20Osmosis%20Water%20Station%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Cara%20CA2901%20Benchtop%20Reverse%20Osmosis%20Water%20Station%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Cara%20CA2901%20Benchtop%20Reverse%20Osmosis%20Water%20Station%20%284%29.jpg",7800.00 ZAR,6999.00 ZAR,in_stock,new,Cara,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-117,Waterwise 4000 Water Distiller,"The Waterwise 4000 Water Distiller is the ultimate gold standard in pure water creation. Utilizing nature's own hydrologic cycle—steam distillation—it heats tap water to 100°C, leaving behind heavy metals, nitrates, dissolved solids, bacteria, viruses, and chemicals, and condenses 100% pure steam water into a glass carafe.
+
+Key Highlights & Engineering Features:
+• 100% Pure Steam Distillation: Removes up to 99.99% of all inorganic minerals, heavy metals, microplastics, fluoride, chlorine, and biological pathogens.
+• Heavy-Duty Stainless Steel Boiling Chamber: Seamless grade 304 stainless steel interior chamber ensures zero chemical contact during boiling.
+• Collector Glass Carafe: Collects pure distilled water directly into an ergonomic glass carafe with pour spout, preventing plastic leaching.
+• Automatic Safety Shut-Off: Automatically turns off at the end of each 3.8-litre distillation cycle for safe overnight operation.
+
+Ideal Applications:
+Detoxification diets, medical CPAP humidifiers, laboratory use, baby formula preparation, and pure drinking water purists. Backed by 1-Year Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Waterwise%204000%20Water%20Distiller.jpg,https://randomtech.co.za/images/kitchen/Waterwise%204000%20Water%20Distiller.png,6500.00 ZAR,5999.00 ZAR,in_stock,new,Randomtech,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-118,Kuvings CB850 Commercial Blender,"The Kuvings CB850 Commercial Blender is a heavy-duty professional blender engineered for high-volume commercial cafes, juice bars, restaurants, and cocktail lounges. Powered by a 3.5 Peak HP (2200W) motor running at up to 32,000 RPM, it pulverizes frozen fruit, ice, and fibrous greens in seconds.
+
+Key Highlights & Engineering Features:
+• Motorized Auto-Sound Enclosure Hood: Thick soundproofing hood reduces blending noise by up to 80%, keeping cafe and bar environments peaceful for customers.
+• 5 Pre-Programmed One-Touch Cycles: Touch buttons automatically execute speed and pulse ramps for smooth acai bowls, frozen cocktails, nut milks, and crushed ice.
+• 3D 6-Leaf Stainless Blades: Laser-cut Japanese stainless steel blades pull ingredients downward into a high-vortex vortex for silky smooth texture.
+• Heavy-Duty Commercial Motor: Engineered with high-torque copper windings and cooling fan for continuous back-to-back blending.
+
+Ideal Applications:
+Commercial coffee shops, juice bars, hotel bars, and high-end home kitchens demanding restaurant power. Backed by 3-Year Commercial Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Kuvings%20CB850%20Commercial%20Blender.png,"https://randomtech.co.za/images/kitchen/Kuvings%20CB850%20Commercial%20Blender.webp,https://randomtech.co.za/images/kitchen/Kuvings%20CB850%20Commercial%20Blender%20%282%29.png,https://randomtech.co.za/images/kitchen/Kuvings%20CB850%20Commercial%20Blender%20%283%29.png,https://randomtech.co.za/images/kitchen/Kuvings%20CB850%20Commercial%20Blender%20%284%29.png",11500.00 ZAR,9999.00 ZAR,in_stock,new,Kuvings,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-119,Vitamix Vita-Prep 3 Commercial Blender,"The Vitamix Vita-Prep 3 Commercial Blender is the undisputed industry standard for professional chefs, commercial culinary kitchens, and high-end nutritionists worldwide. Powered by a re-engineered 4.2 peak output HP motor, it delivers unmatched power to process dense, stubborn ingredients.
+
+Key Highlights & Engineering Features:
+• 4.2 Peak Output HP Commercial Motor: Unstoppable crushing force easily pulverizes whole root vegetables, frozen fruits, nut butter, and thick purees without thermal stall.
+• Variable Speed Control Dial: Precision manual dial allows fine speed adjustments—from gentle chopping of delicate herbs to high-speed micro-emulsification.
+• High-Impact 2-Litre Container: BPA-free shatterproof Tritan container designed to create a continuous vortex that forces ingredients through the laser-cut blades.
+• Advanced Motor Cooling Fan: High-capacity thermal fan prevents overheating during continuous commercial dinner service preparation.
+
+Ideal Applications:
+Commercial restaurant kitchens, culinary schools, catering companies, and serious home chefs. Backed by 3-Year Commercial Vitamix Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Vitamix%20Vita-Prep%203%20Commercial%20Blender.jpg,"https://randomtech.co.za/images/kitchen/Vitamix%20Vita-Prep%203%20Commercial%20Blender%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Vitamix%20Vita-Prep%203%20Commercial%20Blender%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Vitamix%20Vita-Prep%203%20Commercial%20Blender%20%284%29.jpg",16999.00 ZAR,14999.00 ZAR,in_stock,new,Vitamix,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-120,OmniBlend V Super Blender – 1.5L,"The OmniBlend V Super Blender – 1.5L is a heavy-duty commercial power blender designed to offer industrial blending performance at half the price of legacy commercial brands. Powered by a heavy-duty 3HP 2238W motor, it effortlessly crushes ice, frozen fruit, nuts, and seeds.
+
+Key Highlights & Engineering Features:
+• 3HP 2238W Commercial Motor: Delivers up to 38,000 RPM blade speed to break down cell walls and unlock maximum bio-available nutrients from fruits and vegetables.
+• 3 Pre-Programmed Timer Buttons: 35-second, 60-second, and 90-second automatic cycle buttons allow staff to start blending and walk away to serve customers.
+• 6 Precision Japanese Stainless Steel Blades: Multi-angled blade assembly designed for both wet liquid blending and dry grain milling.
+• 1.5L Shatterproof Tritan Container: BPA-free heavy-duty jar resistant to chemical staining and impacts.
+
+Ideal Applications:
+Cafes, smoothie bars, gym juice counters, and home kitchens needing high power. Backed by 3-Year Motor Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/OmniBlend%20V%20Super%20Blender%20%E2%80%93%201.5L.jpg,"https://randomtech.co.za/images/kitchen/OmniBlend%20V%20Super%20Blender%20%E2%80%93%201.5L%20%282%29.jpg,https://randomtech.co.za/images/kitchen/OmniBlend%20V%20Super%20Blender%20%E2%80%93%201.5L%20%283%29.jpg,https://randomtech.co.za/images/kitchen/OmniBlend%20V%20Super%20Blender%20%E2%80%93%201.5L%20%284%29.jpg",4500.00 ZAR,3999.00 ZAR,in_stock,new,OmniBlend,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-121,OmniBlend I – 2 Litre Blender Narrow Base,"The OmniBlend I – 2 Litre Blender Narrow Base is a versatile commercial blender featuring a tall 2-litre narrow-bottom container engineered to maximize vortex suction for dense ingredients, thick nut butters, hot soups, and frozen smoothies.
+
+Key Highlights & Engineering Features:
+• High-Torque 3HP Commercial Motor: Delivers high crushing power with manual variable speed control dial and instant pulse toggle switch.
+• 2-Litre Narrow Base Container: Specially contoured narrow base accelerates ingredient recirculation through the blades, eliminating air pockets in thick purees.
+• Precision Japanese Stainless Blades: Multi-purpose 6-blade stainless assembly handles both liquid smoothies and dry seed grinding.
+• Overload Thermal Protection: Built-in reset switch protects motor from thermal overload during heavy continuous operation.
+
+Ideal Applications:
+Commercial kitchens, juice bars, soup counters, and health-conscious home kitchens. Backed by 3-Year Motor Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/OmniBlend%20I%20%E2%80%93%202%20Litre%20Blender%20Narrow%20Base.jpg,"https://randomtech.co.za/images/kitchen/OmniBlend%20I%20%E2%80%93%202%20Litre%20Blender%20Narrow%20Base%20%282%29.jpg,https://randomtech.co.za/images/kitchen/OmniBlend%20I%20%E2%80%93%202%20Litre%20Blender%20Narrow%20Base%20%283%29.jpg,https://randomtech.co.za/images/kitchen/OmniBlend%20I%20%E2%80%93%202%20Litre%20Blender%20Narrow%20Base%20%284%29.jpg",4200.00 ZAR,3699.00 ZAR,in_stock,new,OmniBlend,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-122,Kuvings CB1000 Commercial Vacuum Blender,"The Kuvings CB1000 Commercial Vacuum Blender is the world's first commercial auto-open vacuum blender, engineered to deliver ultra-smooth, oxidation-free smoothies and juices for premium cafes and juice bars.
+
+Key Highlights & Engineering Features:
+• Auto-Vacuum Technology: Draws out air from the blending container prior to blending at 37,000 RPM, preventing oxidation, discoloration, layer separation, and foam.
+• Motorized Auto-Open Sound Enclosure: Sound enclosure opens and closes automatically at the touch of a button, dramatically speeding up service workflow.
+• 37,000 RPM Ultra High Speed: Pulverizes fibrous kale, ginger, seeds, and frozen fruit into a velvety smooth texture with vibrant fresh color.
+• 35 Pre-Programmed Settings: Easily customized for fast one-touch operation by cafe staff.
+
+Ideal Applications:
+Premium commercial juice bars, luxury hotel cafes, and health resorts serving antioxidant-rich smoothies. Backed by 3-Year Commercial Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Kuvings%20CB1000%20Commercial%20Vacuum%20Blender.webp,"https://randomtech.co.za/images/kitchen/Kuvings%20CB1000%20Commercial%20Vacuum%20Blender%20%282%29.webp,https://randomtech.co.za/images/kitchen/Kuvings%20CB1000%20Commercial%20Vacuum%20Blender%20%283%29.webp",12999.00 ZAR,11500.00 ZAR,in_stock,new,Kuvings,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-123,Microgarden Electric Kitchen Composter,"Transform food scraps and kitchen waste into nutrient-rich organic compost overnight with the Microgarden Electric Kitchen Composter. This odorless, eco-friendly electric composter reduces household waste volume by up to 90% in just 4 to 8 hours.
+
+Key Highlights & Engineering Features:
+• 3-Step High-Heat Drying & Grinding: Heats, sterilizes, and grinds vegetable peels, coffee grounds, eggshells, cooked meat scraps, and fruit pits into dry, odorless organic soil amendment.
+• Dual Activated Carbon Filters: Traps and neutralizes 100% of food odors during processing, keeping your kitchen smelling fresh.
+• 90% Waste Volume Reduction: Converts bulky wet food scraps into dry, nutrient-rich garden fertilizer for indoor pots or outdoor garden beds.
+• Quiet & Energy-Efficient: Operates quietly with minimal power consumption—costing only cents per cycle.
+
+Ideal Applications:
+Modern eco-friendly homes, apartment dwellers, indoor gardeners, and zero-waste households. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/Microgarden%20Electric%20Kitchen%20Composter.jpg,"https://randomtech.co.za/images/kitchen/Microgarden%20Electric%20Kitchen%20Composter%20%282%29.jpg,https://randomtech.co.za/images/kitchen/Microgarden%20Electric%20Kitchen%20Composter%20%283%29.jpg,https://randomtech.co.za/images/kitchen/Microgarden%20Electric%20Kitchen%20Composter%20%284%29.jpg",7999.00 ZAR,6999.00 ZAR,in_stock,new,Randomtech,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-124,The Fermenta Fermentation Crock Pot 2Lt,"The Fermenta Fermentation Crock Pot 2Lt is an artisanal glazed stoneware fermenting vessel designed for traditional probiotic food fermentation at home. Equipped with a traditional water seal moat and ceramic weighting stones, it creates an ideal anaerobic environment.
+
+Key Highlights & Engineering Features:
+• Traditional Water Seal Lid: Pouring water into the rim moat creates a 100% airtight seal that allows fermentation gasses to escape while blocking oxygen, mold, and fruit flies.
+• Includes Heavy Ceramic Weighting Stones: Keeps vegetables fully submerged beneath the brine throughout the fermenting process, preventing spoilage.
+• Non-Toxic Glazed Lead-Free Ceramic: High-fired ceramic crock will not react with acidic salt brines or leach harmful chemicals.
+• Probiotic Gut Health Creation: Craft delicious probiotic-rich sauerkraut, kimchi, fermented pickles, hot sauces, and cultured vegetables at home.
+
+Ideal Applications:
+Gut health advocates, sourdough & fermentation enthusiasts, and home cooks. Backed by Lifetime Quality Guarantee.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/The%20Fermenta%20Fermentation%20Crock%20Pot%202Lt.png,,950.00 ZAR,850.00 ZAR,in_stock,new,Randomtech,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-125,OzoMed Air & Water Purifier,"The OzoMed Air & Water Purifier is a medical-grade dual-purpose ozone generator emitting 600mg/h of activated oxygen (O3) to sanitize drinking water, sanitize fresh produce, and purify indoor ambient air.
+
+Key Highlights & Engineering Features:
+• 600mg/h Medical Ozone Output: Neutralizes 99.9% of bacteria, viruses, pesticides, wax coatings, and chemical residues on fruits, vegetables, and meat.
+• Water Ozonation Diffuser Stones: Includes silicone tubing and micro-bubble diffuser stones to ozonate drinking water, facial rinse water, and bath water.
+• Air Purification & Odor Elimination: Destroys stubborn room odors, tobacco smoke, pet smells, mold spores, and airborne pathogens in enclosed spaces.
+• Built-In Digital Countdown Timer: Set exact 5 to 60 minute treatment cycles for automated shutoff.
+
+Ideal Applications:
+Sanitizing fresh produce, purifying drinking water, facial skin treatments, and room odor removal. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/kitchen/OzoMed%20Air%20%26%20Water%20Purifier.jpg,"https://randomtech.co.za/images/kitchen/OzoMed%20Air%20%26%20Water%20Purifier%20%282%29.jpg,https://randomtech.co.za/images/kitchen/OzoMed%20Air%20%26%20Water%20Purifier%20%283%29.jpg",3999.00 ZAR,3499.00 ZAR,in_stock,new,Randomtech,Home & Garden > Household Appliances > Small Kitchen Appliances > Juicers,Kitchen,no
+TSH-201,Photizo Flexible LED Light Therapy Pad V2 (Large),"The Photizo Flexible LED Light Therapy Pad V2 (Large) delivers clinical-grade photobiomodulation in a highly flexible, contouring pad design. Emitting targeted 630nm red light and 850nm near-infrared (NIR) light, it penetrates deep into muscle tissue, joints, and bones to accelerate natural cellular repair.
+
+Key Highlights & Engineering Features:
+• Dual-Wavelength Red & NIR Spectrum (630nm / 850nm): Red light targets dermal healing, while near-infrared light penetrates up to 5cm deep to relieve deep joint inflammation and muscle tears.
+• Flexible Contouring Design: Wraps comfortably around lower back, knees, shoulders, thighs, and neck for maximum light absorption.
+• Automated Pre-Programmed Doses: Delivers clinically validated power density doses at the press of a button before auto-shutting off.
+• Accelerates ATP Cellular Energy: Stimulates mitochondrial ATP production, boosting micro-circulation and speeding up recovery from sports injuries, arthritis, and surgery.
+
+Ideal Applications:
+Chronic back pain, joint stiffness, athletic injury rehabilitation, post-surgery recovery, and equine/pet therapy. Backed by Official Photizo Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Photizo%20Flexible%20LED%20Light%20Therapy%20Pad%20V2%20%E2%80%93%20Large.png,"https://randomtech.co.za/images/wellness/Photizo%20Flexible%20LED%20Light%20Therapy%20Pad%20V2%20%E2%80%93%20Large.webp,https://randomtech.co.za/images/wellness/Photizo%20Flexible%20LED%20Light%20Therapy%20Pad%20V2%20%E2%80%93%20Large%20%282%29.png,https://randomtech.co.za/images/wellness/Photizo%20Flexible%20LED%20Light%20Therapy%20Pad%20V2%20%E2%80%93%20Large%20%282%29.webp",7800.00 ZAR,6999.00 ZAR,in_stock,new,Photizo,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-202,Photizo Sport LED Light Therapy Device,"The Photizo Sport LED Light Therapy Device is a pre-programmed non-invasive red light therapy device engineered specifically for athletes, runners, crossfitters, and active individuals seeking rapid sports injury recovery.
+
+Key Highlights & Engineering Features:
+• 31-Second Pre-Programmed Treatment Doses: Delivers precise joules of red (633nm) and near-infrared (850nm) light energy per dose to fast-track tissue healing.
+• High Optical Power Density: Reaches deep muscle beds, tendons, and ligaments to clear lactic acid, reduce inflammation, and heal strain injuries.
+• Handheld & Rechargeable: Portable, lightweight design with built-in rechargeable battery for easy use at the gym, field, or home.
+• Non-Invasive Pain Relief: Reduces reliance on anti-inflammatory painkillers by stimulating natural collagen synthesis and cellular repair.
+
+Ideal Applications:
+Tendonitis, runner's knee, sprains, muscle tears, shin splints, and joint swelling. Backed by Official Photizo Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Photizo%20Sport.webp,"https://randomtech.co.za/images/wellness/Photizo%20Sport%20%282%29.webp,https://randomtech.co.za/images/wellness/Photizo%20Sport%20%283%29.webp",5999.00 ZAR,5499.00 ZAR,in_stock,new,Photizo,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-203,Photizo Skincare LED Light Therapy,"The Photizo Skincare LED Light Therapy device is a specialized phototherapy tool designed to rejuvenate skin, stimulate natural dermal collagen production, and treat chronic skin conditions non-invasively.
+
+Key Highlights & Engineering Features:
+• Targeted Collagen Stimulation: 633nm red light spectrum stimulates dermal fibroblasts, boosting collagen and elastin to firm skin and smooth fine lines.
+• Accelerates Wound & Scar Healing: Fast-tracks healing of eczema patches, psoriasis, acne scars, cold sores, insect bites, and minor burns.
+• Pre-Programmed One-Touch Dose: Automatically measures exact light dosage for safe, effective skin treatment without danger of burning.
+• Compact Ergonomic Handheld: Designed for comfortable facial and full-body application.
+
+Ideal Applications:
+Anti-aging skin firming, eczema and psoriasis management, acne scar reduction, and wound healing. Backed by Official Photizo Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Photizo%20Skincare.webp,"https://randomtech.co.za/images/wellness/Photizo%20Skincare%20%282%29.webp,https://randomtech.co.za/images/wellness/Photizo%20Skincare%20%283%29.webp,https://randomtech.co.za/images/wellness/Photizo%20Skincare%20%284%29.webp",5399.00 ZAR,4899.00 ZAR,in_stock,new,Photizo,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-204,Photizo Blush LED Light Therapy,"The Photizo Blush LED Light Therapy wand is a dedicated cosmetic red light therapy device designed to restore facial luminosity, tighten sagging skin, reduce under-eye dark circles, and combat premature skin aging.
+
+Key Highlights & Engineering Features:
+• Non-Invasive Facial Rejuvenation: Red light photobiomodulation boosts micro-circulation to facial capillaries, restoring youthful radiance and elasticity.
+• Reduces Fine Lines & Wrinkles: Stimulates natural collagen synthesis to smooth crow's feet, forehead lines, and nasolabial folds.
+• Safe & painless: Zero UV radiation, zero downtime, and zero chemical irritants—suitable for all skin types.
+• Simple 31-Second Spot Treatments: Easy daily routine that takes only minutes per session.
+
+Ideal Applications:
+Daily anti-aging cosmetic routine, reducing facial inflammation, and boosting skin glow. Backed by Official Photizo Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Photizo%20Blush.webp,"https://randomtech.co.za/images/wellness/Photizo%20Blush%20%282%29.webp,https://randomtech.co.za/images/wellness/Photizo%20Blush%20%283%29.webp,https://randomtech.co.za/images/wellness/Photizo%20Blush%20%284%29.webp,https://randomtech.co.za/images/wellness/Photizo%20Blush%20%285%29.webp",5199.00 ZAR,4699.00 ZAR,in_stock,new,Photizo,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-205,Photizo Pain Relief LED Light Therapy,"Target acute and chronic pain non-invasively with the Photizo Pain Relief LED Light Therapy device. Designed for chronic pain sufferers, it delivers pre-programmed red and near-infrared light doses deep into painful joints, nerves, and spinal discs.
+
+Key Highlights & Engineering Features:
+• Clinically Validated Light Doses: Combines 633nm red light and 850nm near-infrared light to stimulate endorphin release and reduce nerve pain signals.
+• Deep Penetration for Joint & Spine Pain: NIR light reaches deep tissue structures to decrease swelling in osteoarthritis, sciatica, and chronic backaches.
+• 31-Second Automated Operation: Press against the affected area; automatically delivers the correct therapeutic dose and turns off.
+• Drug-Free Pain Management: Provides lasting pain relief without pharmaceutical side effects or stomach irritation.
+
+Ideal Applications:
+Osteoarthritis, sciatica, neck pain, chronic lower back ache, fibromyalgia, and joint stiffness. Backed by Official Photizo Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Photizo%20Pain%20Relief%20LED%20Light%20Therapy.webp,"https://randomtech.co.za/images/wellness/Photizo%20Pain%20Relief%20LED%20Light%20Therapy%20%282%29.webp,https://randomtech.co.za/images/wellness/Photizo%20Pain%20Relief%20LED%20Light%20Therapy%20%283%29.webp,https://randomtech.co.za/images/wellness/Photizo%20Pain%20Relief%20LED%20Light%20Therapy%20%284%29.webp",5800.00 ZAR,5299.00 ZAR,in_stock,new,Photizo,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-206,Ozone Spa Bath – Bubble Bath Massager,"Turn your home bathtub into an invigorating ozone hydrotherapy spa with the Ozone Spa Bath Massager. Combining a soft, flexible thermal bubble mat with an external air pump unit and ozone generator, it floods your bath with millions of heated ozone-enriched bubbles.
+
+Key Highlights & Engineering Features:
+• Heated Ozone Bubble Massage: Generates warm, oxygenated ozone bubbles that open skin pores, improve peripheral blood circulation, and soothe sore muscles.
+• Soft Flexible Thermal Mat: Lays comfortably along the bottom of any standard bathtub, anchored by non-slip suction cups.
+• Variable Massage Intensity & Timer: Control bubble massage speed, heat temperature, and ozone output using the included wireless remote control.
+• Detoxification & Pore Cleansing: Ozone (O3) neutralizes skin bacteria, accelerates body detoxification, and leaves skin feeling deeply refreshed.
+
+Ideal Applications:
+Muscle soreness relief, arthritis joint therapy, stress relaxation, and home spa wellness. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Ozone%20Spa%20Bath%20%E2%80%93%20Bubble%20Bath%20Massager.jpg,"https://randomtech.co.za/images/wellness/Ozone%20Spa%20Bath%20%E2%80%93%20Bubble%20Bath%20Massager%20%282%29.jpg,https://randomtech.co.za/images/wellness/Ozone%20Spa%20Bath%20%E2%80%93%20Bubble%20Bath%20Massager%20%283%29.jpg,https://randomtech.co.za/images/wellness/Ozone%20Spa%20Bath%20%E2%80%93%20Bubble%20Bath%20Massager%20%284%29.jpg",4999.00 ZAR,4500.00 ZAR,in_stock,new,Randomtech,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-207,Ozone Health Spa Bath,"The Ozone Health Spa Bath is a therapeutic hydro-ozone bath massager designed to deliver deep tissue relaxation, lymphatic drainage stimulation, and skin detoxification in the comfort of your home bath.
+
+Key Highlights & Engineering Features:
+• High-Output Oxygen & Ozone Bubbles: Floods bathwater with active ozone to stimulate oxygen delivery to tired body tissues and accelerate recovery.
+• Full-Body Massage Mat: Flexible, contouring bath mat fits all standard bathtubs and delivers full-length bubble coverage from feet to shoulders.
+• Wireless Remote Control: Effortlessly adjust bubble intensity, heating function, and treatment timer while relaxing in the bath.
+• Relieves Joint & Muscle Tension: Warm ozone hydrotherapy calms nervous system tension and eases aching joints.
+
+Ideal Applications:
+Athletic muscle recovery, stress relief, skin detoxification, and chronic joint pain therapy. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Ozone%20Health%20Spa%20Bath.jpg,"https://randomtech.co.za/images/wellness/Ozone%20Health%20Spa%20Bath.webp,https://randomtech.co.za/images/wellness/Ozone%20Health%20Spa%20Bath%20%282%29.jpg,https://randomtech.co.za/images/wellness/Ozone%20Health%20Spa%20Bath%20%283%29.jpg",4700.00 ZAR,4200.00 ZAR,in_stock,new,Randomtech,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-208,GMC Large H13 HEPA Air Purifier – GMCAP500,"The GMC Large H13 HEPA Air Purifier (GMCAP500) is a commercial-grade room air purification unit engineered to clean air across large spaces up to 60m², featuring an outstanding CADR rating of 500m³/h.
+
+Key Highlights & Engineering Features:
+• 4-Stage Advanced Filtration: Combines Washable Pre-filter, Medical Grade True H13 HEPA Filter, Activated Carbon Filter, and UV-C Light Sterilization.
+• Captures 99.97% of Airborne Particles: Filters down to 0.3 microns—eliminating smoke, dust mites, pet dander, pollen, mold spores, and viral pathogens.
+• Real-Time PM2.5 Air Quality Sensor: Color-coded digital display shows live particulate air quality readings and automatically adjusts fan speed in Auto Mode.
+• Ultra-Quiet Sleep Mode: Runs silently at low speed with dimmable control lights for undisturbed night sleep.
+
+Ideal Applications:
+Large open-plan living rooms, medical waiting rooms, executive offices, and bedrooms. Backed by 2-Year GMC Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/GMC%20Large%20H13%20HEPA%20Air%20Purifier%20%E2%80%93%20GMCAP500.jpg,"https://randomtech.co.za/images/wellness/GMC%20Large%20H13%20HEPA%20Air%20Purifier%20%E2%80%93%20GMCAP500%20%282%29.jpg,https://randomtech.co.za/images/wellness/GMC%20Large%20H13%20HEPA%20Air%20Purifier%20%E2%80%93%20GMCAP500%20%283%29.jpg,https://randomtech.co.za/images/wellness/GMC%20Large%20H13%20HEPA%20Air%20Purifier%20%E2%80%93%20GMCAP500%20%284%29.jpg",5500.00 ZAR,4999.00 ZAR,in_stock,new,GMC,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-209,MeacoDry Arete One 12L Dehumidifier & Air Purifier,"The MeacoDry Arete One 12L Dehumidifier & Air Purifier is British engineering at its finest—an award-winning, whisper-quiet 12-Litre dehumidifier combined with a medical-grade H13 HEPA air purifier designed specifically for bedrooms and home living spaces.
+
+Key Highlights & Engineering Features:
+• Ultra-Quiet 35dB Operation: Unmatched quiet performance, allowing you to run the unit right next to your bed without interrupting sleep.
+• Dual Functionality (Dehumidifier + HEPA Purifier): Extracts up to 12 litres of excess moisture daily while continuously filtering dust, pollen, and allergens with a True H13 HEPA filter.
+• Smart Humidistat Control: One-touch Smart Humidity button automatically maintains healthy 55% indoor relative humidity while minimizing power consumption (151W).
+• Smart Laundry Drying Mode: Quickly dries laundry indoors without damp odors, saving expensive tumble dryer electricity.
+
+Ideal Applications:
+Bedrooms, nurseries, damp-prone homes, asthma and allergy sufferers, and indoor clothes drying. Backed by 2-Year British Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/MeacoDry%20Arete%20One%2012L%20Dehumidifier%20%20Air%20Purifier.jpg,"https://randomtech.co.za/images/wellness/MeacoDry%20Arete%20One%2012L%20Dehumidifier%20%20Air%20Purifier%202.jpg,https://randomtech.co.za/images/wellness/MeacoDry%20Arete%20One%2012L%20Dehumidifier%20%20Air%20Purifier.png,https://randomtech.co.za/images/wellness/MeacoDry%20Arete%20One%2012L%20Dehumidifier%20%20Air%20Purifier%20%282%29.png,https://randomtech.co.za/images/wellness/MeacoDry%20Arete%20One%2012L%20Dehumidifier%20%20Air%20Purifier%20%283%29.png",8500.00 ZAR,6999.00 ZAR,in_stock,new,MeacoDry,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-210,MeacoDry Arete Two 12L Dual Dehumidifier & HEPA Purifier,"The MeacoDry Arete Two 12L Dual Dehumidifier & HEPA Purifier brings smart Wi-Fi connectivity and high-efficiency moisture removal into your home. Featuring smartphone app control and voice assistant integration, managing indoor air quality is seamless.
+
+Key Highlights & Engineering Features:
+• Smartphone Wi-Fi App Control: Monitor room humidity levels, change target settings, set schedules, and switch modes remotely from your phone or via Google/Alexa.
+• Premium H13 HEPA Air Purification: Cleans indoor air year-round, capturing 99.97% of airborne allergens, mold spores, dust, and pet dander.
+• Ultra-Low Energy DC Motor: Engineered for maximum energy efficiency, consuming only fractions of the electricity used by older compressor dehumidifiers.
+• Digital Target Display Controls: Clear digital display panel showing ambient relative humidity and current operating mode.
+
+Ideal Applications:
+Smart homes, bedrooms, apartments, damp prevention, and allergy relief. Backed by 2-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/MeacoDry%20Arete%C2%AE%20Two%2012L%20Dual%20Dehumidifier%20and%20HEPA%20Air%20Purifier%20%E2%80%93%20Wi-Fi%20Enabled%2C%20Quiet%2C%20and%20Compact.jpg,"https://randomtech.co.za/images/wellness/MeacoDry%20Arete%C2%AE%20Two%2012L%20Dual%20Dehumidifier%20and%20HEPA%20Air%20Purifier%20%E2%80%93%20Wi-Fi%20Enabled%2C%20Quiet%2C%20and%20Compact.webp,https://randomtech.co.za/images/wellness/MeacoDry%20Arete%C2%AE%20Two%2012L%20Dual%20Dehumidifier%20and%20HEPA%20Air%20Purifier%20%E2%80%93%20Wi-Fi%20Enabled%2C%20Quiet%2C%20and%20Compact%20%282%29.webp,https://randomtech.co.za/images/wellness/MeacoDry%20Arete%C2%AE%20Two%2012L%20Dual%20Dehumidifier%20and%20HEPA%20Air%20Purifier%20%E2%80%93%20Wi-Fi%20Enabled%2C%20Quiet%2C%20and%20Compact%20%283%29.webp",6999.00 ZAR,6699.00 ZAR,in_stock,new,MeacoDry,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-211,Daikin MC55W Air Purifier,"The Daikin MC55W Air Purifier is a high-performance Japanese air treatment unit featuring Daikin's patented Flash Streamer discharge technology and an electrostatic True HEPA filter designed to purify spaces up to 41m².
+
+Key Highlights & Engineering Features:
+• Patented Flash Streamer Technology: Emits high-speed electrons that decompose 99.9% of viruses, bacteria, hazardous chemicals, mold spores, and stubborn odors on contact.
+• Long-Life Electrostatic HEPA Filter: High-efficiency filter holds electrostatic charge to trap dust and allergens without clogging—lasting up to 10 years without filter replacement!
+• Whisper-Quiet Operation (19dB): Uses Daikin's innovative compact fan architecture to run virtually silently on Quiet mode.
+• Triple Air Sensor: Continuously monitors dust, PM2.5 particulates, and ambient room odors, automatically adjusting air intake speed.
+
+Ideal Applications:
+Bedrooms, nurseries, living rooms, medical consultation rooms, and allergy/asthma relief. Backed by 3-Year Daikin Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Daikin%20MC55W%20Air%20Purifier.jpg,"https://randomtech.co.za/images/wellness/Daikin%20MC55W%20Air%20Purifier.png,https://randomtech.co.za/images/wellness/Daikin%20MC55W%20Air%20Purifier.webp,https://randomtech.co.za/images/wellness/Daikin%20MC55W%20Air%20Purifier%20%282%29.jpg",7899.00 ZAR,6999.00 ZAR,in_stock,new,Daikin,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-212,Red Light Therapy Panel – 1200W Full Body – NeuroActive,"Experience full-body clinical photobiomodulation at home with the Red Light Therapy Panel 1200W Full Body by NeuroActive. Emitting 1200W of dual-chip 660nm red light and 850nm near-infrared light, it delivers high irradiance for deep cellular rejuvenation.
+
+Key Highlights & Engineering Features:
+• High Irradiance (>100mW/cm² at 15cm): Delivers deep optical penetration, driving cellular ATP energy production in mitochondria for rapid systemic healing.
+• Zero-Flicker & Low EMF Output: Engineered with advanced power drivers to ensure zero optical flicker and minimal electromagnetic field exposure.
+• Independent Dual Spectrum Switches: Control 660nm red light (for collagen, skin glow, and surface healing) and 850nm near-infrared light (for deep muscle, joint, and brain health) independently.
+• Modular Hanging & Floor Stand System: Includes heavy-duty door hanging kit and pulley system for easy height positioning.
+
+Ideal Applications:
+Full-body anti-aging, athletic recovery, muscle rebuilding, joint inflammation reduction, and improved sleep quality. Backed by 2-Year NeuroActive Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Red%20Light%20Therapy%20Panel%20%E2%80%93%201200W%20Full%20Body%20%E2%80%93%20NeuroActive.webp,"https://randomtech.co.za/images/wellness/neuroactive-red-light-therapy-panel-1200w-full-body-in-use.webp,https://randomtech.co.za/images/wellness/Red%20Light%20Therapy%20Panel%20%E2%80%93%201200W%20Full%20Body%20%E2%80%93%20NeuroActive%20%282%29.webp,https://randomtech.co.za/images/wellness/Red%20Light%20Therapy%20Panel%20%E2%80%93%201200W%20Full%20Body%20%E2%80%93%20NeuroActive%20%283%29.webp",14500.00 ZAR,13050.00 ZAR,in_stock,new,NeuroActive,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-213,Red Light Therapy Panel – 300W – NeuroActive,"The Red Light Therapy Panel 300W by NeuroActive is a high-power targeted photobiomodulation panel designed for facial anti-aging, thyroid stimulation, joint pain relief, and localized athletic recovery.
+
+Key Highlights & Engineering Features:
+• Dual-Chip 660nm Red & 850nm Near-Infrared LEDs: Delivers optical power density focused by 30-degree precision optical lenses for deep tissue penetration.
+• Digital Countdown Timer: Built-in LCD timer allows exact 5 to 20 minute light therapy session programming.
+• Low EMF & Ultra-Quiet Cooling: Heavy-duty aluminum housing with whisper-quiet internal cooling fans for long lifespan.
+• Compact Desktop & Wall Mount: Fits on desks, nightstands, or hangs on doors for targeted daily light sessions.
+
+Ideal Applications:
+Facial skin rejuvenation, thyroid health support, knee/shoulder joint relief, and targeted muscle recovery. Backed by 2-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Red%20Light%20Therapy%20Panel%20%E2%80%93%20300W%20%E2%80%93%20NeuroActive.webp,"https://randomtech.co.za/images/wellness/Red%20Light%20Therapy%20Panel%20%E2%80%93%20300W%20%E2%80%93%20NeuroActive%20%282%29.webp,https://randomtech.co.za/images/wellness/Red%20Light%20Therapy%20Panel%20%E2%80%93%20300W%20%E2%80%93%20NeuroActive%20%283%29.webp,https://randomtech.co.za/images/wellness/Red%20Light%20Therapy%20Panel%20%E2%80%93%20300W%20%E2%80%93%20NeuroActive%20%284%29.webp",6200.00 ZAR,5499.00 ZAR,in_stock,new,NeuroActive,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-214,Portable Red Light Therapy Device 75W – NeuroActive,"The Portable Red Light Therapy Device 75W by NeuroActive is a high-intensity targeted light torch crafted from surgical stainless steel, designed for pinpoint treatment of joint pain, cold sores, oral health, and tendon injuries.
+
+Key Highlights & Engineering Features:
+• High Optical Power Torch Lens: Focused optical lens concentrates 660nm red and 850nm near-infrared wavelengths onto target treatment spots.
+• Surgical Stainless Steel Casing: Ultra-durable, pocket-sized torch body equipped with rechargeable lithium battery and travel case.
+• Includes Target Oral/Ear Pointing Tip: Specialized screw-on stainless tip allows precise light delivery into oral cavity, ears, or nose.
+• Quick 3-Minute Spot Sessions: Delivers fast, effective phototherapy doses in minutes.
+
+Ideal Applications:
+Targeted joint pain, cold sores, tendonitis, dental gum recovery, and travel wellness. Backed by 12-Month Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/Portable%20Red%20Light%20Therapy%20Device%2075W%20%E2%80%93%20NeuroActive.webp,"https://randomtech.co.za/images/wellness/Portable%20Red%20Light%20Therapy%20Device%2075W%20%E2%80%93%20NeuroActive%20%282%29.webp,https://randomtech.co.za/images/wellness/Portable%20Red%20Light%20Therapy%20Device%2075W%20%E2%80%93%20NeuroActive%20%283%29.webp,https://randomtech.co.za/images/wellness/Portable%20Red%20Light%20Therapy%20Device%2075W%20%E2%80%93%20NeuroActive%20%284%29.webp",3300.00 ZAR,2899.00 ZAR,in_stock,new,NeuroActive,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-215,LED Light Therapy Face & Neck Mask – NeuroActive,"The LED Light Therapy Face & Neck Mask by NeuroActive is a medical-grade flexible silicone phototherapy mask designed to deliver targeted light wavelengths across both the face and neck simultaneously.
+
+Key Highlights & Engineering Features:
+• Medical-Grade Flexible Silicone: Conforms snugly to facial contours, ensuring even light distribution across all skin surfaces.
+• 7 Selectable Light Spectrum Wavelengths: Includes Red (collagen/anti-aging), Near-Infrared (deep repair), Blue (acne destruction), Green (pigmentation control), Yellow (redness relief), Cyan, and Purple.
+• Dedicated Neck Extension Piece: Treats neck and chest skin, combating tech-neck wrinkles and sagging neck skin.
+• Wireless Remote Control Unit: Built-in rechargeable controller lets you select light modes and session duration comfortably.
+
+Ideal Applications:
+At-home cosmetic anti-aging facial treatments, acne management, skin tone evening, and collagen boosting. Backed by 12-Month Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/wellness/LED%20Light%20Therapy%20Face%20%26%20Neck%20Mask%20%E2%80%93%20NeuroActive.webp,"https://randomtech.co.za/images/wellness/LED%20Light%20Therapy%20Face%20%26%20Neck%20Mask%20%E2%80%93%20NeuroActive%20%282%29.webp,https://randomtech.co.za/images/wellness/LED%20Light%20Therapy%20Face%20%26%20Neck%20Mask%20%E2%80%93%20NeuroActive%20%283%29.webp,https://randomtech.co.za/images/wellness/LED%20Light%20Therapy%20Face%20%26%20Neck%20Mask%20%E2%80%93%20NeuroActive%20%284%29.webp",4500.00 ZAR,3999.00 ZAR,in_stock,new,NeuroActive,Health & Beauty > Health Care > Light Therapy Devices,Wellness,no
+TSH-301,Huawei Power-M 5kW Inverter Hybrid Solar System,"The Huawei Power-M 5kW Inverter Hybrid Solar System is Huawei's flagship residential energy backup solution, setting new standards in aesthetic design, safety, and silent operation. Combining a 5kW high-efficiency hybrid inverter with a 5kWh ultra-safe LiFePO4 battery module, it seamlessly powers modern homes.
+
+Key Highlights & Engineering Features:
+• Sleek Metallic Modular Architecture: Award-winning ultra-thin design mounts flush on walls, elevating the aesthetic of luxury residences.
+• Fanless Ultra-Quiet Operation: Natural convection cooling eliminates noisy cooling fans, operating at under 29dB for silent indoor/outdoor placement.
+• IP65 Outdoor Weatherproof Enclosure: Sealed against dust, heavy rain, and coastal air for outdoor wall mounting.
+• Smart App Management: Real-time smartphone monitoring, AI-assisted solar forecasting, and automatic cloud software updates via the Huawei FusionSolar app.
+
+Ideal Applications:
+Luxury residential homes, townhouses, and design-conscious homeowners seeking premium energy independence. Backed by Huawei 10-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Huawei%20Power-M%205kw%20Inverter%20Hybrid%20Solar%20System.jpg,https://randomtech.co.za/images/ecosystem/Huawei%20Power-M%2010Kwh%20%205kw%20Inverter%20Hybrid%20Solar%20System%205.jpg,39999.00 ZAR,34999.00 ZAR,in_stock,new,Huawei,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-302,Huawei Power-M 10kWh Inverter Hybrid Solar System,"The Huawei Power-M 10kWh Inverter Hybrid Solar System provides complete home power independence, combining a 5kW hybrid inverter with 2x 5kWh stackable LiFePO4 battery modules (10kWh total capacity) to power household circuits through extended load shedding blocks.
+
+Key Highlights & Engineering Features:
+• 10kWh High-Capacity Modular Storage: 100% Depth of Discharge capability delivers 10 full usable kilowatt-hours of electrical backup.
+• Advanced Electrical & Fire Safety: Features internal aerosol fire suppression, active cell voltage balancing, and multi-layer structural insulation.
+• Sub-10ms Automatic UPS Transfer: Automatically picks up home loads when the grid collapses without flickering lights or rebooting Wi-Fi routers.
+• Stackable Modular Expansion: Allows adding a 3rd battery module at any time to reach 15kWh total capacity without rewiring.
+
+Ideal Applications:
+Medium to large family residences, home offices, and medical consulting suites. Backed by Huawei 10-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Huawei%20Power-M%2010Kwh%20Inverter%20Hybrid%20Solar%20System.jpg,https://randomtech.co.za/images/ecosystem/Huawei%20Power-M%2010Kwh%20%205kw%20Inverter%20Hybrid%20Solar%20System%205.jpg,62000.00 ZAR,51999.00 ZAR,in_stock,new,Huawei,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-303,Huawei Power-M 15kWh Inverter Hybrid Solar System,"The Huawei Power-M 15kWh Inverter Hybrid Solar System is a high-capacity residential and light commercial backup power plant engineered for complete grid independence. Combining a 5kW hybrid inverter with 3x 5kWh stackable battery modules (15kWh total capacity), it handles heavy load shedding schedules with ease.
+
+Key Highlights & Engineering Features:
+• 15kWh Massive Energy Storage: Provides long-duration power storage to run multiple fridges, lighting circuits, security systems, air conditioning, and entertainment centers overnight.
+• IP65 All-Weather Durability: Heavy-duty metallic casing withstands harsh weather conditions for indoor or outdoor wall installation.
+• Seamless Huawei FusionSolar Ecosystem: Connects directly with Huawei smart PV optimizers and mobile app for live energy analytics.
+• Passive Convection Cooling: Whisper-quiet operation without mechanical fan noise.
+
+Ideal Applications:
+Large luxury mansions, executive estates, boutique guest houses, and commercial office suites. Backed by Huawei 10-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Huawei%20Power-M%2015Kwh%20Inverter%20Hybrid%20Solar%20System.jpg,https://randomtech.co.za/images/ecosystem/Huawei%20Power-M%2010Kwh%20%205kw%20Inverter%20Hybrid%20Solar%20System%205.jpg,84999.00 ZAR,74999.00 ZAR,in_stock,new,Huawei,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-304,Revov E100 Lithium Battery 5kWh,"The Revov E100 Lithium Battery 5kWh (5.12kWh 100Ah 51.2V) is a high-performance LiFePO4 battery pack engineered with CATL EV-grade prismatic cells, built specifically to withstand South Africa's intensive load shedding cycles.
+
+Key Highlights & Engineering Features:
+• Premium CATL LiFePO4 Prismatic Cells: Delivers exceptional thermal stability, chemical safety, and an extraordinary lifespan of over 6,000 cycles at 80% DoD.
+• Integrated Smart BMS Telemetry: Built-in CANbus and RS485 communication protocols sync seamlessly with leading hybrid inverters including Sunsynk, Victron, Deye, and Growatt.
+• High Discharge Power (100A Continuous): Supports 5.12kW continuous power output to start heavy household motor loads.
+• 10-Year Manufacturer Warranty: Engineered for a design life exceeding 15 years under daily load shedding conditions.
+
+Ideal Applications:
+Residential solar energy storage, backup power kits, and commercial inverter installations. Backed by 10-Year Revov Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Revov%20E100%20Lithium%20Battery%205kwh.jpg,"https://randomtech.co.za/images/ecosystem/Revov%20E100%20Lithium%20Battery%205kwh.webp,https://randomtech.co.za/images/ecosystem/Revov%20E100%20Lithium%20Battery%205kwh%20%282%29.webp,https://randomtech.co.za/images/ecosystem/Revov%20E100%20Lithium%20Battery%205kwh%20%283%29.webp",24999.00 ZAR,22500.00 ZAR,in_stock,new,Revov,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-305,Revov B100 1st Life 51.2V 100Ah 5.1kWh Lithium Battery,"The Revov B100 1st Life 51.2V 100Ah 5.1kWh Lithium Battery is a premium 1st-Life LiFePO4 lithium battery pack custom engineered to deliver uncompromised backup power reliability for South African homes and businesses.
+
+Key Highlights & Engineering Features:
+• 1st-Life Automotive Grade Cells: Manufactured using brand new 1st-life lithium iron phosphate cells for maximum energy density and superior charge acceptance.
+• Built-In Digital Status Screen: Integrated front LCD display shows live cell voltages, battery percentage, state of health, and temperature.
+• Universal Inverter Compatibility: Plug-and-play BMS integration with Sunsynk, Deye, Victron, Axpert, and Luxpower inverters.
+• Heavy-Duty Steel Chassis: Standard 19-inch rack-mount footprint for tidy installation inside battery cabinets.
+
+Ideal Applications:
+Home solar storage, office backup power, and telecommunications installations. Backed by 10-Year Revov Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/revovlithiumbatterysolarB1001stlife-800x800%20%281%29.jpg,"https://randomtech.co.za/images/ecosystem/Revov%20B100%201st%20Life%2051.2V%20100Ah%205.1kWh%20Lithium%20Battery%20%282%29.jpg,https://randomtech.co.za/images/ecosystem/Revov%20B100%201st%20Life%2051.2V%20100Ah%205.1kWh%20Lithium%20Battery%20%283%29.jpg",23999.00 ZAR,21999.00 ZAR,in_stock,new,Revov,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-306,Hubble AM10+ 10kWh 51.2V LiFePO4 Lithium Battery,"The Hubble AM10+ 10kWh 51.2V LiFePO4 Lithium Battery is the flagship high-capacity wall-mount lithium battery pack engineered by Hubble Lithium, providing massive 10.24kWh energy storage in a single heavy-duty enclosure.
+
+Key Highlights & Engineering Features:
+• Built-In Cloudlink Wi-Fi Monitoring: Integrated Cloudlink device connects directly to Hubble's cloud servers, enabling real-time remote telemetry, diagnostic alerts, and wireless firmware updates.
+• High Discharge Rating (200A Continuous): Capable of delivering up to 10kW continuous discharge output, powering heavy household loads effortlessly.
+• Advanced LiFePO4 Safety: High-grade prismatic cells equipped with internal safety isolation switches and automatic cell balancing.
+• Parallel Stacking up to 15 Units: Easily scale energy storage capacity up to 150kWh for commercial or agricultural installations.
+
+Ideal Applications:
+Large family homes, commercial backup systems, and high-demand solar installations. Backed by 10-Year Hubble Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Hubble%20AM10%2B%2010kWh%2051.2V%20LiFePO4%20Lithium%20Battery.webp,https://randomtech.co.za/images/ecosystem/Hubble%20AM10%2B%2010kWh%2051.2V%20LiFePO4%20Lithium%20Battery%20%282%29.webp,43999.00 ZAR,39999.00 ZAR,in_stock,new,Hubble,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-307,Hubble AM16+ 16.1kWh 51.2V LiFePO4 Lithium Battery,"The Hubble AM16+ 16.1kWh 51.2V LiFePO4 Lithium Battery is a massive single-pack lithium battery storage bank designed for heavy residential estate and commercial applications requiring high energy density and long backup runtimes.
+
+Key Highlights & Engineering Features:
+• 16.1kWh Single Pack Volume: Solves space constraints by consolidating 16.1 kilowatt-hours of usable energy into a single robust wall-mount cabinet.
+• Built-In Cloudlink Telemetry: Features wireless cloud connectivity for 24/7 remote monitoring and proactive technical diagnostics.
+• Heavy 250A BMS Discharge Rating: Handles extreme power surges and heavy commercial loads without thermal tripping.
+• 15-Year Structural Design Life: Ultra-durable LiFePO4 cell chemistry engineered for over 6,000 deep cycles.
+
+Ideal Applications:
+Luxury estates, commercial office parks, agricultural pump backup, and industrial solar storage. Backed by 10-Year Hubble Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Hubble%20AM16%2B%2016.1kWh%2051.2V%20LiFePO4%20Lithium%20Battery.webp,https://randomtech.co.za/images/ecosystem/Hubble%20AM16%2B%2016.1kWh%2051.2V%20LiFePO4%20Lithium%20Battery%20%282%29.webp,67999.00 ZAR,62999.00 ZAR,in_stock,new,Hubble,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-308,Blue Nova RacPower SP 5.2kWh 100Ah Lithium Battery,"Engineered in South Africa for local power demands, the Blue Nova RacPower SP 5.2kWh 100Ah 51.2V Lithium Battery represents top-tier local lithium engineering, delivering exceptional cycle life and rapid charging capabilities.
+
+Key Highlights & Engineering Features:
+• Ultra-Long Cycle Life (>6000 Cycles at 80% DoD): Premium LiFePO4 chemistry engineered to endure 10+ years of daily two-stage load shedding.
+• High Rate Discharge Capacity: Supports 100A continuous discharge and up to 200A short-term peak discharge for starting motor loads.
+• Advanced CANbus & RS485 Inverter Communication: Native protocol integration with Victron Energy, Sunsynk, Deye, and Studer inverters.
+• 19-Inch Rack Mount Design: Fits cleanly into standard server racks or floor-standing battery cabinets.
+
+Ideal Applications:
+Residential solar backup, commercial server rooms, and telecommunication sites. Backed by 10-Year Blue Nova Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Blue%20Nova%20RacPower%20SP%205.2kWh%20100Ah%20Lithium%20Battery.webp,"https://randomtech.co.za/images/ecosystem/Blue%20Nova%20RacPower%20SP%205.2kWh%20100Ah%20Lithium%20Battery%20%282%29.webp,https://randomtech.co.za/images/ecosystem/Blue%20Nova%20RacPower%20SP%205.2kWh%20100Ah%20Lithium%20Battery%20%283%29.webp",25999.00 ZAR,23999.00 ZAR,in_stock,new,Blue Nova,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-309,Sunsynk X Series 16.07kWh 300Ah 51.2V Lithium Battery,"The Sunsynk X Series 16.07kWh 300Ah 51.2V Lithium Battery is a massive wall-mount energy storage pack custom engineered to synchronize seamlessly with Sunsynk 8kW, 12kW, and 16kW hybrid inverters.
+
+Key Highlights & Engineering Features:
+• 16.07kWh High Energy Capacity: Delivers 300Ah of continuous storage, easily powering whole-house loads through overnight load shedding blocks.
+• Integrated Aerosol Fire Suppression System: Equipped with automated internal fire suppression technology for ultimate residential safety.
+• Native Sunsynk CANbus Protocol: Communicates directly with Sunsynk inverters for real-time cell balancing, SOC calibration, and remote monitoring.
+• Heavy-Duty Steel Wall Cabinet: Wall-mounting design frees up garage floor space.
+
+Ideal Applications:
+Luxury homes, commercial installations, and comprehensive Sunsynk solar power systems. Backed by 10-Year Sunsynk Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Sunsynk%20X%20Series%2016.07kWh%20300Ah%2051.2V%20Lithium%20Battery.webp,,85000.00 ZAR,79999.00 ZAR,in_stock,new,Sunsynk,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-310,EcoFlow PowerOcean 6kW Hybrid Home Backup & Solar System,"The EcoFlow PowerOcean 6kW Hybrid Home Backup & Solar System is the future of smart home energy, combining a 6kW 3-phase ready hybrid inverter with a 5kWh stackable high-voltage (800V) LFP battery module.
+
+Key Highlights & Engineering Features:
+• 800V High-Voltage Battery Architecture: Delivers higher electrical efficiency, thinner wiring, and reduced thermal losses compared to traditional 48V systems.
+• Sub-10ms Automatic UPS Transfer: Instantaneous power transfer keeps delicate smart home automation, servers, and lighting running without interruption.
+• Active Auto-Heating Battery Technology: Integrated thermal heaters maintain optimal battery performance even in freezing winter conditions.
+• IP65 All-Weather Enclosure: Sleek, weatherproof design built for outdoor wall mounting.
+
+Ideal Applications:
+Modern smart homes, luxury estates, and eco-conscious tech-focused homeowners. Backed by EcoFlow 10-Year Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/EcoFlow%20PowerOcean%206kW%20Hybrid%20Home%20Backup%20%26%20Solar%20Battery%20System.jpg,,65000.00 ZAR,59999.00 ZAR,in_stock,new,EcoFlow,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-311,REVOV E100 10.24 kWh Battery Kit with Sunsynk 6kW Inverter,"The REVOV E100 10.24 kWh Battery Kit with Sunsynk 6kW Hybrid Inverter is South Africa's #1 bestselling load shedding solution, combining a Sunsynk 6kW hybrid inverter with 2x Revov E100 5.12kWh lithium battery modules (10.24kWh total capacity).
+
+Key Highlights & Engineering Features:
+• Complete Pre-Configured Backup Station: Includes 6kW Sunsynk Inverter, 2x Revov 5.12kWh CATL LiFePO4 batteries, Wi-Fi dongle, and pre-wired DB switchgear.
+• Powers Whole Household Essentials: Easily runs aircon, double-door fridges, Wi-Fi, TVs, lights, computers, and kitchen appliances simultaneously.
+• 10.24kWh Heavy Lithium Storage: Provides long backup runtime during back-to-back Stage 6 load shedding blocks.
+• Smart App Telemetry: Monitor power generation, battery SOC, and utility grid savings from your smartphone.
+
+Ideal Applications:
+Suburban residential family homes, home offices, and small business operations. Backed by 5-Year Inverter & 10-Year Battery Warranties.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/REVOV%20E100%2010.24%20kWh%20Battery%20Backup%20Kit%20with%20Sunsynk%206kW%20Hybrid%20Inverter.webp,,75000.00 ZAR,68999.00 ZAR,in_stock,new,Sunsynk,Hardware > Electrical Supplies > Power Inverters,Solar Systems,no
+TSH-312,Airzone Giai – HEPA & Ozone 3-in-1 Air Purifier & Sanitizer,"The Airzone Giai – HEPA & Ozone 3-in-1 Air Purifier & Sanitizer is a medical-grade air treatment device combining True H13 HEPA filtration, active carbon filtration, and controlled ozone (O3) sanitization to purify spaces up to 80m².
+
+Key Highlights & Engineering Features:
+• 3-in-1 Complete Air Treatment: Combines mechanical HEPA filtration, chemical carbon absorption, and biological ozone sterilization in one sleek tower.
+• True H13 HEPA Filter (99.97% Efficiency): Captures microscopic dust, pollen, pet dander, mold spores, and airborne viral droplets down to 0.3 microns.
+• Controlled Active Ozone Sanitization Mode: Destroys stubborn smoke odors, mold, bacteria, and chemical VOCs in empty rooms.
+• Air Quality Sensor & Auto Fan Speed: Intelligent sensors monitor real-time air purity and automatically adjust fan speed.
+
+Ideal Applications:
+Large living areas, medical consulting rooms, dental surgeries, offices, and allergy relief. Backed by 12-Month Local Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Airzone%20Giai%20%E2%80%93%20HEPA%20%20Ozone%203%20in%201%20Air%20Purifier%20%26%20Sanitizer.jpg,"https://randomtech.co.za/images/ecosystem/Airzone%20Giai%20%E2%80%93%20HEPA%20%20Ozone%203%20in%201%20Air%20Purifier%20%26%20Sanitizer%20%282%29.jpg,https://randomtech.co.za/images/ecosystem/Airzone%20Giai%20%E2%80%93%20HEPA%20%20Ozone%203%20in%201%20Air%20Purifier%20%26%20Sanitizer%20%283%29.jpg",4999.00 ZAR,4500.00 ZAR,in_stock,new,Randomtech,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-313,Daikin Multi Split Air Conditioner System,"The Daikin Multi Split Air Conditioner System is a premium Japanese outdoor climate control unit capable of powering up to 5 individual indoor units (wall-mounted, cassette, or duct) from a single quiet outdoor inverter compressor.
+
+Key Highlights & Engineering Features:
+• Multi-Room Individual Temperature Control: Connect up to 5 indoor units with independent temperature settings for bedrooms, living rooms, and offices.
+• A+++ Seasonal Energy Efficiency: Daikin's inverter swing compressor adjusts motor speed precisely, reducing electricity consumption by up to 30% compared to non-inverter split units.
+• Eliminates Cluttered Exterior Walls: Connects multiple indoor units to 1 single outdoor condenser unit, maintaining clean exterior architectural lines.
+• Whisper-Quiet Outdoor & Indoor Operation: Advanced fan blade aerodynamics ensure whisper-quiet performance.
+
+Ideal Applications:
+Multi-room luxury homes, boutique hotels, office buildings, and architectural renovations. Backed by 3-Year Daikin Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Daikin%20Multi%20Split%20Air%20Conditioner%20System.webp,"https://randomtech.co.za/images/ecosystem/Daikin%20Multi%20Split%20Air%20Conditioner%20System%20%282%29.webp,https://randomtech.co.za/images/ecosystem/Daikin%20Multi%20Split%20Air%20Conditioner%20System%20%283%29.webp,https://randomtech.co.za/images/ecosystem/Daikin%20Multi%20Split%20Air%20Conditioner%20System%20%284%29.webp",27500.00 ZAR,24999.00 ZAR,in_stock,new,Daikin,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-314,"Daikin Sensira 12,000 BTU Inverter Air Conditioner","The Daikin Sensira 12,000 BTU Inverter Air Conditioner (New Generation FTXC-E Series) is an energy-efficient split heat pump air conditioner engineered to provide rapid heating and cooling for rooms up to 25m².
+
+Key Highlights & Engineering Features:
+• Eco-Friendly R-32 Refrigerant: Reduces environmental impact by 68% compared to R-410A while increasing operating energy efficiency.
+• A++ Energy Rating with Inverter Technology: Automatically adjusts compressor power to maintain exact target temperatures with low power usage.
+• Titanium Apatite Deodorizing Filter: Breaks down airborne odors, captures dust particulates, and deactivates bacteria for cleaner indoor air.
+• Whisper-Quiet 20dB Operation: Operates ultra-quietly on low fan speed, making it perfect for bedrooms and study rooms.
+
+Ideal Applications:
+Bedrooms, home offices, nurseries, and small living areas up to 25m². Backed by 3-Year Daikin Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2012%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series.jpg,"https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2012%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series%20%282%29.jpg,https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2012%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series%20%283%29.jpg,https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2012%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series.webp",10999.00 ZAR,9800.00 ZAR,in_stock,new,Daikin,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-315,"Daikin Sensira 20,000 BTU Inverter Air Conditioner","The Daikin Sensira 20,000 BTU Inverter Air Conditioner is a powerful split heat pump unit designed to rapidly cool or heat large open-plan living areas, dining rooms, and office spaces up to 45m².
+
+Key Highlights & Engineering Features:
+• 20,000 BTU High Heating & Cooling Capacity: Rapidly lowers or raises room temperature during extreme South African summer heatwaves or freezing winter nights.
+• Energy-Saving Inverter Swing Compressor: Maintains smooth room temperatures without harsh compressor start-stop cycles, saving electricity.
+• Turbo Powerful Mode: Maximum air velocity setting cools or heats the room in minutes before automatically returning to quiet mode.
+• Optional Wi-Fi Smart Control Module: Compatible with Daikin Onecta mobile app for remote smartphone control.
+
+Ideal Applications:
+Open-plan living rooms, master bedrooms, conference rooms, and retail shops up to 45m². Backed by 3-Year Daikin Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2020%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series.webp,"https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2020%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series%20%282%29.webp,https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2020%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series%20%283%29.webp",15999.00 ZAR,14500.00 ZAR,in_stock,new,Daikin,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-316,"Daikin Sensira 24,000 BTU Inverter Air Conditioner","The Daikin Sensira 24,000 BTU Inverter Air Conditioner is a heavy-duty commercial and residential split air conditioner engineered to handle massive open-plan spaces, large master suites, and commercial reception areas up to 55m².
+
+Key Highlights & Engineering Features:
+• Heavy-Duty 24,000 BTU Output: Delivers intense airflow to comfortably climate-control expansive open-plan interiors.
+• R-32 Green Refrigerant & Anti-Corrosion Treatment: Heat exchanger fins are treated with anti-corrosion blue fin coating to resist harsh weather and coastal salt air.
+• Smart Standby Mode: Reduces power consumption by up to 80% when no people are detected in the room.
+• Auto-Restart & Self-Diagnostics: Automatically resumes previous settings after load shedding power returns.
+
+Ideal Applications:
+Large open-plan lounge areas, commercial office suites, restaurant dining halls, and master suites up to 55m². Backed by 3-Year Daikin Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2024%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series.jpg,"https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2024%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series%20%282%29.webp,https://randomtech.co.za/images/ecosystem/Daikin%20Sensira%2024%20000%20BTU%20Inverter%20Air%20Conditioner%20%E2%80%93%20New%20Generation%20FTXC-E%20Series%20%283%29.webp",19500.00 ZAR,17999.00 ZAR,in_stock,new,Daikin,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-317,"Daikin Perfera 12,000 BTU Wall Split Inverter Air Conditioner","The Daikin Perfera 12,000 BTU Wall Split Inverter Air Conditioner (Latest Gen A-Series) is Daikin's flagship premium wall-mounted air conditioner, packed with advanced Japanese climate and air purification technologies.
+
+Key Highlights & Engineering Features:
+• 2-Area Intelligent Eye Motion Sensor: Directs airflow away from people to prevent cold draughts and automatically switches to energy-saving mode when the room is empty.
+• Flash Streamer Air Purification Built-In: Releases high-speed electrons that destroy viruses, allergens, mold, and odors, purifying room air while conditioning.
+• 3D Airflow & Heat Boost: Combines vertical and horizontal auto-swing to circulate air into every corner; Heat Boost rapidly warms the room upon startup.
+• Whisper-Quiet 19dB Operation & Built-In Wi-Fi: Virtually silent night operation with integrated Daikin Onecta smartphone Wi-Fi app control.
+
+Ideal Applications:
+Executive master bedrooms, luxury living areas, and high-tech smart homes up to 25m². Backed by 3-Year Daikin Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/Daikin%20Perfera%2012000%20Btu%20Wall%20Split%20Inverter%20Air%20Conditioner%20%E2%80%93%20Latest%20Gen%20A%20Series.jpg,"https://randomtech.co.za/images/ecosystem/Daikin%20Perfera%2012000%20Btu%20Wall%20Split%20Inverter%20Air%20Conditioner%20%E2%80%93%20Latest%20Gen%20A%20Series%20%282%29.jpg,https://randomtech.co.za/images/ecosystem/Daikin%20Perfera%2012000%20Btu%20Wall%20Split%20Inverter%20Air%20Conditioner%20%E2%80%93%20Latest%20Gen%20A%20Series%20%283%29.jpg,https://randomtech.co.za/images/ecosystem/Daikin%20Perfera%2012000%20Btu%20Wall%20Split%20Inverter%20Air%20Conditioner%20%E2%80%93%20Latest%20Gen%20A%20Series%20%284%29.jpg",15200.00 ZAR,13999.00 ZAR,in_stock,new,Daikin,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-318,GMC 40L Dehumidifier – GMCDHW40,"The GMC 40L Dehumidifier (GMCDHW40) is a commercial-capacity domestic dehumidifier engineered to extract up to 40 litres of excess moisture per day from damp spaces, protecting furniture, walls, and health across areas up to 100m².
+
+Key Highlights & Engineering Features:
+• Heavy 40L/Day Moisture Extraction: Rapidly removes dampness, prevents mold growth, eliminates musty odors, and stops condensation on windows.
+• Large 7L Water Tank & Continuous Drain Hose: Features a large internal water tank with full-tank alarm, plus a gravity continuous drainage hose for 24/7 unmonitored operation.
+• Precision Digital LED Control Panel: Set target humidity levels (30% to 80%), adjust 2 fan speeds, and program the 24-hour ON/OFF timer.
+• Heavy-Duty Castor Wheels: Smooth-rolling wheels allow effortless movement between living rooms, basements, and laundry rooms.
+
+Ideal Applications:
+Large damp homes, coastal properties, flood damage restoration, basements, and indoor laundry drying rooms. Backed by 2-Year GMC Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/GMC%2040L%20Dehumidifier%20%E2%80%93%20GMCDHW40.webp,"https://randomtech.co.za/images/ecosystem/GMC%2040L%20Dehumidifier%20%E2%80%93%20GMCDHW40%20%282%29.webp,https://randomtech.co.za/images/ecosystem/GMC%2040L%20Dehumidifier%20%E2%80%93%20GMCDHW40%20%283%29.webp,https://randomtech.co.za/images/ecosystem/GMC%2040L%20Dehumidifier%20%E2%80%93%20GMCDHW40%20%284%29.webp",9999.00 ZAR,8999.00 ZAR,in_stock,new,GMC,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no
+TSH-319,MeacoDry Arete® Two 25L Dual Dehumidifier & HEPA Purifier,"The MeacoDry Arete® Two 25L Dual Dehumidifier & HEPA Purifier is British engineering at its absolute finest—a flagship 25-Litre dual dehumidifier and medical H13 HEPA air purifier featuring smart Wi-Fi app control and an ultra-quiet DC motor.
+
+Key Highlights & Engineering Features:
+• 25L/Day Commercial Moisture Extraction: Easily manages dampness, mold prevention, and humidity control in large 5-6 bedroom homes, coastal villas, or flooded areas.
+• Smart Wi-Fi Smartphone Control: Monitor indoor humidity, adjust settings, set timers, and control modes remotely via smartphone or voice assistants.
+• Medical Grade H13 HEPA Air Purification: Runs as a standalone medical HEPA air purifier during dry months, filtering pollen, dust, and allergens.
+• Ultra-Low Energy DC Compressor (280W): Designed for maximum electricity savings with an ultra-quiet operating noise profile.
+
+Ideal Applications:
+Large family residences, coastal estates, damp prevention, flood recovery, and indoor laundry drying. Backed by 2-Year British Manufacturer Warranty.",https://randomtech.co.za/#products,https://randomtech.co.za/images/ecosystem/MeacoDry%2025L%20Arete%C2%AE%20Two%2025L%20Dual%20Dehumidifier%20and%20HEPA%20Air%20Purifier%20%28WiFi%29%201.jpg,"https://randomtech.co.za/images/ecosystem/MeacoDry%2025L%20Arete%C2%AE%20Two%2025L%20Dual%20Dehumidifier%20and%20HEPA%20Air%20Purifier%20%28WiFi%29%202.jpg,https://randomtech.co.za/images/ecosystem/MeacoDry%2025L%20Arete%C2%AE%20Two%2025L%20Dual%20Dehumidifier%20and%20HEPA%20Air%20Purifier%20%28WiFi%29%203.jpg,https://randomtech.co.za/images/ecosystem/MeacoDry%2025L%20Arete%C2%AE%20Two%2025L%20Dual%20Dehumidifier%20and%20HEPA%20Air%20Purifier%20%28WiFi%29%204.jpg",9800.00 ZAR,8999.00 ZAR,in_stock,new,MeacoDry,Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners,Air & Climate,no

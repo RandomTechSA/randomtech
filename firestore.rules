@@ -1,0 +1,21 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 1. Banking Details & Payment Gateway Settings
+    match /settings/{docId} {
+      allow read, write: if true;
+    }
+
+    // 2. Customer Orders & Delivery Tracking
+    match /orders/{orderId} {
+      allow read, create, update: if true;
+    }
+
+    // 3. Product Catalog
+    match /products/{productId} {
+      allow read, write: if true;
+    }
+
+  }
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Product Details - Randomtech</title>
+    <meta name="description" id="pageMetaDesc" content="View official specifications, pricing, and availability on Randomtech Marketplace.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/brand.css">
+    <script src="js/catalog.js"></script>
+    <script src="js/mall-money.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-950 text-gray-800 dark:text-gray-100 font-sans antialiased" x-data="productApp()">
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-40 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <img src="images/logo.png" alt="Randomtech Logo" class="h-10 w-auto object-contain">
+                <div>
+                    <span class="text-xl font-black tracking-tight text-gray-900 dark:text-white">Random<span class="text-emerald-600">tech</span></span>
+                    <span class="block text-[10px] font-bold uppercase tracking-widest text-gray-400">The tech mall</span>
+                </div>
+            </a>
+            <div class="flex items-center gap-4">
+                <a href="index.html#products" class="text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-emerald-600 flex items-center gap-2">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Store
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div x-show="product" class="bg-white dark:bg-gray-900 rounded-[2.5rem] border border-gray-200/80 dark:border-gray-800 p-6 sm:p-10 shadow-xl grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <!-- Left Column: Image Gallery & Delivery/Promise Card Moved Underneath -->
+            <div class="space-y-6">
+                <div class="relative h-96 sm:h-[450px] bg-gradient-to-b from-slate-100 to-slate-200 dark:from-gray-800 dark:to-gray-900 rounded-3xl overflow-hidden border border-gray-200 dark:border-gray-700 flex items-center justify-center">
+                    <img :src="activeImage" :alt="product.title" class="w-full h-full object-contain p-6">
+                    <div class="absolute top-4 left-4" x-show="product.badge">
+                        <span class="bg-emerald-600 text-white text-xs font-black uppercase px-4 py-1.5 rounded-full shadow-lg" x-text="product.badge"></span>
+                    </div>
+                </div>
+                <!-- Thumbnails -->
+                <div class="flex gap-3 overflow-x-auto pb-2" x-show="product.images && product.images.length > 1">
+                    <template x-for="img in product.images" :key="img">
+                        <button @click="activeImage = img" :class="activeImage === img ? 'border-emerald-600 ring-2 ring-emerald-600/30' : 'border-gray-200 dark:border-gray-700'" class="w-20 h-20 rounded-2xl border-2 overflow-hidden bg-white dark:bg-gray-800 flex-shrink-0 transition">
+                            <img :src="img" class="w-full h-full object-contain p-2">
+                        </button>
+                    </template>
+                </div>
+
+                <!-- Delivery & Price Breakdown Card (Moved Under Product) -->
+                <div class="promise-card rounded-3xl border border-emerald-200 dark:border-emerald-900 bg-emerald-50/80 dark:bg-emerald-950/30 p-5 text-xs space-y-3">
+                    <p class="font-black text-emerald-900 dark:text-emerald-200 flex items-center gap-2 text-sm"><span class="promise-dot"></span> Delivery & Guarantee</p>
+                    <p class="font-bold text-gray-800 dark:text-gray-200" x-text="promise"></p>
+                    <p class="text-xs font-bold text-emerald-800 dark:text-emerald-400">Sold by <span x-text="shopName"></span></p>
+                    <div x-show="offers.length > 1" class="space-y-2 pt-2">
+                        <p class="font-black text-gray-900 dark:text-white">Other shops selling this same product</p>
+                        <template x-for="offer in offers" :key="offer.id">
+                            <a class="flex justify-between gap-3 rounded-xl bg-white dark:bg-gray-800 px-3 py-2 text-gray-900 dark:text-white font-semibold" :href="'product.html?id=' + offer.id">
+                                <span x-text="(offer.vendor && offer.vendor.name) || 'Randomtech'"></span>
+                                <span x-text="offer.price ? ('R ' + Number(offer.price).toLocaleString()) : 'Ask'"></span>
+                            </a>
+                        </template>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300">The shop ships within 2 working days of payment. Free courier from R1000, otherwise R99. Unused returns within 7 days.</p>
+                    <p class="font-black text-gray-900 dark:text-white pt-2">What this price already includes</p>
+                    <template x-if="fees.known">
+                        <div class="space-y-1 text-gray-700 dark:text-gray-300">
+                            <p class="flex justify-between"><span>Shop receives</span><span x-text="'R ' + fees.payout.toLocaleString()"></span></p>
+                            <p class="flex justify-between"><span>Mall fee, 12%</span><span x-text="'R ' + fees.mall.toLocaleString()"></span></p>
+                            <p class="flex justify-between"><span>Bank settlement, 2.5%</span><span x-text="'R ' + fees.bank.toLocaleString()"></span></p>
+                            <p class="flex justify-between"><span>PayFast, 3.5% + R2</span><span x-text="'R ' + fees.payfast.toLocaleString()"></span></p>
+                        </div>
+                    </template>
+                    <p x-show="!fees.known" class="text-gray-600 dark:text-gray-300">One shelf price. The mall fee (12%), the bank fee (2.5%), and PayFast (3.5% + R2) are already inside it.</p>
+                </div>
+            </div>
+
+            <!-- Right Column: Product Details & Actions -->
+            <div class="flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-sm font-extrabold uppercase tracking-widest text-emerald-600" x-text="product.category"></span>
+                        <span class="text-xs font-bold px-3 py-1 rounded-xl shadow-sm" :class="product.stock > 5 ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300' : 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300'" x-text="product.stock > 0 ? (product.stock + ' in stock') : 'Sold Out'"></span>
+                    </div>
+                    <h1 class="text-2xl sm:text-4xl font-black text-gray-900 dark:text-white tracking-tight mb-3" x-text="product.title"></h1>
+
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="flex text-amber-400 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="text-gray-500 dark:text-gray-400 text-xs font-semibold" x-text="'(5.0 / 5.0 &bull; Verified South African Warranty)'"></span>
+                    </div>
+
+                    <div class="flex items-baseline gap-4 mb-6 p-4 rounded-2xl bg-gray-50 dark:bg-gray-800/50 border border-gray-100 dark:border-gray-800">
+                        <p class="text-emerald-700 dark:text-emerald-400 font-black text-3xl sm:text-4xl">R <span x-text="product.price ? product.price.toLocaleString() : '0'"></span></p>
+                        <p class="text-gray-400 text-lg line-through" x-show="product.oldPrice">R <span x-text="product.oldPrice ? product.oldPrice.toLocaleString() : ''"></span></p>
+                    </div>
+
+                    <div class="mb-8">
+                        <h3 class="text-xs font-extrabold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-2"><i class="fa-solid fa-circle-info text-emerald-600 mr-1"></i> Product Description & Specifications</h3>
+                        <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed whitespace-pre-line font-medium" x-text="product.description"></p>
+                    </div>
+                </div>
+
+                <div class="space-y-3 pt-6 border-t border-gray-100 dark:border-gray-800">
+                    <button @click="addToCart(product)" :disabled="product.stock <= 0" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-black py-4 px-6 rounded-2xl shadow-lg shadow-emerald-600/30 transition flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-cart-plus text-lg"></i> <span x-text="product.stock > 0 ? 'Add to Cart' : 'Sold Out'"></span>
+                    </button>
+                    <button @click="buyViaWhatsApp(product)" class="w-full bg-gray-900 hover:bg-black dark:bg-gray-800 dark:hover:bg-gray-700 text-white font-extrabold py-3.5 px-6 rounded-2xl transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i> Order via WhatsApp Specialist
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div x-show="!product" class="text-center py-24 bg-white dark:bg-gray-900 rounded-[2.5rem] border border-gray-200 dark:border-gray-800">
+            <i class="fa-solid fa-box-open text-6xl text-gray-300 dark:text-gray-700 mb-4"></i>
+            <h2 class="text-2xl font-black text-gray-900 dark:text-white mb-2">Product Not Found</h2>
+            <p class="text-gray-500 mb-6">The product you are looking for may have been removed or the link is invalid.</p>
+            <a href="index.html#products" class="inline-flex items-center gap-2 bg-emerald-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg">
+                <i class="fa-solid fa-store"></i> Browse Store Catalog
+            </a>
+        </div>
+    </main>
+
+    <script>
+        function productApp() {
+            return {
+                product: null,
+                activeImage: '',
+                cart: [],
+                promise: '',
+                fees: { known: false },
+                offers: [],
+                shopName: 'Randomtech',
+                init() {
+                    const params = new URLSearchParams(window.location.search);
+                    const pId = params.get('id');
+                    const pSlug = params.get('slug');
+                    const products = window.RT_CATALOG ? JSON.parse(JSON.stringify(window.RT_CATALOG)) : [];
+                    let extra = [];
+                    try { extra = JSON.parse(localStorage.getItem('randomtech_solar_products') || '[]'); } catch (e) { extra = []; }
+                    const ids = new Set(products.map(item => String(item.id)));
+                    extra.forEach(item => {
+                        if (!ids.has(String(item.id)) && item.vendor && item.vendor.email) products.push(item);
+                    });
+
+                    if (pId) this.product = products.find(p => String(p.id) === String(pId)) || null;
+                    else if (pSlug) {
+                        this.product = products.find(p => p.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') === pSlug) || null;
+                    }
+
+                    if (this.product) {
+                        this.shopName = (this.product.vendor && this.product.vendor.name) || 'Randomtech';
+                        const key = this.product.title.trim().toLowerCase();
+                        this.offers = products.filter(item => item.title && item.title.trim().toLowerCase() === key);
+                        if (this.product.images && this.product.images.length) this.activeImage = this.product.images[0];
+                        document.getElementById('pageTitle').innerText = this.product.title + ' - Randomtech';
+                        if (this.product.description) document.getElementById('pageMetaDesc').setAttribute('content', this.product.description.substring(0, 150));
+                        if (window.MallMoney) {
+                            this.promise = window.MallMoney.deliveryWindow('').headline;
+                            this.fees = window.MallMoney.explain(this.product);
+                        }
+                    }
+
+                    const savedCart = localStorage.getItem('randomtech_solar_cart');
+                    if (savedCart) {
+                        try { this.cart = JSON.parse(savedCart); } catch(e) {}
+                    }
+                },
+                addToCart(product) {
+                    const existing = this.cart.find(item => item.id === product.id);
+                    if (existing) {
+                        existing.qty += 1;
+                    } else {
+                        this.cart.push({ ...product, qty: 1 });
+                    }
+                    localStorage.setItem('randomtech_solar_cart', JSON.stringify(this.cart));
+                    alert(`✅ Added "${product.title}" to your cart!`);
+                },
+                buyViaWhatsApp(product) {
+                    const message = encodeURIComponent(`Hello Randomtech, I would like to order:\n\n*${product.title}*\nPrice: R ${product.price.toLocaleString()}\n\nPlease guide me with payment and delivery.`);
+                    window.open(`https://wa.me/27827263274?text=${message}`, '_blank');
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" x-data="{ darkMode: localStorage.getItem('randomtech_dark_mode') === 'true' }" :class="{ 'dark': darkMode }">
+<head>
+    <link id="app-favicon" rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script>
+        function applyFavicon(isDark) {
+            var fav = document.getElementById('app-favicon');
+            if (fav) fav.href = isDark ? 'images/darkfavicon.png' : 'images/favicon.png';
+        }
+        if (localStorage.getItem('randomtech_dark_mode') === 'true') {
+            document.documentElement.classList.add('dark');
+            applyFavicon(true);
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy & POPIA Compliance - Randomtech South Africa</title>
+    <meta name="description" content="Comprehensive Privacy Policy for Randomtech. Fully compliant with South African Protection of Personal Information Act (POPIA) and Google Merchant Center standards.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/brand.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'Outfit', 'sans-serif'], display: ['Plus Jakarta Sans', 'sans-serif'] },
+                    colors: {
+                        emerald: { 50: '#f0f7ff', 100: '#e0effe', 200: '#bae0fd', 300: '#7cc8fb', 400: '#36aef7', 500: '#0284c7', 600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a', 950: '#090d16' },
+                        solar: { 500: '#06b6d4', 600: '#0891b2', 700: '#0e7490' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-950 text-gray-800 dark:text-gray-100 font-sans antialiased transition-colors duration-300">
+
+    <!-- Top Utility Bar (Email Only) -->
+    <div class="utility-bar text-emerald-100 text-xs py-2.5 px-4 border-b border-white/5">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <a href="mailto:sales@randomtech.co.za" class="flex items-center gap-1.5 text-white hover:text-cyan-300 font-bold"><i class="fa-solid fa-envelope text-solar-500"></i> sales@randomtech.co.za</a>
+        </div>
+    </div>
+
+    <!-- Sticky Header with Nice Logo -->
+    <header class="sticky top-0 z-40 glass-nav transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+            <a href="index.html" class="flex items-center gap-3 shrink-0 group">
+                <img src="images/logo.png" alt="Randomtech Logo" class="h-11 w-auto object-contain group-hover:scale-105 transition duration-300 drop-shadow-md">
+                <div>
+                    <span class="text-lg xl:text-xl font-black tracking-tight cool-logo-text">RANDOMTECH</span>
+                    <span class="block text-[9px] text-gray-400 font-extrabold tracking-widest uppercase">INNOVATION BEYOND THE ALGORITHM</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-extrabold text-gray-800 dark:text-gray-200">
+                <a href="index.html" class="hover:text-emerald-600 transition">Store</a>
+                <a href="tracking.html" class="hover:text-emerald-600 transition">Track Order</a>
+                <a href="shipping.html" class="hover:text-emerald-600 transition">Free Delivery</a>
+                <a href="returns.html" class="hover:text-emerald-600 transition">Returns Policy</a>
+                <a href="privacy.html" class="text-emerald-600 font-black">Privacy Policy</a>
+                <a href="contact.html" class="hover:text-emerald-600 transition">Contact Us</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <!-- Dark Mode Toggle Button -->
+                <button @click="darkMode = !darkMode; localStorage.setItem('randomtech_dark_mode', darkMode); if(typeof applyFavicon==='function')applyFavicon(darkMode)" class="w-10 h-10 rounded-xl bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-yellow-400 flex items-center justify-center transition shadow-sm" title="Toggle Theme">
+                    <i class="fa-solid" :class="darkMode ? 'fa-sun' : 'fa-moon'"></i>
+                </button>
+                <a href="https://wa.me/27827263274?text=Hello%20Randomtech,%20I%20have%20a%20privacy%20enquiry." target="_blank" class="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 px-4 py-2 rounded-xl text-xs font-extrabold hover:bg-emerald-100 transition shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-base text-emerald-600"></i> 082 726 3274
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="bg-white dark:bg-gray-900 rounded-3xl shadow-sm border border-gray-100 dark:border-gray-800 p-8 sm:p-14 space-y-10">
+
+            <div class="border-b border-gray-100 dark:border-gray-800 pb-8">
+                <span class="text-xs font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/50 px-3.5 py-1.5 rounded-full">POPIA & Google Merchant Center Statutory Policy</span>
+                <h1 class="font-display text-4xl sm:text-5xl text-gray-900 dark:text-white mt-4 tracking-tight">Privacy Policy & POPIA Statement</h1>
+                <p class="text-gray-500 dark:text-gray-400 mt-2 text-sm font-semibold">Effective Date: October 2024 &bull; Entity: Randomtech (Pty) Ltd &bull; Germiston, Gauteng, South Africa</p>
+            </div>
+
+            <!-- Comprehensive POPIA Legal Content -->
+            <div class="space-y-8 text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
+
+                <section class="space-y-3">
+                    <h2 class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-sm font-black">1</span>
+                        Responsible Party & POPIA Scope
+                    </h2>
+                    <p>This Privacy Policy governs the processing of personal information by <strong>Randomtech (Pty) Ltd</strong> ("the Responsible Party", "we", "us", or "our"), operating from Germiston, Gauteng, South Africa. We are committed to protecting your privacy in full compliance with the <strong>Protection of Personal Information Act, No. 4 of 2013 (POPIA)</strong>, the <strong>Electronic Communications and Transactions Act, No. 25 of 2002 (ECTA)</strong>, and international e-commerce privacy benchmarks (including Google Merchant Center requirements).</p>
+                    <p>This policy applies to all visitors, buyers, registered users, and entities interacting with our digital storefront, web applications, customer service WhatsApp channels, or Direct EFT order management protocols.</p>
+                </section>
+
+                <section class="space-y-3">
+                    <h2 class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-sm font-black">2</span>
+                        Categories of Personal Information Collected
+                    </h2>
+                    <p>Under POPIA Section 1, "Personal Information" refers to information relating to an identifiable, living natural person or juristic entity. We collect only necessary personal data for clear, legitimate commercial operations, including:</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                        <div class="bg-gray-50 dark:bg-gray-800 p-5 rounded-2xl border border-gray-100 dark:border-gray-700">
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-xs uppercase tracking-wider mb-2 text-emerald-700 dark:text-emerald-400">Identity & Contact Data</h4>
+                            <p class="text-xs">Full legal name, business title, phone numbers, primary contact numbers, WhatsApp signatures, and official email addresses.</p>
+                        </div>
+                        <div class="bg-gray-50 dark:bg-gray-800 p-5 rounded-2xl border border-gray-100 dark:border-gray-700">
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-xs uppercase tracking-wider mb-2 text-emerald-700 dark:text-emerald-400">Logistics & Delivery Data</h4>
+                            <p class="text-xs">Physical delivery address across South Africa, postal code, suburb, gate access codes, and specialized offloading instructions for heavy freight.</p>
+                        </div>
+                        <div class="bg-gray-50 dark:bg-gray-800 p-5 rounded-2xl border border-gray-100 dark:border-gray-700">
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-xs uppercase tracking-wider mb-2 text-emerald-700 dark:text-emerald-400">Financial & Transaction Data</h4>
+                            <p class="text-xs">Order history, purchased items, Direct EFT payment references, Proof of Payment (POP) attachments, and digital tax invoices.</p>
+                        </div>
+                        <div class="bg-gray-50 dark:bg-gray-800 p-5 rounded-2xl border border-gray-100 dark:border-gray-700">
+                            <h4 class="font-extrabold text-gray-900 dark:text-white text-xs uppercase tracking-wider mb-2 text-emerald-700 dark:text-emerald-400">Technical & Audit Telemetry</h4>
+                            <p class="text-xs">IP addresses, browser environment, device OS signature, local storage session tokens, and security logs for control panel verification.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="space-y-3">
+                    <h2 class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-sm font-black">3</span>
+                        Lawful Condition & Purpose of Data Processing
+                    </h2>
+                    <p>In accordance with Section 11 of POPIA, personal data is processed lawfully and reasonably based on contractual necessity, legal obligations, or explicit user consent. We process data strictly for:</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><strong>Order Execution & Dispatch:</strong> Validating transactions, preparing waybills, and dispatching kitchen appliances, solar panels, and water tanks via South African freight couriers.</li>
+                        <li><strong>Payment Verification:</strong> Matching Direct EFT payments against official bank statements before dispatching high-value solar equipment.</li>
+                        <li><strong>Communication & Support:</strong> Providing real-time delivery notifications and customer service via WhatsApp (`082 726 3274`) and email (`sales@randomtech.co.za`).</li>
+                        <li><strong>Regulatory & Tax Compliance:</strong> Maintaining statutory accounting records as mandated by the South African Revenue Service (SARS) and the Tax Administration Act.</li>
+                        <li><strong>Security & Anti-Fraud:</strong> Protecting store infrastructure and preventing unauthorized control panel access attempts.</li>
+                    </ul>
+                </section>
+
+                <section class="space-y-3">
+                    <h2 class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-sm font-black">4</span>
+                        Data Sharing & Third-Party Disclosure
+                    </h2>
+                    <p>Randomtech maintains a strict policy: <strong>we do not sell, rent, monetize, or trade your personal information to marketing brokers or third parties.</strong> Data is disclosed only to verified service operators under strict confidentiality agreements:</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><strong>Courier & Freight Partners:</strong> Licensed South African logistics carriers (e.g., The Courier Guy, Rhenus Logistics) receive only necessary name, contact, and address data to execute doorstep delivery.</li>
+                        <li><strong>Banking Institutions:</strong> First National Bank (FNB) / Standard Bank for verifying incoming Direct EFT deposits.</li>
+                        <li><strong>Legal Authorities:</strong> When compelled by valid subpoena, court order, or statutory requirement under South African law.</li>
+                    </ul>
+                </section>
+
+                <section class="space-y-3">
+                    <h2 class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-sm font-black">5</span>
+                        Data Retention & Storage Security
+                    </h2>
+                    <p>Personal data is retained only for as long as required to fulfill contract obligations or satisfy South African tax laws. Financial and tax transaction records are securely retained for a minimum of <strong>5 to 7 years</strong> in compliance with SARS statutory requirements.</p>
+                    <p>We employ physical, technical, and operational safeguards—including browser session isolation, brute-force lockout protections on administrative portals, and encrypted WhatsApp business channels—to protect against unauthorized access, loss, or damage.</p>
+                </section>
+
+                <section class="space-y-3">
+                    <h2 class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-sm font-black">6</span>
+                        Your Statutory Rights Under POPIA
+                    </h2>
+                    <p>Under POPIA Sections 23 and 24, as a Data Subject you hold statutory rights regarding your personal information:</p>
+                    <div class="space-y-2 bg-gray-50 dark:bg-gray-800 p-5 rounded-2xl border border-gray-100 dark:border-gray-700">
+                        <p><strong>&bull; Right to Access:</strong> You may request confirmation of whether we hold personal information about you and request a copy of such record.</p>
+                        <p><strong>&bull; Right to Rectification:</strong> You may request the correction or update of inaccurate, incomplete, or outdated personal information.</p>
+                        <p><strong>&bull; Right to Erasure / Deletion:</strong> You may request the deletion or destruction of your personal data where retention is no longer authorized by law.</p>
+                        <p><strong>&bull; Right to Object:</strong> You may object to data processing based on reasonable grounds or opt out of direct marketing communications at any time.</p>
+                    </div>
+                </section>
+
+                <section class="space-y-3">
+                    <h2 class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+                        <span class="w-8 h-8 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-sm font-black">7</span>
+                        Information Officer & Information Regulator Contact
+                    </h2>
+                    <p>For any queries, access requests, or POPIA statutory submissions, please contact our designated Information Officer:</p>
+                    <div class="bg-gray-50 dark:bg-gray-800 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 text-xs font-semibold space-y-1.5 text-gray-800 dark:text-gray-200">
+                        <p class="font-bold text-gray-900 dark:text-white text-sm">Randomtech — Information Officer</p>
+                        <p>&bull; Physical Address: 94 High Street, Germiston, 1401, Gauteng, South Africa</p>
+                        <p>&bull; Landline Telephone: <a href="tel:0827263274" class="text-emerald-600 underline">082 726 3274</a></p>
+                        <p>&bull; Direct WhatsApp: <a href="https://wa.me/27827263274" target="_blank" class="text-emerald-600 underline">082 726 3274</a></p>
+                        <p>&bull; Official Support Email: <a href="mailto:sales@randomtech.co.za" class="text-emerald-600 underline">sales@randomtech.co.za</a></p>
+                    </div>
+                    <p class="pt-2 text-xs">If you feel a complaint has not been adequately resolved by us, you have the right to lodge a complaint with the South African Information Regulator:</p>
+                    <p class="text-xs text-gray-500 dark:text-gray-400">&bull; <strong>The Information Regulator (South Africa):</strong> JD House, 27 Stiemens Street, Braamfontein, Johannesburg, 2001 &bull; Email: POPIAComplaints@inforegulator.org.za</p>
+                </section>
+
+            </div>
+
+            <div class="pt-8 border-t border-gray-100 dark:border-gray-800 flex flex-wrap items-center justify-between gap-4">
+                <a href="index.html" class="inline-flex items-center gap-2 text-xs font-extrabold text-emerald-600 hover:underline">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Storefront
+                </a>
+                <a href="returns.html" class="inline-flex items-center gap-2 text-xs font-extrabold text-emerald-600 hover:underline">
+                    View Refund & Returns Policy <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer text-gray-400 py-16 border-t border-white/5 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+            <div>
+                <div class="flex items-center gap-2.5 mb-4">
+                    <span class="text-xl font-extrabold text-white">Random<span class="text-emerald-400">tech</span></span>
+                </div>
+                <p class="text-sm text-gray-400 leading-relaxed">Randomtech is a tech mall. Buyer details, invoices, and seller ID documents are kept for orders, payouts, and POPIA duties, and are not sold.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Categories</h4>
+                <ul class="space-y-2.5 text-sm">
+                    <li><a href="index.html#products" class="hover:text-white transition">Healthy Kitchen</a></li>
+                    <li><a href="index.html#products" class="hover:text-white transition">Wellness Suite</a></li>
+                    <li><a href="index.html#products" class="hover:text-white transition">Solar Systems</a></li>
+                    <li><a href="index.html#products" class="hover:text-white transition">Air & Climate</a></li>
+                    <li><a href="index.html#products" class="hover:text-white transition">Water Storage Tanks</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Policies & Compliance</h4>
+                <ul class="space-y-2.5 text-sm">
+                    <li><a href="shipping.html" class="hover:text-white transition">Free Nationwide Delivery Policy</a></li>
+                    <li><a href="returns.html" class="hover:text-white transition">Refund and Returns Policy</a></li>
+                    <li><a href="privacy.html" class="hover:text-white transition font-bold text-emerald-400">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Customer Care</h4>
+                <ul class="space-y-2.5 text-sm">
+                    <li><a href="contact.html" class="text-emerald-400 font-semibold hover:underline">Contact Us</a></li>
+                    <li><a href="mailto:sales@randomtech.co.za" class="hover:text-white transition">sales@randomtech.co.za</a></li>
+                    <li><a href="https://wa.me/27827263274" target="_blank" class="hover:text-white transition">WhatsApp: 082 726 3274</a></li>
+                    <li><a href="admin.html" class="hover:text-white transition">Control Panel</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-gray-800 text-center text-xs text-gray-500">
+            &copy; 2026 Randomtech. All rights reserved.
+        </div>
+    </footer>
+
+    <a href="https://wa.me/27827263274?text=Hello%20Randomtech,%20I%20need%20help." target="_blank" class="wa-fab" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+</body>
+</html>

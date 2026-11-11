@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" x-data="contactApp()" :class="{ 'dark': darkMode }">
+<head>
+    <link id="app-favicon" rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script>
+        function applyFavicon(isDark) {
+            var fav = document.getElementById('app-favicon');
+            if (fav) fav.href = isDark ? 'images/darkfavicon.png' : 'images/favicon.png';
+        }
+        if (localStorage.getItem('randomtech_dark_mode') === 'true') {
+            document.documentElement.classList.add('dark');
+            applyFavicon(true);
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Randomtech South Africa</title>
+    <meta name="description" content="Contact Randomtech. Get in touch with our expert AI assistant or team via WhatsApp for nationwide eco, solar, and home solutions delivered across South Africa.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/brand.css">
+    <style>[x-cloak] { display: none !important; }</style>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'Outfit', 'sans-serif'], display: ['Plus Jakarta Sans', 'sans-serif'] },
+                    colors: {
+                        emerald: { 50: '#f0f7ff', 100: '#e0effe', 200: '#bae0fd', 300: '#7cc8fb', 400: '#36aef7', 500: '#0284c7', 600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a', 950: '#090d16' },
+                        solar: { 500: '#06b6d4', 600: '#0891b2', 700: '#0e7490' }
+                    }
+                }
+            }
+        }
+
+        function contactApp() {
+            return {
+                darkMode: localStorage.getItem('randomtech_dark_mode') === 'true',
+                userInput: '',
+                messages: [
+                    { sender: 'bot', text: 'Hello! I am your Randomtech Smart Mall Assistant. How can I help you today with our solar systems, inverters, water storage tanks, kitchen appliances, or nationwide delivery over R1000?' }
+                ],
+                sendMessage() {
+                    const text = this.userInput.trim();
+                    if (!text) return;
+                    this.messages.push({ sender: 'user', text });
+                    this.userInput = '';
+
+                    setTimeout(() => {
+                        let reply = "That's a great question! Randomtech is South Africa's premier eco & solar mall. ";
+                        const q = text.toLowerCase();
+                        if (q.includes('deliver') || q.includes('shipping') || q.includes('cost') || q.includes('r1000')) {
+                            reply = "We offer **Free Nationwide Delivery** on all orders over **R1000** across South Africa! Standard orders ship within 2 working days via insured door-to-door courier.";
+                        } else if (q.includes('solar') || q.includes('inverter') || q.includes('battery') || q.includes('panel')) {
+                            reply = "We stock top-tier South African and international solar brands including Sunsynk, Deye, Victron, Huawei, Canadian Solar, and Revov lithium batteries with official warranties.";
+                        } else if (q.includes('tank') || q.includes('water') || q.includes('jojo')) {
+                            reply = "We carry heavy-duty JoJo vertical and horizontal water storage tanks, IBC tanks, and stainless steel commercial water tanks with direct nationwide delivery.";
+                        } else if (q.includes('pay') || q.includes('eft') || q.includes('payfast') || q.includes('card')) {
+                            reply = "We accept Visa, Mastercard, Instant Automated EFT (PayFast / Ozow), and Direct Manual Bank EFT with instant automated order tracking.";
+                        } else if (q.includes('sell') || q.includes('payout') || q.includes('merchant') || q.includes('shop')) {
+                            reply = "You can open your own shop on Randomtech! Sellers enjoy automated markup calculations, KYC verification, and payouts released 3 working days after confirmed delivery.";
+                        } else if (q.includes('human') || q.includes('whatsapp') || q.includes('person') || q.includes('call')) {
+                            reply = "If you need to speak directly with a human specialist, you can click the WhatsApp button at the bottom right of the screen to chat instantly!";
+                        } else {
+                            reply = "I understand you're asking about '" + text + "'. For immediate assistance, feel free to browse our store catalog or click the WhatsApp chat button to talk directly with our support team!";
+                        }
+                        this.messages.push({ sender: 'bot', text: reply });
+                        this.$nextTick(() => {
+                            const box = this.$refs.chatBox;
+                            if (box) box.scrollTop = box.scrollHeight;
+                        });
+                    }, 400);
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-950 text-gray-800 dark:text-gray-100 font-sans antialiased transition-colors duration-300" x-data="contactApp()">
+
+    <!-- Top Utility & Announcement Bar (Email Only) -->
+    <div class="utility-bar text-emerald-100 text-xs py-2.5 px-4 border-b border-white/5">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <a href="mailto:sales@randomtech.co.za" class="flex items-center gap-1.5 text-white hover:text-cyan-300 font-bold"><i class="fa-solid fa-envelope text-solar-500"></i> sales@randomtech.co.za</a>
+        </div>
+    </div>
+
+    <!-- Sticky Header with Nice Logo -->
+    <header class="sticky top-0 z-45 glass-nav transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+            <a href="index.html" class="flex items-center gap-3 shrink-0 group">
+                <img src="images/logo.png" alt="Randomtech Logo" class="h-11 w-auto object-contain group-hover:scale-105 transition duration-300 drop-shadow-md">
+                <div>
+                    <span class="text-lg xl:text-xl font-black tracking-tight cool-logo-text">RANDOMTECH</span>
+                    <span class="block text-[9px] text-gray-400 font-extrabold tracking-widest uppercase">INNOVATION BEYOND THE ALGORITHM</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-extrabold text-gray-800 dark:text-gray-200">
+                <a href="index.html" class="hover:text-emerald-600 transition">Store</a>
+                <a href="tracking.html" class="hover:text-emerald-600 transition">Track Order</a>
+                <a href="shipping.html" class="hover:text-emerald-600 transition">Free Delivery</a>
+                <a href="returns.html" class="hover:text-emerald-600 transition">Returns Policy</a>
+                <a href="privacy.html" class="hover:text-emerald-600 transition">Privacy Policy</a>
+                <a href="contact.html" class="text-emerald-600 font-black">Contact Us</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <!-- Dark Mode Toggle Button -->
+                <button @click="darkMode = !darkMode; localStorage.setItem('randomtech_dark_mode', darkMode); if(typeof applyFavicon==='function')applyFavicon(darkMode)" class="w-10 h-10 rounded-xl bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-yellow-400 flex items-center justify-center transition shadow-sm" title="Toggle Theme">
+                    <i class="fa-solid" :class="darkMode ? 'fa-sun' : 'fa-moon'"></i>
+                </button>
+                <a href="https://wa.me/27827263274?text=Hello%20Randomtech,%20I%20have%20an%20enquiry." target="_blank" class="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 px-4 py-2 rounded-xl text-xs font-extrabold hover:bg-emerald-100 transition shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-base text-emerald-600"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="max-w-3xl mx-auto text-center mb-16">
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/50 px-3.5 py-1.5 rounded-full">AI Support Assistant</span>
+            <h1 class="font-display text-5xl sm:text-6xl text-gray-900 dark:text-white mt-4 tracking-tight">Talk to our Smart Assistant. Instant answers.</h1>
+            <p class="text-gray-600 dark:text-gray-300 mt-3 text-base sm:text-lg">Have questions about solar inverters, lithium batteries, water storage tanks, kitchen appliances, or nationwide delivery? Ask our AI assistant below or chat on WhatsApp for a real person.</p>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+            <!-- Smart Chat Bot Widget -->
+            <div class="bg-white dark:bg-gray-900 p-8 sm:p-12 rounded-[2.5rem] border border-gray-200 dark:border-gray-800 shadow-2xl">
+                <div class="flex items-center gap-3 mb-6 pb-4 border-b border-gray-100 dark:border-gray-800">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-xl shadow-lg shadow-emerald-600/30">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-black text-gray-900 dark:text-white">Randomtech Smart Mall Assistant</h3>
+                        <p class="text-xs text-gray-500 dark:text-gray-400">Trained on all store products, shipping policies, and mall rules</p>
+                    </div>
+                </div>
+
+                <!-- Chat Messages Box -->
+                <div class="h-96 overflow-y-auto bg-gray-50 dark:bg-gray-800/50 rounded-2xl p-4 space-y-4 mb-4 border border-gray-100 dark:border-gray-700" x-ref="chatBox">
+                    <template x-for="(msg, index) in messages" :key="index">
+                        <div class="flex" :class="msg.sender === 'user' ? 'justify-end' : 'justify-start'">
+                            <div class="max-w-lg rounded-2xl px-4 py-3 text-xs sm:text-sm font-medium shadow-sm leading-relaxed" :class="msg.sender === 'user' ? 'bg-emerald-600 text-white rounded-br-none font-bold' : 'bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 border border-gray-200 dark:border-gray-700 rounded-bl-none'">
+                                <p x-text="msg.text"></p>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Chat Input Box -->
+                <form @submit.prevent="sendMessage()" class="flex gap-3">
+                    <input type="text" x-model="userInput" placeholder="Ask about solar inverters, water tanks, free delivery over R1000, warranties..." class="flex-grow bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white rounded-2xl px-4 py-3.5 text-xs sm:text-sm focus:outline-none focus:border-emerald-600">
+                    <button type="submit" class="bg-emerald-600 hover:bg-emerald-700 text-white font-black px-6 py-3.5 rounded-2xl text-xs sm:text-sm transition shadow-md flex items-center gap-2">
+                        <i class="fa-solid fa-paper-plane"></i> Send
+                    </button>
+                </form>
+
+                <div class="mt-4 flex flex-wrap items-center gap-2 text-xs text-gray-400">
+                    <span class="font-bold">Suggested:</span>
+                    <button @click="userInput = 'Do you offer free delivery?'; sendMessage()" class="bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-1 rounded-xl text-gray-700 dark:text-gray-300 font-bold">Free delivery?</button>
+                    <button @click="userInput = 'What solar inverters do you stock?'; sendMessage()" class="bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-1 rounded-xl text-gray-700 dark:text-gray-300 font-bold">Solar inverters?</button>
+                    <button @click="userInput = 'How do seller payouts work?'; sendMessage()" class="bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-1 rounded-xl text-gray-700 dark:text-gray-300 font-bold">Seller payouts?</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs space-y-4">
+            <p>&copy; 2026 Randomtech (Pty) Ltd. All rights reserved. &bull; Nationwide South Africa</p>
+            <p class="text-gray-500">Official South African E-Commerce Mall &bull; Secure PayFast & EFT Settlement</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Widget -->
+    <a href="https://wa.me/27827263274?text=Hello%20Randomtech,%20I%20have%20an%20enquiry." target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl transition hover:scale-110">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</body>
+</html>
