@@ -2,21 +2,25 @@
   'use strict';
   const grid = document.getElementById('product-grid');
   if (!grid) return;
+
   const theme = document.body.dataset.theme || '';
   const category = document.body.dataset.category || (theme === 'solar' ? 'Solar Inverters' : '');
-  const suggestions = {
-    bike: ['Bikes', 'Cycling', 'Bicycle', 'Bike'],
-    tools: ['Tools', 'Workshop', 'Power Tools', 'Hand Tools'],
-    vehicle: ['Vehicle Parts', 'Auto Parts', 'Car Parts', 'Motorcycle Parts'],
-    machine: ['Machine Parts', 'Machinery', 'Industrial Parts', 'Agricultural Parts'],
-    solar: ['Solar Inverters', 'Inverter']
+  const aliases = {
+    bike: ['bike', 'bikes', 'bicycle', 'bicycles', 'cycling', 'e-bike', 'e-bikes'],
+    tools: ['tool', 'tools', 'workshop', 'power tool', 'power tools', 'hand tool', 'hand tools'],
+    vehicle: ['vehicle parts', 'vehicle accessories', 'auto parts', 'car parts', 'motorcycle parts', 'automotive parts'],
+    machine: ['machine parts', 'machinery parts', 'industrial parts', 'agricultural parts', 'tractor parts', 'machine components'],
+    solar: ['solar inverter', 'solar inverters', 'inverter', 'inverters']
   }[theme] || [category];
+  const normalize = (value) => String(value || '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, ' ').trim().replace(/\s+/g, ' ');
+  const wanted = aliases.map(normalize).filter(Boolean);
   const items = Array.isArray(window.RT_CATALOG) ? window.RT_CATALOG : [];
   const match = items.filter((item) => {
-    const value = String(item.category || '').toLowerCase();
-    return value === String(category).toLowerCase() || suggestions.some((word) => value === word.toLowerCase());
+    const value = normalize(item.category);
+    return value && wanted.some((alias) => value === alias || value.startsWith(alias + ' ') || alias.startsWith(value + ' '));
   });
   const esc = (value) => String(value == null ? '' : value).replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+
   if (!match.length) {
     grid.innerHTML = '<div class="empty-state"><strong>No seller listings on this floor yet.</strong><br>Our marketplace displays real seller stock only. Sellers can add products as these departments become available—contact the shop to request an item.</div>';
     return;
