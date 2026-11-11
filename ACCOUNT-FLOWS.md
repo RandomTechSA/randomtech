@@ -1,28 +1,28 @@
-# Clear account and seller journeys
+# Authentication and production readiness
 
-## Which page is for whom?
+## Account routes
 
-- **Buyers:** `index.html` remains the storefront/home page. Browse products without signing in. The dedicated buyer sign-in/create-account page is `account.html` (also reachable from the “Buyer account” link on the seller page). Sign-in is intended at checkout, not before browsing.
-- **Vendors:** `sell.html` is the separate “Sell with Randomtech” landing page, vendor sign-in and application. A vendor creates an account, verifies email, submits a basic application, waits for admin approval, then uses `vendor-dashboard.html`.
-- **Admins:** `admin.html` is staff-only and remains separate.
+- Store/home page: `index.html`; visitors browse without an account.
+- Buyer account: `account.html`; email/password, Google, Apple and SMS-phone sign-in are supported by Firebase Auth client SDK. Phone sign-in requires Firebase Phone provider, reCAPTCHA, SMS quota and an authorized domain configured in Firebase Console.
+- Vendors: `sell.html`; register/sign in, verify email or verify a phone identity, apply, wait for administrative approval, then use `vendor-dashboard.html`.
+- Admin: `admin.html`; restricted to the designated verified admin account and server-issued admin claim.
 
-Buyer auth uses Firebase Authentication email/password, email verification, password reset, and Firebase session state. Seller applications are submitted through a callable function for the verified signed-in UID. Only an authenticated admin can approve a pending application and assign the `role: seller` custom claim. Client code cannot grant itself that role.
+## Before launch
 
-## Required Firebase setup
-
-1. Enable Email/Password in Firebase Authentication and configure authorized domains for the deployed storefront.
-2. Deploy Functions and restrictive Firestore rules from a trusted Firebase CLI session:
+1. Configure each Firebase Auth provider in Firebase Console, OAuth callback settings, Apple Service ID/private key, authorized domains, reCAPTCHA/SMS policy and quota. Merely enabling a provider is not proof of working OAuth/SMS credentials.
+2. Restrict API keys as appropriate; rotate PayFast values disclosed in Git history. Public Firebase web config is not a secret, but server credentials are.
+3. Run rules/functions emulator tests including unauthenticated, buyer, pending-vendor, approved-vendor and admin cases.
+4. Deploy only from a trusted host signed into the correct Firebase project:
 
 ```sh
 firebase use randomtech-ceb37
-firebase deploy --only functions,firestore:rules,hosting
+firebase deploy --only firestore:rules,functions,hosting
 ```
 
-3. Sign in to `/admin.html` with the verified designated account, bootstrap the admin claim once, and sign in again.
-4. Review seller applications in the `vendorApplications` collection using a trusted admin workflow/console, then call `approveVendorApplication` as admin with `{ "uid": "APPLICANT_AUTH_UID" }`. This callable is intentionally not exposed as a seller self-service operation.
+This coding environment does not have Firebase CLI credentials or project deployment permissions. No Firebase deployment has been run.
 
-## Scope and honest status
+## Not production-ready for commerce yet
 
-A successful Firebase sign-in proves identity, not purchase completion. The current storefront does not contain a verified PayFast checkout, secure order-creation flow, invoice issuance or payouts. Do not represent a sign-in as a completed order or collect payment through these pages. Before enabling a real purchase flow, implement server-side checkout and payment notification verification, then connect it to an order/invoice ledger and tested refund/reconciliation workflows.
+This update implements identity entry points and a server-side pending-vendor application status endpoint. It does NOT implement secure checkout, server-priced order creation, PayFast checkout, ITN/signature verification, idempotent payment ledger, refunds, invoice creation, seller settlement or payouts. Do not collect live payment or represent an auth success as a paid order. Before enabling sales, these financial workflows need provider/account requirements, secret rotation, end-to-end testing, reconciliation and operational approval. No software change can claim production readiness for payments without them.
 
-The home page remains the buyer landing page. This commit adds the account and seller journeys but does not yet wire every legacy homepage/cart button into an online checkout because that checkout is not implemented.
+Seller KYC, tax/bank data and payout details are intentionally not collected by this simple application form; build a protected compliance workflow before collecting that sensitive data.

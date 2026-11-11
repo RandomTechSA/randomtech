@@ -9,84 +9,17 @@
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="min-h-screen bg-slate-50 text-slate-900">
-  <header class="border-b bg-white"><div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4"><a href="index.html" class="text-xl font-black">Random<span class="text-cyan-700">tech</span></a><a href="index.html" class="text-sm font-bold text-slate-600 hover:text-cyan-700">← Back to shopping</a></div></header>
-  <main class="mx-auto grid min-h-[calc(100vh-73px)] max-w-6xl items-center gap-10 px-5 py-10 lg:grid-cols-2" x-data="buyerAccount()" x-init="init()">
-    <section class="hidden rounded-[2rem] bg-gradient-to-br from-slate-950 via-slate-900 to-cyan-950 p-10 text-white shadow-xl lg:block">
-      <p class="text-xs font-black uppercase tracking-[.25em] text-cyan-300">Your Randomtech account</p>
-      <h1 class="mt-5 text-4xl font-black leading-tight">Shopping, made simple.</h1>
-      <p class="mt-4 max-w-md text-slate-300">Sign in to continue to checkout, keep your account details together and return to shopping whenever you are ready.</p>
-      <div class="mt-10 space-y-4 text-sm text-slate-200"><p>✓ Browse the store without signing in</p><p>✓ Sign in when you are ready to continue with a purchase</p><p>✓ Use one buyer account for future Randomtech services</p></div>
-      <p class="mt-10 text-xs leading-5 text-slate-400">The current store does not yet provide a deployed online payment/order service. Signing in does not mean payment has been taken or an order has been placed.</p>
-    </section>
-    <section class="mx-auto w-full max-w-md rounded-3xl border border-slate-200 bg-white p-7 shadow-lg sm:p-9">
-      <a href="index.html" class="text-sm font-black text-cyan-800 lg:hidden">← Randomtech</a>
-      <div x-show="!user">
-        <p class="text-xs font-black uppercase tracking-widest text-cyan-700">Buyer account</p>
-        <h2 class="mt-2 text-3xl font-black" x-text="mode === 'register' ? 'Create your account' : (mode === 'reset' ? 'Reset password' : 'Welcome back')"></h2>
-        <p class="mt-2 text-sm text-slate-500" x-text="mode === 'register' ? 'Create an account to continue when you are ready to purchase.' : (mode === 'reset' ? 'We’ll email you a secure password reset link.' : 'Sign in to continue to checkout.')"></p>
-        <form class="mt-7 space-y-4" @submit.prevent="submit()">
-          <label x-show="mode === 'register'" class="block text-sm font-bold">Your name<input x-model.trim="name" type="text" autocomplete="name" minlength="2" maxlength="80" :required="mode === 'register'" class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3 outline-none focus:border-cyan-700 focus:ring-2 focus:ring-cyan-100"></label>
-          <label class="block text-sm font-bold">Email address<input x-model.trim="email" type="email" autocomplete="email" required class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3 outline-none focus:border-cyan-700 focus:ring-2 focus:ring-cyan-100"></label>
-          <label x-show="mode !== 'reset'" class="block text-sm font-bold">Password<input x-model="password" type="password" :autocomplete="mode === 'register' ? 'new-password' : 'current-password'" minlength="8" :required="mode !== 'reset'" class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3 outline-none focus:border-cyan-700 focus:ring-2 focus:ring-cyan-100"><span class="mt-1 block text-xs font-normal text-slate-500">Use at least 8 characters.</span></label>
-          <p x-show="notice" role="status" class="rounded-xl bg-cyan-50 p-3 text-sm text-cyan-900" x-text="notice"></p><p x-show="error" role="alert" class="rounded-xl bg-rose-50 p-3 text-sm text-rose-800" x-text="error"></p>
-          <button :disabled="busy" class="w-full rounded-xl bg-cyan-700 px-5 py-3.5 font-extrabold text-white hover:bg-cyan-800 disabled:opacity-60" x-text="busy ? 'Please wait…' : (mode === 'register' ? 'Create account' : (mode === 'reset' ? 'Send reset link' : 'Sign in'))"></button>
-        </form>
-        <div class="mt-5 flex flex-wrap justify-between gap-3 text-sm"><button x-show="mode !== 'login'" @click="setMode('login')" class="font-bold text-cyan-800">Back to sign in</button><button x-show="mode === 'login'" @click="setMode('register')" class="font-bold text-cyan-800">Create account</button><button x-show="mode === 'login'" @click="setMode('reset')" class="font-semibold text-slate-600">Forgot password?</button></div>
-        <div class="mt-7 border-t pt-5 text-center text-sm text-slate-600">Selling on Randomtech? <a href="sell.html" class="font-extrabold text-cyan-800 hover:underline">Seller sign in / apply</a></div>
-      </div>
-      <div x-show="user" x-cloak>
-        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-100 text-xl text-emerald-800">✓</div>
-        <h2 class="mt-4 text-2xl font-black">You’re signed in</h2><p class="mt-2 text-sm text-slate-600 break-all" x-text="user && user.email"></p>
-        <p class="mt-4 rounded-xl bg-amber-50 p-3 text-sm text-amber-900">Your account is ready. Online checkout and order placement are not yet enabled on this store, so no purchase or payment has been made.</p>
-        <a href="index.html" class="mt-6 block rounded-xl bg-cyan-700 px-5 py-3 text-center font-extrabold text-white">Return to the store</a><button @click="signOut()" class="mt-3 w-full rounded-xl border border-slate-300 px-5 py-3 font-bold">Sign out</button>
-      </div>
-      <p class="mt-6 text-center text-xs leading-5 text-slate-500">Secure sign-in is handled by Firebase Authentication. Never send your password to Randomtech support.</p>
-    </section>
-  </main>
+<header class="border-b bg-white"><div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4"><a href="index.html" class="text-xl font-black">Random<span class="text-cyan-700">tech</span></a><a href="index.html" class="text-sm font-bold text-slate-600 hover:text-cyan-700">← Back to shopping</a></div></header>
+<main x-data="buyerAccount()" x-init="init()" class="mx-auto grid min-h-[calc(100vh-73px)] max-w-6xl items-center gap-10 px-5 py-10 lg:grid-cols-2">
+<section class="hidden rounded-[2rem] bg-gradient-to-br from-slate-950 via-slate-900 to-cyan-950 p-10 text-white shadow-xl lg:block"><p class="text-xs font-black uppercase tracking-[.25em] text-cyan-300">Your Randomtech account</p><h1 class="mt-5 text-4xl font-black leading-tight">Shopping, made simple.</h1><p class="mt-4 max-w-md text-slate-300">Browse freely. Sign in when you're ready to continue with a purchase.</p><div class="mt-10 space-y-4 text-sm text-slate-200"><p>✓ Explore products without signing in</p><p>✓ Email, Google, Apple or verified phone sign-in</p><p>✓ Secure password reset for email accounts</p></div><p class="mt-10 text-xs leading-5 text-slate-400">Signing in is not a purchase. Online payment and order placement are not yet enabled.</p></section>
+<section class="mx-auto w-full max-w-md rounded-3xl border border-slate-200 bg-white p-7 shadow-lg sm:p-9"><a href="index.html" class="text-sm font-black text-cyan-800 lg:hidden">← Randomtech</a>
+<div x-show="!user"><p class="text-xs font-black uppercase tracking-widest text-cyan-700">Buyer account</p><h2 class="mt-2 text-3xl font-black" x-text="mode==='register'?'Create your account':(mode==='reset'?'Reset password':(mode==='phone'?'Sign in with phone':'Welcome back'))"></h2><p class="mt-2 text-sm text-slate-500" x-text="mode==='register'?'Create an account to continue when ready to purchase.':(mode==='reset'?'We’ll email a secure reset link.':(mode==='phone'?'Enter an international phone number, including country code.':'Sign in to your buyer account.'))"></p>
+<div x-show="mode==='login'" class="mt-6 grid grid-cols-2 gap-3"><button @click="social('google')" :disabled="busy" class="rounded-xl border px-3 py-3 text-sm font-bold hover:bg-slate-50">Continue with Google</button><button @click="social('apple')" :disabled="busy" class="rounded-xl border px-3 py-3 text-sm font-bold hover:bg-slate-50">Continue with Apple</button></div>
+<div x-show="mode==='login'" class="my-5 flex items-center gap-3 text-xs text-slate-400"><span class="h-px flex-1 bg-slate-200"></span>OR EMAIL<span class="h-px flex-1 bg-slate-200"></span></div>
+<form x-show="mode!=='phone'" class="space-y-4" @submit.prevent="submit()"><label x-show="mode==='register'" class="block text-sm font-bold">Your name<input x-model.trim="name" type="text" autocomplete="name" minlength="2" maxlength="80" :required="mode==='register'" class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3"></label><label class="block text-sm font-bold">Email address<input x-model.trim="email" type="email" autocomplete="email" required class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3"></label><label x-show="mode!=='reset'" class="block text-sm font-bold">Password<input x-model="password" type="password" :autocomplete="mode==='register'?'new-password':'current-password'" minlength="8" :required="mode!=='reset'" class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3"><span class="text-xs font-normal text-slate-500">At least 8 characters.</span></label><p x-show="notice" role="status" class="rounded-xl bg-cyan-50 p-3 text-sm text-cyan-900" x-text="notice"></p><p x-show="error" role="alert" class="rounded-xl bg-rose-50 p-3 text-sm text-rose-800" x-text="error"></p><button :disabled="busy" class="w-full rounded-xl bg-cyan-700 px-5 py-3.5 font-extrabold text-white disabled:opacity-60" x-text="busy?'Please wait…':(mode==='register'?'Create account':(mode==='reset'?'Send reset link':'Sign in'))"></button></form>
+<div x-show="mode==='phone'" class="space-y-4"><label class="block text-sm font-bold">Phone number<input x-model.trim="phone" type="tel" autocomplete="tel" placeholder="+27123456789" class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3"></label><div id="phone-recaptcha"></div><button x-show="!confirmation" @click="sendCode" :disabled="busy" class="w-full rounded-xl bg-cyan-700 px-5 py-3 font-extrabold text-white">Send verification code</button><template x-if="confirmation"><label class="block text-sm font-bold">SMS verification code<input x-model.trim="smsCode" inputmode="numeric" autocomplete="one-time-code" class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3"></label></template><button x-show="confirmation" @click="verifyCode" :disabled="busy" class="w-full rounded-xl bg-cyan-700 px-5 py-3 font-extrabold text-white">Verify and sign in</button></div>
+<div class="mt-5 flex flex-wrap justify-between gap-3 text-sm"><button x-show="mode!=='login'" @click="setMode('login')" class="font-bold text-cyan-800">Back to sign in</button><button x-show="mode==='login'" @click="setMode('register')" class="font-bold text-cyan-800">Create account</button><button x-show="mode==='login'" @click="setMode('reset')" class="font-semibold text-slate-600">Forgot password?</button><button x-show="mode==='login'" @click="setMode('phone')" class="w-full text-center font-bold text-cyan-800">Sign in with phone instead</button></div><div class="mt-7 border-t pt-5 text-center text-sm text-slate-600">Selling on Randomtech? <a href="sell.html" class="font-extrabold text-cyan-800 hover:underline">Seller sign in / apply</a></div></div>
+<div x-show="user" x-cloak><div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-100 text-xl text-emerald-800">✓</div><h2 class="mt-4 text-2xl font-black">You’re signed in</h2><p class="mt-2 break-all text-sm text-slate-600" x-text="identity"></p><p class="mt-4 rounded-xl bg-amber-50 p-3 text-sm text-amber-900">Your account is ready. This store does not yet support secure online checkout or order placement, so no purchase or payment has been made.</p><a href="index.html" class="mt-6 block rounded-xl bg-cyan-700 px-5 py-3 text-center font-extrabold text-white">Return to the store</a><button @click="signOut()" class="mt-3 w-full rounded-xl border px-5 py-3 font-bold">Sign out</button></div><p class="mt-6 text-center text-xs text-slate-500">Authentication is handled by Firebase. Never share your password or SMS code.</p></section></main>
 <script>
-function buyerAccount() {
-  return {
-    auth: null, user: null, mode: 'login', email: '', name: '', password: '', busy: false, error: '', notice: '', next: '',
-    init() {
-      const config = { apiKey:'AIzaSyBvEqQr86rt2JT5euDFQq1rfROIy2HX5ig', authDomain:'randomtech-ceb37.firebaseapp.com', projectId:'randomtech-ceb37', storageBucket:'randomtech-ceb37.firebasestorage.app', messagingSenderId:'229890209613', appId:'1:229890209613:web:5d47a90e9d4d81500a6904' };
-      if (!firebase.apps.length) firebase.initializeApp(config);
-      this.auth = firebase.auth();
-      const params = new URLSearchParams(location.search);
-      const candidate = params.get('next') || '';
-      this.next = candidate.startsWith('/') && !candidate.startsWith('//') && !candidate.includes('\\') ? candidate : '';
-      this.auth.onAuthStateChanged(user => { this.user = user; });
-      if (params.get('intent') === 'purchase') this.notice = 'Sign in or create an account to continue. You can browse without an account.';
-    },
-    setMode(mode) { this.mode = mode; this.error = ''; this.notice = ''; },
-    async submit() {
-      this.busy = true; this.error = ''; this.notice = '';
-      try {
-        if (this.mode === 'register') {
-          const credential = await this.auth.createUserWithEmailAndPassword(this.email, this.password);
-          await credential.user.updateProfile({ displayName: this.name });
-          await credential.user.sendEmailVerification();
-          this.notice = 'Account created. Check your email and verify your address. You may sign in now; purchasing is not available until checkout is implemented.';
-          await this.auth.signOut();
-          this.mode = 'login';
-        } else if (this.mode === 'reset') {
-          await this.auth.sendPasswordResetEmail(this.email);
-          this.notice = 'If an account exists for that email, a password reset link has been sent.';
-        } else {
-          const result = await this.auth.signInWithEmailAndPassword(this.email, this.password);
-          this.password = '';
-          if (this.next) location.replace(this.next);
-          else this.user = result.user;
-        }
-      } catch (error) { this.error = this.messageFor(error); }
-      finally { this.busy = false; }
-    },
-    messageFor(error) {
-      const messages = { 'auth/invalid-email':'Enter a valid email address.', 'auth/user-not-found':'Email or password is incorrect.', 'auth/wrong-password':'Email or password is incorrect.', 'auth/invalid-credential':'Email or password is incorrect.', 'auth/email-already-in-use':'An account already uses this email. Sign in instead.', 'auth/weak-password':'Choose a stronger password with at least 8 characters.', 'auth/too-many-requests':'Too many attempts. Please wait a while and try again.', 'auth/network-request-failed':'Connection problem. Check your internet and try again.' };
-      return messages[error.code] || 'We could not complete that request. Please try again.';
-    },
-    async signOut() { await this.auth.signOut(); this.user = null; this.notice = 'You have signed out.'; }
-  };
-}
-</script>
-</body>
-</html>
+function buyerAccount(){return{auth:null,user:null,mode:'login',email:'',name:'',password:'',phone:'',smsCode:'',confirmation:null,recaptcha:null,busy:false,error:'',notice:'',next:'',identity:'',init(){const config={apiKey:'AIzaSyBvEqQr86rt2JT5euDFQq1rfROIy2HX5ig',authDomain:'randomtech-ceb37.firebaseapp.com',projectId:'randomtech-ceb37',storageBucket:'randomtech-ceb37.firebasestorage.app',messagingSenderId:'229890209613',appId:'1:229890209613:web:5d47a90e9d4d81500a6904'};if(!firebase.apps.length)firebase.initializeApp(config);this.auth=firebase.auth();const p=new URLSearchParams(location.search),candidate=p.get('next')||'';this.next=candidate.startsWith('/')&&!candidate.startsWith('//')&&!candidate.includes('\\')?candidate:'';this.auth.onAuthStateChanged(u=>{this.user=u;this.identity=u&&(u.email||u.phoneNumber)||'';});},setMode(m){this.mode=m;this.error='';this.notice='';this.confirmation=null;},async social(which){this.busy=true;this.error='';try{const provider=which==='google'?new firebase.auth.GoogleAuthProvider():new firebase.auth.OAuthProvider('apple.com');provider.setCustomParameters({prompt:'select_account'});const result=await this.auth.signInWithPopup(provider);if(this.next)location.replace(this.next);else this.user=result.user;}catch(e){this.error=this.messageFor(e);}finally{this.busy=false;}},async submit(){this.busy=true;this.error='';this.notice='';try{if(this.mode==='register'){const c=await this.auth.createUserWithEmailAndPassword(this.email,this.password);if(this.name)await c.user.updateProfile({displayName:this.name});await c.user.sendEmailVerification();this.notice='Account created. Verify your email from the link we sent.';this.password='';this.mode='login';}else if(this.mode==='reset'){await this.auth.sendPasswordResetEmail(this.email);this.notice='If an account exists for that email, a password reset link has been sent.';}else{const r=await this.auth.signInWithEmailAndPassword(this.email,this.password);this.password='';if(this.next)location.replace(this.next);else this.user=r.user;}}catch(e){this.error=this.messageFor(e);}finally{this.busy=false;}},async sendCode(){this.busy=true;this.error='';try{if(!/^\+[1-9]\d{7,14}$/.test(this.phone))throw new Error('Enter phone number in international format, for example +27123456789.');if(!this.recaptcha)this.recaptcha=new firebase.auth.RecaptchaVerifier('phone-recaptcha',{size:'normal'},this.auth);await this.recaptcha.render();this.confirmation=await this.auth.signInWithPhoneNumber(this.phone,this.recaptcha);this.notice='Verification SMS sent. Enter the code to continue.';}catch(e){this.error=this.messageFor(e);if(this.recaptcha){this.recaptcha.clear();this.recaptcha=null;}}finally{this.busy=false;}},async verifyCode(){this.busy=true;this.error='';try{const r=await this.confirmation.confirm(this.smsCode);if(this.next)location.replace(this.next);else this.user=r.user;}catch(e){this.error=this.messageFor(e);}finally{this.busy=false;}},messageFor(e){const m={'auth/invalid-email':'Enter a valid email address.','auth/user-not-found':'Email or password is incorrect.','auth/wrong-password':'Email or password is incorrect.','auth/invalid-credential':'Email or password is incorrect.','auth/email-already-in-use':'This email already has an account. Sign in instead.','auth/weak-password':'Choose at least 8 characters for your password.','auth/too-many-requests':'Too many attempts. Wait and try again.','auth/popup-closed-by-user':'Sign-in window closed before completing.','auth/account-exists-with-different-credential':'This email already uses another sign-in method. Sign in with that method first.','auth/invalid-phone-number':'Enter a valid international phone number.','auth/invalid-verification-code':'That SMS code is incorrect. Check it and try again.','auth/captcha-check-failed':'Complete the reCAPTCHA check and try again.'};return m[e.code]||e.message||'We could not complete sign-in. Please try again.';},async signOut(){await this.auth.signOut();this.user=null;this.notice='You have signed out.';}}}
+</script></body></html>
