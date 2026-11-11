@@ -1,21 +1,49 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-
-    // 1. Banking Details & Payment Gateway Settings
-    match /settings/{docId} {
-      allow read, write: if true;
+    function signedIn() {
+      return request.auth != null;
     }
 
-    // 2. Customer Orders & Delivery Tracking
-    match /orders/{orderId} {
-      allow read, create, update: if true;
+    function isAdmin() {
+      return signedIn() && request.auth.token.admin == true;
     }
 
-    // 3. Product Catalog
+    // Public catalog data is readable by storefront visitors. All catalog
+    // mutations require a server-issued admin custom claim.
     match /products/{productId} {
-      allow read, write: if true;
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
     }
 
+    // Orders contain personal and delivery data. Neither tracking IDs nor
+    // client-supplied user IDs are authorization credentials.
+    match /orders/{orderId} {
+      allow read, create, update, delete: if isAdmin();
+    }
+
+    // Financial settings (including bank details) are private to admins.
+    match /settings/{settingId} {
+      allow read, write: if isAdmin();
+    }
+
+    // Profiles are readable by their owner and admins; clients may not assign
+    // roles or mutate profile data. Trusted Functions use the Admin SDK.
+    match /users/{userId} {
+      allow read: if isAdmin() || (signedIn() && request.auth.uid == userId);
+      allow write: if false;
+    }
+
+    // Invoices must be created by trusted server code after verified payment.
+    match /invoices/{invoiceId} {
+      allow read: if isAdmin() || (signedIn() && resource.data.buyerUid == request.auth.uid);
+      allow write: if false;
+    }
+
+    // Payment records, seller applications, payouts and all unlisted data are
+    // inaccessible to browser clients unless explicitly added in a reviewed rule.
+    match /{document=**} {
+      allow read, write: if false;
+    }
   }
 }

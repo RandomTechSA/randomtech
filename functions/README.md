@@ -1,39 +1,27 @@
-# Firebase Functions setup
+# Firebase Functions setup and security status
 
-This folder contains a small, server-only foundation for Randomtech. It does **not** implement PayFast checkout, split payments, ITN validation, refunds, or seller payouts. Do not accept live payments based on the readiness check.
+This repository now has a restrictive Firestore ruleset and an admin sign-in page backed by Firebase Authentication. Firestore authorization depends on the server-issued `admin` custom claim; browser state and client-supplied role fields do not grant access.
 
-## Prerequisites
+## Required before use
 
-- Firebase CLI installed and signed into an account with permission to deploy project `randomtech-ceb37`.
-- Firebase Authentication Email/Password enabled; create the `randomtechsa@gmail.com` user in Authentication and verify its email.
-- Firebase Functions deployment requires the project billing/plan and required Google Cloud APIs to be enabled.
-- Rotate any PayFast merchant key/passphrase previously committed in browser code before storing new values.
-
-## Set secrets securely
-
-Run from the repository root. Firebase CLI prompts for each value; do not put secret values in source, Firestore, `.env` committed to Git, or chat:
-
-```sh
-firebase functions:secrets:set PAYFAST_MERCHANT_ID
-firebase functions:secrets:set PAYFAST_MERCHANT_KEY
-firebase functions:secrets:set PAYFAST_PASSPHRASE
-```
-
-Secrets are bound only to `paymentSecretReadiness`; no function returns their values.
+1. Rotate the PayFast merchant key/passphrase previously committed in browser code. Treat the exposed values as compromised; removing them from the current page does not erase Git history.
+2. In Firebase Console, enable Email/Password Authentication and create/verify `randomtechsa@gmail.com`.
+3. Deploy the changed Firestore rules and Functions from a trusted machine signed into the correct project. Deploying rules immediately blocks existing public order/settings access; the storefront order/tracking flows must be migrated to authenticated, server-mediated endpoints before being relied on.
+4. Open `/admin.html`, sign in with the verified designated account, click **Bootstrap designated admin role** once, then sign out and back in. The callable validates the configured admin email and verification status before assigning the claim.
 
 ## Deploy
 
 ```sh
 firebase use randomtech-ceb37
-firebase deploy --only functions
+firebase deploy --only firestore:rules,functions,hosting
 ```
 
-Deployment is not performed by GitHub commits. Run the command from a trusted local machine signed into the Firebase project, then inspect the Functions logs in Firebase Console.
+A GitHub commit does not deploy Firebase resources. Deployment has not been run from this repository session.
 
-## Admin role bootstrap
+## PayFast, invoices and seller payouts
 
-After deploying, the admin must sign in through Firebase Authentication with the verified `randomtechsa@gmail.com` account and call the `bootstrapAdminRole` callable once. It grants the `admin: true` custom claim only to that verified account. The caller must sign out and back in so Firebase refreshes the ID token. The existing static admin page is not converted to Firebase Auth by these functions; do not treat it as secured until its client login and Firestore access are migrated.
+Payment processing remains deliberately disabled. The current secret-readiness callable is diagnostic only. This repository does not yet have a complete PayFast checkout, notification signature/amount/currency verification, idempotent payment ledger, refund workflow, invoice generation after verified payment, or approved seller payout integration. Do not mark an order paid based on a browser redirect or user-submitted field, and do not accept live payments or issue invoices/payouts through client code. These workflows require the provider's current merchant integration requirements, account capabilities, legal/tax invoice details and reconciliation tests; adding a fake or partially verified flow would create financial risk.
 
-## Important security work before production
+## Remaining migration
 
-The existing Firestore rules currently permit public read/write access to settings, orders and products, and the admin page contains payment-related values in browser code. Restrict rules and remove/rotate exposed payment credentials before taking payments. Do not store PayFast secrets in Firestore. Use a provider-approved server-side flow and verify PayFast documentation/account capabilities before implementing payment allocation or delayed seller payouts.
+Firestore access to orders and financial settings is admin-only. The existing public storefront/tracking and any buyer/seller flows must be migrated to narrowly scoped server endpoints before those features can operate against the secured rules. Invoice reads are restricted to the buyer UID on the invoice record or an admin; clients cannot create or change invoices. Unknown collections are denied by default.
